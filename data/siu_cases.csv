@@ -1,0 +1,501 @@
+CASE_ID,CASE_TYPE,SUBTYPE,SUBJECT_ID,SUBJECT_NAME,PLAN_TYPE,REGION,STATUS,PRIORITY,ESTIMATED_EXPOSURE,RECOVERED_AMOUNT,OPEN_DATE,CLOSE_DATE,ASSIGNED_INVESTIGATOR,REFERRAL_SOURCE
+SIU-2024-10001,Member_FWA,Doctor_Shopping,MBR-246316,Michael Kim,PMAP,Twin Cities Metro,Under_Review,Low,38330.05,0,2023-07-12,,Marcus Williams,Tipline
+SIU-2024-10002,Provider_FWA,Impossible_Day,NPI-1697808098,Joseph Thompson,Commercial,Twin Cities Metro,Open,Critical,1383898.53,0,2023-01-28,,Rebecca Johnson,Audit
+SIU-2024-10003,Provider_FWA,Unbundling,NPI-1099585092,Michael Erickson,Commercial,Central MN,Under_Review,Low,43137.25,0,2024-07-09,,Angela Peterson,Algorithm_Detection
+SIU-2024-10004,Network_Abuse,Kickback_Indicator,NPI-1674996843,Dr. Joshua Carlson,PMAP,Central MN,Under_Review,Critical,1556857.75,0,2023-04-18,,Marcus Williams,Tipline
+SIU-2024-10005,Network_Abuse,Kickback_Indicator,NPI-1391735568,Dr. Nancy Erickson,PMAP,Southeast MN,Closed_Substantiated,High,236179.57,47231.61,2024-07-14,2025-07-10,David Nakamura,Tipline
+SIU-2024-10006,Member_FWA,Eligibility_Abuse,MBR-684004,Joseph Kim,Commercial,Twin Cities Metro,Closed_Substantiated,Low,19592.72,14209.85,2023-05-09,2023-10-03,Marcus Williams,Tipline
+SIU-2024-10007,Network_Abuse,Self_Referral,NPI-1703771909,Betty Nakamura,MSHO,Twin Cities Metro,Under_Review,Low,46154.64,0,2025-08-11,,Angela Peterson,CMS_Referral
+SIU-2024-10008,Provider_FWA,Impossible_Day,NPI-1388690725,Dr. David Davis,MSHO,Southwest MN,Closed_Substantiated,Medium,111365.27,28619.64,2023-04-21,2023-07-16,Robert Kim,Algorithm_Detection
+SIU-2024-10009,Provider_FWA,Impossible_Day,NPI-1594021782,Dr. Linda Kim,SNBC,Twin Cities Metro,Closed_Substantiated,Low,44815.48,17393.91,2024-07-14,2025-07-07,Sarah Chen,Internal_Review
+SIU-2024-10010,Network_Abuse,Kickback_Indicator,NPI-1545119047,Dr. Karen Nguyen,SNBC,Twin Cities Metro,Closed_Unsubstantiated,Low,33752.73,0,2024-02-26,2024-06-13,Angela Peterson,Algorithm_Detection
+SIU-2024-10011,Member_FWA,Prescription_Surfing,MBR-972064,Karen Larson,SNBC,Twin Cities Metro,Recovery_In_Progress,Critical,586887.75,49451.97,2023-06-25,,Angela Peterson,Tipline
+SIU-2024-10012,Provider_FWA,Phantom_Billing,NPI-1566585408,Susan Kowalski,PMAP,Twin Cities Metro,Open,Low,29268.32,0,2024-03-01,,Thomas Anderson,Peer_Review
+SIU-2024-10013,Network_Abuse,Kickback_Indicator,NPI-1363016614,Dr. Donna Wilson,MSHO,Central MN,Under_Review,High,249574.58,0,2024-04-10,,Sarah Chen,Tipline
+SIU-2024-10014,Provider_FWA,Upcoding,NPI-1255555531,Dr. Ashley Carlson,MSHO,Southeast MN,Open,Low,29265.53,0,2025-09-09,,Rebecca Johnson,Tipline
+SIU-2024-10015,Provider_FWA,Phantom_Billing,NPI-1927537643,Dr. Michael Smith,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,95458.72,0,2024-12-09,,David Nakamura,Tipline
+SIU-2024-10016,Member_FWA,Identity_Fraud,MBR-361941,Robert Thompson,MSHO,Northwest MN,Under_Review,Medium,166403.89,0,2023-08-03,,Sarah Chen,Algorithm_Detection
+SIU-2024-10017,Network_Abuse,OON_Routing,NPI-1229509408,Patricia Olson,Commercial,Twin Cities Metro,Closed_Substantiated,High,346332.53,276568.22,2025-03-24,2025-09-05,Angela Peterson,Internal_Review
+SIU-2024-10018,Pharmacy_Fraud,Pill_Mill,PHR-17665,River City Pharmacy Red Wing,PMAP,Twin Cities Metro,Under_Review,High,578229.17,0,2023-05-19,,Robert Kim,Peer_Review
+SIU-2024-10019,Member_FWA,Identity_Fraud,MBR-992697,Barbara Anderson,Commercial,Twin Cities Metro,Closed_Substantiated,Critical,1392552.66,325746.8,2024-05-10,2025-01-01,Robert Kim,Algorithm_Detection
+SIU-2024-10020,Member_FWA,Prescription_Surfing,MBR-431737,Thomas Carlson,MSHO,Southwest MN,Closed_Substantiated,Medium,142202.05,47769.96,2024-10-19,2025-03-20,Michael Swanson,Audit
+SIU-2024-10021,Network_Abuse,OON_Routing,NPI-1604509817,Dr. Robert Wilson,Commercial,Northeast MN,Closed_Substantiated,Critical,819731.47,658475.18,2024-07-11,2024-10-16,Thomas Anderson,Audit
+SIU-2024-10022,Provider_FWA,Impossible_Day,NPI-1866616964,Dr. Emily Swanson,Commercial,Central MN,Closed_Substantiated,Low,46929.02,15727.14,2023-08-15,2023-11-21,Jennifer Olson,Audit
+SIU-2024-10023,Provider_FWA,Unbundling,NPI-1681007818,Dr. Paul Brown,MSHO,Twin Cities Metro,Under_Review,Low,16300.46,0,2023-04-29,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10024,Provider_FWA,Unbundling,NPI-1795890631,Emily Chen,MSHO,Northwest MN,Under_Review,Medium,99845.21,0,2023-02-03,,Jennifer Olson,CMS_Referral
+SIU-2024-10025,Provider_FWA,Duplicate_Billing,NPI-1136843584,Dr. Karen Erickson,Commercial,Twin Cities Metro,Open,Medium,182321.76,0,2023-04-06,,David Nakamura,Internal_Review
+SIU-2024-10026,Provider_FWA,Impossible_Day,NPI-1666430218,Dr. Jessica Fernandez,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Low,12312.58,0,2024-01-12,,Thomas Anderson,Peer_Review
+SIU-2024-10027,Pharmacy_Fraud,Pill_Mill,PHR-24168,NorthStar Rx Plymouth,MSHO,Northeast MN,Closed_Unsubstantiated,High,666908.41,0,2025-09-04,2025-12-31,Thomas Anderson,Audit
+SIU-2024-10028,Pharmacy_Fraud,Pill_Mill,PHR-62227,PharMerica St Cloud,PMAP,Southwest MN,Closed_Substantiated,High,281091.99,111256.85,2023-06-06,2023-11-25,Angela Peterson,Audit
+SIU-2024-10029,Network_Abuse,OON_Routing,NPI-1623403479,Dr. John Peterson,PMAP,Twin Cities Metro,Under_Review,Low,31845.71,0,2024-12-22,,Robert Kim,CMS_Referral
+SIU-2024-10030,Provider_FWA,Impossible_Day,NPI-1468213197,Dr. Kimberly Kowalski,SNBC,Twin Cities Metro,Open,High,624232.07,0,2024-02-22,,Thomas Anderson,CMS_Referral
+SIU-2024-10031,Provider_FWA,Upcoding,NPI-1332091877,Daniel Miller,MSHO,Southwest MN,Under_Review,Low,36374.38,0,2023-10-02,,Rebecca Johnson,Internal_Review
+SIU-2024-10032,Pharmacy_Fraud,Pill_Mill,PHR-81819,North Loop Rx Minneapolis,MSHO,Central MN,Under_Review,Medium,25071.04,0,2024-08-24,,Robert Kim,Internal_Review
+SIU-2024-10033,Provider_FWA,Phantom_Billing,NPI-1508079792,Dr. Jennifer Swanson,MSHO,Northwest MN,Under_Review,Medium,115204.1,0,2024-12-01,,David Nakamura,Internal_Review
+SIU-2024-10034,Provider_FWA,Unbundling,NPI-1510173760,Dr. Sandra Williams,PMAP,Twin Cities Metro,Open,High,675988.99,0,2024-02-17,,Rebecca Johnson,Tipline
+SIU-2024-10035,Provider_FWA,Upcoding,NPI-1950761026,Dr. Margaret Larson,MSHO,Northeast MN,Recovery_In_Progress,Low,12914.9,905.17,2025-08-23,,Michael Swanson,Tipline
+SIU-2024-10036,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-90301,North Loop Rx Minneapolis,Commercial,Twin Cities Metro,Recovery_In_Progress,Low,37367.33,8246.83,2025-11-13,,Jennifer Olson,Internal_Review
+SIU-2024-10037,Network_Abuse,Kickback_Indicator,NPI-1684683755,Dr. Kimberly Brown,SNBC,Central MN,Under_Review,High,507386.48,0,2024-07-30,,David Nakamura,Audit
+SIU-2024-10038,Provider_FWA,Impossible_Day,NPI-1411281012,Dr. Susan Anderson,PMAP,Twin Cities Metro,Open,High,369664.13,0,2024-11-22,,David Nakamura,Peer_Review
+SIU-2024-10039,Provider_FWA,Impossible_Day,NPI-1945597897,Steven Johnson,Commercial,Northeast MN,Open,Low,47423.37,0,2024-09-17,,Rebecca Johnson,CMS_Referral
+SIU-2024-10040,Pharmacy_Fraud,Pill_Mill,PHR-73654,Walgreens #3421 Minneapolis,PMAP,Northeast MN,Under_Review,Medium,93050.01,0,2025-04-22,,Jennifer Olson,CMS_Referral
+SIU-2024-10041,Member_FWA,Prescription_Surfing,MBR-188025,Margaret Nelson,SNBC,Southeast MN,Closed_Substantiated,Medium,176698.99,58683.4,2024-01-22,2024-03-17,Thomas Anderson,Peer_Review
+SIU-2024-10042,Provider_FWA,Phantom_Billing,NPI-1020812641,Dr. Matthew Larson,Commercial,Northwest MN,Open,High,522593.66,0,2023-04-07,,David Nakamura,Algorithm_Detection
+SIU-2024-10043,Member_FWA,Identity_Fraud,MBR-691364,Susan Thompson,Commercial,Central MN,Closed_Substantiated,High,554652.23,318439.65,2025-02-08,2025-06-03,Jennifer Olson,Audit
+SIU-2024-10044,Provider_FWA,Upcoding,NPI-1974985653,Betty Chen,SNBC,Southwest MN,Closed_Substantiated,Low,13924.84,8884.54,2024-05-26,2024-08-16,Marcus Williams,CMS_Referral
+SIU-2024-10045,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-19038,Prairie Health Pharmacy Marshall,MSHO,Northwest MN,Closed_Substantiated,Medium,138320.07,100369.42,2023-02-09,2023-10-12,Michael Swanson,Internal_Review
+SIU-2024-10046,Provider_FWA,Unbundling,NPI-1289998761,Sandra Williams,MSHO,Northwest MN,Recovery_In_Progress,Low,42158.06,7543.0,2024-07-17,,Lisa Fernandez,Peer_Review
+SIU-2024-10047,Provider_FWA,Phantom_Billing,NPI-1361203124,Dr. Ashley Fernandez,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,81877.48,32618.14,2025-10-09,2025-12-31,Robert Kim,Internal_Review
+SIU-2024-10048,Network_Abuse,Self_Referral,NPI-1091926217,Dr. Mark Brown,PMAP,Southeast MN,Recovery_In_Progress,Critical,1332764.32,434806.01,2024-05-21,,Sarah Chen,Algorithm_Detection
+SIU-2024-10049,Provider_FWA,Phantom_Billing,NPI-1624440558,Dr. Steven Wilson,Commercial,Southeast MN,Under_Review,Medium,117911.34,0,2025-06-04,,Thomas Anderson,Internal_Review
+SIU-2024-10050,Member_FWA,Eligibility_Abuse,MBR-301939,Daniel Peterson,MSHO,Central MN,Open,High,582872.69,0,2024-01-29,,Lisa Fernandez,Internal_Review
+SIU-2024-10051,Member_FWA,Eligibility_Abuse,MBR-410636,Joseph Erickson,MSHO,Twin Cities Metro,Closed_Unsubstantiated,Low,13074.87,0,2023-02-12,2023-12-12,Sarah Chen,CMS_Referral
+SIU-2024-10052,Provider_FWA,Unbundling,NPI-1110152642,Dr. Joshua Swanson,MSHO,Twin Cities Metro,Closed_Unsubstantiated,Medium,107144.47,0,2025-07-05,2025-12-31,Michael Swanson,Algorithm_Detection
+SIU-2024-10053,Pharmacy_Fraud,Forged_Prescription,PHR-99974,CVS Health #8812 St Paul,MSHO,Central MN,Closed_Substantiated,Medium,51552.23,43599.92,2024-09-28,2024-12-10,Robert Kim,CMS_Referral
+SIU-2024-10054,Pharmacy_Fraud,Pill_Mill,PHR-68028,Omnicare of Minnesota,SNBC,Southwest MN,Referred_to_Law_Enforcement,Low,43707.5,0,2025-06-11,,Robert Kim,Internal_Review
+SIU-2024-10055,Provider_FWA,Unbundling,NPI-1087174381,Dr. Jessica Olson,MSHO,Southeast MN,Under_Review,Medium,121598.64,0,2023-12-01,,Robert Kim,Peer_Review
+SIU-2024-10056,Provider_FWA,Unbundling,NPI-1922995699,Robert Kim,Commercial,Southwest MN,Under_Review,High,251725.47,0,2024-07-09,,David Nakamura,Peer_Review
+SIU-2024-10057,Provider_FWA,Unbundling,NPI-1887588450,Dr. Robert Smith,Commercial,Northwest MN,Recovery_In_Progress,Medium,54036.49,15563.46,2024-10-05,,Michael Swanson,Algorithm_Detection
+SIU-2024-10058,Member_FWA,Eligibility_Abuse,MBR-624783,Andrew Brown,PMAP,Southwest MN,Recovery_In_Progress,Medium,101607.8,41229.31,2023-04-06,,Sarah Chen,Algorithm_Detection
+SIU-2024-10059,Provider_FWA,Impossible_Day,NPI-1821155204,Dr. Joshua Smith,SNBC,Southwest MN,Open,Medium,158544.08,0,2024-01-08,,Lisa Fernandez,Tipline
+SIU-2024-10060,Network_Abuse,Kickback_Indicator,NPI-1097970787,Matthew Williams,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,83328.97,31736.89,2023-08-17,2023-12-07,Rebecca Johnson,CMS_Referral
+SIU-2024-10061,Provider_FWA,Upcoding,NPI-1829517022,Paul Nguyen,SNBC,Twin Cities Metro,Under_Review,Medium,197920.86,0,2025-08-18,,Thomas Anderson,CMS_Referral
+SIU-2024-10062,Pharmacy_Fraud,Forged_Prescription,PHR-81987,Target Pharmacy Edina,Commercial,Southeast MN,Under_Review,Low,46745.27,0,2025-06-30,,Sarah Chen,Internal_Review
+SIU-2024-10063,Member_FWA,Identity_Fraud,MBR-114338,Emily Williams,SNBC,Twin Cities Metro,Under_Review,Low,9194.41,0,2023-09-04,,Jennifer Olson,Peer_Review
+SIU-2024-10064,Network_Abuse,Kickback_Indicator,NPI-1896278008,Steven Larson,SNBC,Northwest MN,Under_Review,Medium,104937.63,0,2023-11-07,,Angela Peterson,Internal_Review
+SIU-2024-10065,Network_Abuse,OON_Routing,NPI-1445541033,Dr. Paul Hansen,Commercial,Southeast MN,Closed_Unsubstantiated,High,633357.16,0,2024-08-16,2025-02-14,Michael Swanson,Tipline
+SIU-2024-10066,Member_FWA,Prescription_Surfing,MBR-669827,Anthony Thompson,MSHO,Central MN,Closed_Substantiated,Medium,188249.14,103585.66,2024-02-05,2024-07-06,Sarah Chen,Audit
+SIU-2024-10067,Pharmacy_Fraud,Forged_Prescription,PHR-95461,Target Pharmacy Edina,PMAP,Northeast MN,Closed_Substantiated,Medium,111682.51,56020.37,2023-03-31,2023-07-03,Michael Swanson,Algorithm_Detection
+SIU-2024-10068,Member_FWA,Prescription_Surfing,MBR-786587,Elizabeth Anderson,SNBC,Southwest MN,Open,Critical,1204235.9,0,2024-07-10,,Marcus Williams,Audit
+SIU-2024-10069,Network_Abuse,Self_Referral,NPI-1771716956,Andrew Smith,PMAP,Northwest MN,Under_Review,Medium,133055.41,0,2024-05-09,,David Nakamura,Internal_Review
+SIU-2024-10070,Provider_FWA,Upcoding,NPI-1107918827,William Chen,MSHO,Twin Cities Metro,Closed_Substantiated,Low,18475.97,6966.59,2023-03-15,2023-05-07,Rebecca Johnson,Tipline
+SIU-2024-10071,Provider_FWA,Phantom_Billing,NPI-1182518553,Dr. Jennifer Jackson,Commercial,Twin Cities Metro,Closed_Unsubstantiated,Medium,177396.93,0,2024-05-22,2025-03-02,Michael Swanson,Internal_Review
+SIU-2024-10072,Provider_FWA,Duplicate_Billing,NPI-1499561877,Dr. Andrew Olson,SNBC,Northwest MN,Recovery_In_Progress,Medium,37925.83,16879.3,2024-12-22,,Lisa Fernandez,Peer_Review
+SIU-2024-10073,Pharmacy_Fraud,Pill_Mill,PHR-23979,Lewis Drug Mankato,SNBC,Southwest MN,Closed_Unsubstantiated,Low,22161.39,0,2025-01-19,2025-12-09,Sarah Chen,Internal_Review
+SIU-2024-10074,Provider_FWA,Upcoding,NPI-1799582079,Dr. Kenneth Patel,SNBC,Southwest MN,Closed_Substantiated,Medium,111927.28,64352.09,2024-08-23,2025-01-17,Robert Kim,Audit
+SIU-2024-10075,Pharmacy_Fraud,Pill_Mill,PHR-94717,CVS Health #8812 St Paul,SNBC,Twin Cities Metro,Recovery_In_Progress,Medium,79063.25,5008.33,2025-07-05,,Lisa Fernandez,Audit
+SIU-2024-10076,Pharmacy_Fraud,Pill_Mill,PHR-57953,Prairie Health Pharmacy Marshall,SNBC,Northeast MN,Closed_Unsubstantiated,High,426166.6,0,2024-07-26,2024-11-17,Michael Swanson,Audit
+SIU-2024-10077,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-19869,Target Pharmacy Edina,Commercial,Twin Cities Metro,Closed_Substantiated,Low,38936.82,32204.21,2024-04-21,2024-12-10,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10078,Provider_FWA,Upcoding,NPI-1721920438,Dr. Donna Miller,SNBC,Southwest MN,Closed_Substantiated,Medium,168923.03,105135.26,2025-02-13,2025-05-09,Angela Peterson,Audit
+SIU-2024-10079,Network_Abuse,OON_Routing,NPI-1498503464,Dr. Mark Peterson,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,49460.98,41900.83,2023-04-01,2023-10-03,Angela Peterson,Tipline
+SIU-2024-10080,Provider_FWA,Duplicate_Billing,NPI-1580027275,Donna Patel,MSHO,Southeast MN,Closed_Unsubstantiated,Medium,152154.85,0,2025-05-13,2025-12-31,Rebecca Johnson,Audit
+SIU-2024-10081,Provider_FWA,Duplicate_Billing,NPI-1253524015,Dr. Michael Kim,MSHO,Twin Cities Metro,Referred_to_Law_Enforcement,High,338767.72,0,2025-01-18,,Marcus Williams,Peer_Review
+SIU-2024-10082,Provider_FWA,Unbundling,NPI-1022932394,Dr. Lisa Larson,PMAP,Southeast MN,Closed_Substantiated,Medium,198043.66,144744.66,2024-03-10,2024-05-14,David Nakamura,Audit
+SIU-2024-10083,Pharmacy_Fraud,GLP1_Diversion,PHR-27038,Iron Range Pharmacy Hibbing,Commercial,Twin Cities Metro,Recovery_In_Progress,High,262925.23,24707.23,2024-01-07,,Thomas Anderson,Tipline
+SIU-2024-10084,Member_FWA,Doctor_Shopping,MBR-877747,Mark Davis,SNBC,Central MN,Open,High,173872.05,0,2023-05-25,,Angela Peterson,CMS_Referral
+SIU-2024-10085,Provider_FWA,Impossible_Day,NPI-1780871219,Dr. Sandra Lee,SNBC,Twin Cities Metro,Closed_Substantiated,High,726617.02,539955.63,2023-05-19,2024-02-18,Michael Swanson,Algorithm_Detection
+SIU-2024-10086,Network_Abuse,Kickback_Indicator,NPI-1295296179,Dr. Anthony Jackson,PMAP,Twin Cities Metro,Open,Medium,117847.45,0,2025-08-01,,Marcus Williams,Internal_Review
+SIU-2024-10087,Pharmacy_Fraud,Pill_Mill,PHR-64239,PharMerica St Cloud,MSHO,Twin Cities Metro,Recovery_In_Progress,Medium,169798.36,36743.66,2025-04-10,,Lisa Fernandez,Audit
+SIU-2024-10088,Network_Abuse,Self_Referral,NPI-1893108266,Dr. Jennifer Williams,Commercial,Southeast MN,Open,Low,9345.4,0,2025-02-16,,Robert Kim,CMS_Referral
+SIU-2024-10089,Member_FWA,Doctor_Shopping,MBR-886730,Margaret Fernandez,PMAP,Twin Cities Metro,Recovery_In_Progress,Medium,185272.64,81030.74,2023-04-30,,Robert Kim,CMS_Referral
+SIU-2024-10090,Provider_FWA,Phantom_Billing,NPI-1907712792,Dr. Linda Garcia,Commercial,Northeast MN,Open,High,281069.34,0,2024-04-22,,Robert Kim,CMS_Referral
+SIU-2024-10091,Pharmacy_Fraud,GLP1_Diversion,PHR-45054,Walgreens #3421 Minneapolis,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,56572.81,22386.79,2024-10-08,2025-04-29,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10092,Provider_FWA,Upcoding,NPI-1403935666,Sandra Berg,PMAP,Twin Cities Metro,Closed_Substantiated,High,202316.03,140363.81,2024-10-14,2025-04-28,Sarah Chen,Tipline
+SIU-2024-10093,Provider_FWA,Impossible_Day,NPI-1475788930,Ashley Jackson,MSHO,Southeast MN,Open,Critical,1163066.28,0,2024-07-27,,Thomas Anderson,Peer_Review
+SIU-2024-10094,Provider_FWA,Impossible_Day,NPI-1048766522,Dr. Betty Jackson,Commercial,Central MN,Closed_Substantiated,Medium,34586.84,28075.07,2024-03-08,2024-09-08,Lisa Fernandez,Audit
+SIU-2024-10095,Provider_FWA,Phantom_Billing,NPI-1408244633,Dr. Paul Wilson,MSHO,Northeast MN,Open,Low,42500.94,0,2025-01-09,,Sarah Chen,Peer_Review
+SIU-2024-10096,Provider_FWA,Upcoding,NPI-1615683222,Mark Swanson,Commercial,Southeast MN,Closed_Substantiated,Low,10182.8,2752.53,2023-02-26,2023-09-10,Thomas Anderson,Algorithm_Detection
+SIU-2024-10097,Member_FWA,Doctor_Shopping,MBR-649414,Jennifer Miller,MSHO,Southeast MN,Closed_Substantiated,High,665840.87,255115.62,2024-12-10,2025-05-02,Marcus Williams,CMS_Referral
+SIU-2024-10098,Member_FWA,Eligibility_Abuse,MBR-776796,Elizabeth Larson,PMAP,Central MN,Recovery_In_Progress,Medium,42990.79,5541.89,2024-06-22,,Marcus Williams,Tipline
+SIU-2024-10099,Network_Abuse,Self_Referral,NPI-1815911873,Joshua Lee,SNBC,Twin Cities Metro,Closed_Unsubstantiated,Medium,136177.21,0,2024-11-06,2025-10-23,Michael Swanson,Peer_Review
+SIU-2024-10100,Member_FWA,Eligibility_Abuse,MBR-177794,Karen Thompson,SNBC,Twin Cities Metro,Under_Review,Medium,104084.93,0,2023-05-11,,Marcus Williams,CMS_Referral
+SIU-2024-10101,Member_FWA,Prescription_Surfing,MBR-930281,John Thompson,PMAP,Northwest MN,Closed_Substantiated,Medium,184083.74,105572.78,2024-02-04,2024-08-16,Michael Swanson,Algorithm_Detection
+SIU-2024-10102,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-94689,Walmart Pharmacy Brooklyn Park,Commercial,Southeast MN,Open,Low,6761.4,0,2025-06-29,,Robert Kim,Tipline
+SIU-2024-10103,Provider_FWA,Duplicate_Billing,NPI-1728960875,Dr. Lisa Anderson,SNBC,Northeast MN,Closed_Unsubstantiated,Medium,82695.88,0,2025-03-16,2025-09-07,Robert Kim,Tipline
+SIU-2024-10104,Provider_FWA,Impossible_Day,NPI-1333108786,David Jackson,SNBC,Central MN,Recovery_In_Progress,Medium,149045.95,25909.07,2023-07-07,,Jennifer Olson,Internal_Review
+SIU-2024-10105,Pharmacy_Fraud,GLP1_Diversion,PHR-57425,Walgreens #3421 Minneapolis,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,88454.59,0,2024-01-19,,Michael Swanson,Tipline
+SIU-2024-10106,Provider_FWA,Unbundling,NPI-1846237594,Dr. Paul Garcia,PMAP,Northeast MN,Under_Review,High,450850.99,0,2023-04-02,,Robert Kim,Tipline
+SIU-2024-10107,Member_FWA,Identity_Fraud,MBR-908554,Michelle Martinez,SNBC,Southwest MN,Closed_Unsubstantiated,High,686726.39,0,2025-06-29,2025-08-20,David Nakamura,Peer_Review
+SIU-2024-10108,Member_FWA,Prescription_Surfing,MBR-947903,Steven Nakamura,PMAP,Southeast MN,Under_Review,High,642823.71,0,2025-02-06,,Michael Swanson,Peer_Review
+SIU-2024-10109,Pharmacy_Fraud,Forged_Prescription,PHR-31241,North Loop Rx Minneapolis,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,59947.1,0,2023-10-25,,Michael Swanson,Audit
+SIU-2024-10110,Member_FWA,Doctor_Shopping,MBR-230734,Christopher Anderson,MSHO,Twin Cities Metro,Closed_Substantiated,Low,39340.26,30831.53,2024-07-26,2025-04-12,David Nakamura,Peer_Review
+SIU-2024-10111,Network_Abuse,OON_Routing,NPI-1401538092,Dr. Anthony Anderson,SNBC,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,90609.72,0,2023-03-13,,Thomas Anderson,Tipline
+SIU-2024-10112,Provider_FWA,Duplicate_Billing,NPI-1892398092,Dr. Steven Thompson,Commercial,Southeast MN,Closed_Substantiated,Low,32690.67,10760.03,2023-06-26,2023-08-04,Robert Kim,CMS_Referral
+SIU-2024-10113,Member_FWA,Eligibility_Abuse,MBR-350021,Mark Lee,MSHO,Northeast MN,Open,High,616034.42,0,2025-08-08,,Michael Swanson,CMS_Referral
+SIU-2024-10114,Member_FWA,Identity_Fraud,MBR-101640,Michelle Erickson,MSHO,Southwest MN,Under_Review,Low,15825.39,0,2025-05-17,,Angela Peterson,Audit
+SIU-2024-10115,Provider_FWA,Impossible_Day,NPI-1545055605,Dr. Anthony Fernandez,SNBC,Twin Cities Metro,Closed_Unsubstantiated,Medium,107273.64,0,2025-03-17,2025-10-24,Marcus Williams,Audit
+SIU-2024-10116,Provider_FWA,Upcoding,NPI-1357039137,Dr. John Erickson,Commercial,Southeast MN,Closed_Unsubstantiated,Low,29570.62,0,2024-01-08,2024-10-01,Jennifer Olson,Tipline
+SIU-2024-10117,Provider_FWA,Phantom_Billing,NPI-1849447049,Dr. John Berg,Commercial,Southeast MN,Under_Review,Critical,1900056.47,0,2025-04-09,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10118,Pharmacy_Fraud,Pill_Mill,PHR-16265,Eagan Family Pharmacy,SNBC,Northeast MN,Recovery_In_Progress,High,526225.39,52512.03,2024-07-27,,Michael Swanson,Peer_Review
+SIU-2024-10119,Provider_FWA,Unbundling,NPI-1992470805,Dr. Jennifer Patel,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,99287.44,84053.64,2025-06-14,2025-12-31,Marcus Williams,Algorithm_Detection
+SIU-2024-10120,Provider_FWA,Duplicate_Billing,NPI-1457538651,Dr. Donald Erickson,SNBC,Northwest MN,Closed_Substantiated,Medium,103247.69,87626.87,2025-01-06,2025-12-16,Sarah Chen,Algorithm_Detection
+SIU-2024-10121,Pharmacy_Fraud,Forged_Prescription,PHR-99051,Walmart Pharmacy Brooklyn Park,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Medium,191738.14,0,2023-11-03,2024-10-09,Jennifer Olson,Algorithm_Detection
+SIU-2024-10122,Provider_FWA,Duplicate_Billing,NPI-1034773472,Dr. Donald Erickson,PMAP,Twin Cities Metro,Recovery_In_Progress,Medium,90102.34,25189.8,2023-06-21,,Lisa Fernandez,Tipline
+SIU-2024-10123,Network_Abuse,OON_Routing,NPI-1415524530,Dr. Thomas Garcia,SNBC,Northeast MN,Closed_Substantiated,Low,16713.04,14163.56,2025-07-16,2025-12-02,Michael Swanson,Tipline
+SIU-2024-10124,Provider_FWA,Upcoding,NPI-1477934499,Dr. Daniel Kim,SNBC,Twin Cities Metro,Recovery_In_Progress,Medium,85799.43,23165.75,2023-05-27,,Jennifer Olson,Internal_Review
+SIU-2024-10125,Pharmacy_Fraud,Pill_Mill,PHR-25907,Thrifty White Drug Duluth,PMAP,Twin Cities Metro,Closed_Substantiated,Low,40642.96,6844.23,2024-05-13,2025-02-19,Angela Peterson,Tipline
+SIU-2024-10126,Member_FWA,Doctor_Shopping,MBR-851759,Steven Davis,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Critical,1116192.68,0,2025-05-02,,Thomas Anderson,Internal_Review
+SIU-2024-10127,Provider_FWA,Phantom_Billing,NPI-1942702535,Dr. David Williams,Commercial,Southeast MN,Under_Review,Medium,113001.16,0,2023-05-08,,Lisa Fernandez,Tipline
+SIU-2024-10128,Provider_FWA,Unbundling,NPI-1960919391,Dr. Jennifer Hansen,SNBC,Southeast MN,Recovery_In_Progress,Medium,59352.84,5939.33,2024-07-30,,Angela Peterson,Internal_Review
+SIU-2024-10129,Provider_FWA,Impossible_Day,NPI-1773773537,Dr. Joshua Smith,PMAP,Southeast MN,Closed_Substantiated,High,636403.57,115712.97,2023-03-14,2023-05-24,David Nakamura,CMS_Referral
+SIU-2024-10130,Member_FWA,Doctor_Shopping,MBR-403742,Karen Brown,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,67853.63,31720.28,2025-04-25,2025-10-24,Rebecca Johnson,Peer_Review
+SIU-2024-10131,Member_FWA,Eligibility_Abuse,MBR-853258,Daniel Patel,Commercial,Twin Cities Metro,Under_Review,Medium,197904.09,0,2024-12-22,,Thomas Anderson,CMS_Referral
+SIU-2024-10132,Member_FWA,Eligibility_Abuse,MBR-571435,Jessica Nelson,Commercial,Northeast MN,Open,High,162927.57,0,2024-08-31,,Rebecca Johnson,Tipline
+SIU-2024-10133,Network_Abuse,OON_Routing,NPI-1774305759,Dr. Richard Garcia,SNBC,Twin Cities Metro,Recovery_In_Progress,Low,12170.41,3036.56,2025-08-28,,Rebecca Johnson,CMS_Referral
+SIU-2024-10134,Member_FWA,Identity_Fraud,MBR-152995,Christopher Brown,SNBC,Twin Cities Metro,Under_Review,High,488387.2,0,2025-09-04,,Marcus Williams,Peer_Review
+SIU-2024-10135,Provider_FWA,Duplicate_Billing,NPI-1392922240,Dr. Betty Smith,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Low,30662.67,0,2024-02-17,2024-09-19,Angela Peterson,Peer_Review
+SIU-2024-10136,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-90090,Hy-Vee Pharmacy Rochester,Commercial,Southeast MN,Closed_Substantiated,Low,10789.85,4437.21,2023-08-01,2024-03-19,Thomas Anderson,Tipline
+SIU-2024-10137,Provider_FWA,Impossible_Day,NPI-1041783553,Dr. Lisa Martinez,MSHO,Northeast MN,Open,Medium,107905.23,0,2025-08-07,,Jennifer Olson,Audit
+SIU-2024-10138,Network_Abuse,Kickback_Indicator,NPI-1793838119,Dr. Donna Berg,PMAP,Twin Cities Metro,Recovery_In_Progress,High,429754.74,112997.96,2025-11-23,,Sarah Chen,Audit
+SIU-2024-10139,Provider_FWA,Upcoding,NPI-1855508961,Dr. Kenneth Brown,MSHO,Southwest MN,Closed_Substantiated,Low,16948.87,9465.37,2024-04-25,2024-06-20,Robert Kim,Peer_Review
+SIU-2024-10140,Provider_FWA,Unbundling,NPI-1117999418,Dr. Mary Thompson,MSHO,Southeast MN,Recovery_In_Progress,Critical,970538.73,208844.45,2023-11-21,,Robert Kim,Peer_Review
+SIU-2024-10141,Network_Abuse,Self_Referral,NPI-1556931857,Dr. Emily Berg,Commercial,Southeast MN,Closed_Substantiated,Low,49915.53,20653.92,2025-09-20,2025-12-31,Angela Peterson,Audit
+SIU-2024-10142,Member_FWA,Eligibility_Abuse,MBR-358494,Sarah Wilson,Commercial,Central MN,Open,Medium,77237.35,0,2024-09-15,,Michael Swanson,Audit
+SIU-2024-10143,Member_FWA,Eligibility_Abuse,MBR-669576,Anthony Nakamura,SNBC,Central MN,Closed_Substantiated,High,737104.35,260431.39,2024-12-21,2025-04-04,Thomas Anderson,Peer_Review
+SIU-2024-10144,Pharmacy_Fraud,Forged_Prescription,PHR-45537,Woodbury Health Pharmacy,MSHO,Central MN,Closed_Unsubstantiated,High,465311.71,0,2024-07-24,2024-11-01,David Nakamura,Tipline
+SIU-2024-10145,Provider_FWA,Impossible_Day,NPI-1107586738,Lisa Chen,MSHO,Southeast MN,Under_Review,High,407062.54,0,2023-10-23,,Jennifer Olson,Peer_Review
+SIU-2024-10146,Pharmacy_Fraud,Forged_Prescription,PHR-47649,PharMerica St Cloud,Commercial,Twin Cities Metro,Open,Medium,74947.68,0,2023-05-16,,Robert Kim,Tipline
+SIU-2024-10147,Member_FWA,Doctor_Shopping,MBR-978292,Barbara Kowalski,Commercial,Twin Cities Metro,Open,Low,46383.57,0,2025-04-07,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10148,Provider_FWA,Impossible_Day,NPI-1359748735,Dr. Sandra Lee,MSHO,Southeast MN,Recovery_In_Progress,Medium,120077.58,48715.95,2025-10-22,,Lisa Fernandez,Tipline
+SIU-2024-10149,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-43720,Lake Region Pharmacy Fergus Falls,Commercial,Southeast MN,Referred_to_Law_Enforcement,High,221029.39,0,2024-12-05,,David Nakamura,Tipline
+SIU-2024-10150,Member_FWA,Prescription_Surfing,MBR-190951,Betty Kim,MSHO,Twin Cities Metro,Closed_Substantiated,Low,9292.33,3498.76,2023-10-29,2024-07-29,David Nakamura,Peer_Review
+SIU-2024-10151,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-11498,Genoa Healthcare Minneapolis,PMAP,Southeast MN,Closed_Unsubstantiated,Medium,139394.59,0,2024-05-12,2024-07-12,Jennifer Olson,Peer_Review
+SIU-2024-10152,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-48671,CarePATH Pharmacy Burnsville,SNBC,Northwest MN,Closed_Substantiated,Medium,132559.45,64255.19,2024-04-07,2024-07-14,Thomas Anderson,Peer_Review
+SIU-2024-10153,Pharmacy_Fraud,Forged_Prescription,PHR-38627,Summit Pharmacy St Paul,SNBC,Central MN,Closed_Unsubstantiated,Low,16135.94,0,2023-07-01,2024-04-25,Marcus Williams,CMS_Referral
+SIU-2024-10154,Provider_FWA,Impossible_Day,NPI-1576234459,Dr. William Berg,MSHO,Twin Cities Metro,Under_Review,Low,43451.87,0,2025-07-07,,Robert Kim,Peer_Review
+SIU-2024-10155,Provider_FWA,Impossible_Day,NPI-1141674152,Sandra Taylor,PMAP,Twin Cities Metro,Open,Medium,35103.94,0,2025-08-18,,Sarah Chen,Peer_Review
+SIU-2024-10156,Provider_FWA,Upcoding,NPI-1048629555,Matthew Chen,SNBC,Twin Cities Metro,Closed_Substantiated,Low,7869.2,6612.46,2023-05-18,2023-07-22,Jennifer Olson,Tipline
+SIU-2024-10157,Pharmacy_Fraud,Forged_Prescription,PHR-68790,Eagan Family Pharmacy,PMAP,Southwest MN,Recovery_In_Progress,Medium,185495.14,37146.93,2025-02-26,,Angela Peterson,Tipline
+SIU-2024-10158,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-61518,Prairie Health Pharmacy Marshall,Commercial,Northwest MN,Recovery_In_Progress,High,182775.61,70172.79,2024-04-15,,Michael Swanson,Internal_Review
+SIU-2024-10159,Pharmacy_Fraud,Forged_Prescription,PHR-42441,Lakeview Pharmacy Brainerd,Commercial,Central MN,Closed_Unsubstantiated,Medium,85577.95,0,2024-08-01,2024-12-05,Marcus Williams,Algorithm_Detection
+SIU-2024-10160,Pharmacy_Fraud,Forged_Prescription,PHR-12050,Lewis Drug Mankato,SNBC,Southwest MN,Recovery_In_Progress,Medium,61064.28,17560.72,2023-08-09,,Sarah Chen,Tipline
+SIU-2024-10161,Pharmacy_Fraud,Forged_Prescription,PHR-17398,Target Pharmacy Edina,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,113181.77,81609.76,2024-08-29,2025-01-25,Robert Kim,Internal_Review
+SIU-2024-10162,Pharmacy_Fraud,Pill_Mill,PHR-96535,Prairie Health Pharmacy Marshall,SNBC,Southeast MN,Open,Medium,63682.48,0,2024-09-21,,Robert Kim,Internal_Review
+SIU-2024-10163,Network_Abuse,Self_Referral,NPI-1050341410,Dr. Anthony Martinez,SNBC,Central MN,Closed_Substantiated,Medium,116781.04,29715.21,2025-05-16,2025-12-31,Michael Swanson,Tipline
+SIU-2024-10164,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-70689,Woodbury Health Pharmacy,Commercial,Southeast MN,Open,Low,7593.08,0,2025-05-09,,Jennifer Olson,Peer_Review
+SIU-2024-10165,Provider_FWA,Unbundling,NPI-1482954920,Dr. Jennifer Wilson,MSHO,Twin Cities Metro,Open,Medium,151802.32,0,2024-02-09,,Robert Kim,CMS_Referral
+SIU-2024-10166,Provider_FWA,Upcoding,NPI-1777716824,Dr. Steven Carlson,Commercial,Twin Cities Metro,Closed_Unsubstantiated,High,665158.0,0,2024-11-26,2025-05-30,David Nakamura,Internal_Review
+SIU-2024-10167,Provider_FWA,Phantom_Billing,NPI-1755665764,Dr. Betty Kowalski,PMAP,Twin Cities Metro,Closed_Substantiated,Low,15769.89,6567.58,2024-11-03,2025-04-26,Lisa Fernandez,Audit
+SIU-2024-10168,Member_FWA,Prescription_Surfing,MBR-857505,Steven Garcia,SNBC,Twin Cities Metro,Closed_Unsubstantiated,Medium,171952.96,0,2024-03-06,2024-10-11,David Nakamura,Internal_Review
+SIU-2024-10169,Provider_FWA,Duplicate_Billing,NPI-1773106931,Christopher Nelson,MSHO,Southeast MN,Closed_Substantiated,Medium,59333.56,32565.38,2024-04-30,2024-12-10,Thomas Anderson,Audit
+SIU-2024-10170,Pharmacy_Fraud,Forged_Prescription,PHR-74303,Lakeview Pharmacy Brainerd,PMAP,Twin Cities Metro,Closed_Substantiated,Low,12570.51,3117.12,2025-01-05,2025-05-01,Angela Peterson,Internal_Review
+SIU-2024-10171,Network_Abuse,Self_Referral,NPI-1878316418,Dr. James Williams,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Critical,706237.3,0,2024-05-02,2024-07-05,Angela Peterson,Peer_Review
+SIU-2024-10172,Provider_FWA,Impossible_Day,NPI-1980059410,Ashley Johnson,PMAP,Twin Cities Metro,Recovery_In_Progress,Medium,26157.16,1431.85,2025-05-06,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10173,Member_FWA,Prescription_Surfing,MBR-212214,Michael Davis,SNBC,Twin Cities Metro,Recovery_In_Progress,Low,11700.39,3485.69,2024-02-12,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10174,Provider_FWA,Phantom_Billing,NPI-1748651792,Dr. Karen Kim,PMAP,Northeast MN,Under_Review,Medium,169910.86,0,2023-06-29,,Sarah Chen,Algorithm_Detection
+SIU-2024-10175,Member_FWA,Prescription_Surfing,MBR-109909,William Anderson,PMAP,Twin Cities Metro,Open,Medium,112475.22,0,2025-06-21,,Marcus Williams,CMS_Referral
+SIU-2024-10176,Network_Abuse,OON_Routing,NPI-1953004176,Sarah Smith,PMAP,Twin Cities Metro,Recovery_In_Progress,High,700703.52,287095.51,2024-08-11,,Thomas Anderson,Algorithm_Detection
+SIU-2024-10177,Network_Abuse,Self_Referral,NPI-1881437228,Robert Swanson,Commercial,Twin Cities Metro,Closed_Unsubstantiated,High,205592.66,0,2024-05-21,2025-04-06,Angela Peterson,Audit
+SIU-2024-10178,Provider_FWA,Unbundling,NPI-1084211091,Dr. Patricia Peterson,PMAP,Southeast MN,Closed_Substantiated,Low,24668.97,14150.57,2023-06-19,2024-01-09,Thomas Anderson,Algorithm_Detection
+SIU-2024-10179,Member_FWA,Prescription_Surfing,MBR-493663,Margaret Olson,MSHO,Southwest MN,Under_Review,Medium,143946.6,0,2025-03-03,,David Nakamura,Internal_Review
+SIU-2024-10180,Provider_FWA,Duplicate_Billing,NPI-1680645895,Dr. Anthony Berg,Commercial,Twin Cities Metro,Closed_Unsubstantiated,High,334455.15,0,2023-07-21,2023-08-22,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10181,Provider_FWA,Unbundling,NPI-1550229169,Michael Johnson,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,40683.3,23133.77,2023-07-24,2024-06-23,Lisa Fernandez,Peer_Review
+SIU-2024-10182,Provider_FWA,Upcoding,NPI-1260642799,Dr. Anthony Olson,MSHO,Twin Cities Metro,Closed_Substantiated,Low,11247.8,5569.76,2024-09-22,2025-03-08,Rebecca Johnson,Audit
+SIU-2024-10183,Member_FWA,Doctor_Shopping,MBR-855917,Ashley Jackson,SNBC,Northwest MN,Recovery_In_Progress,Medium,132917.04,12333.23,2025-08-09,,Thomas Anderson,CMS_Referral
+SIU-2024-10184,Provider_FWA,Duplicate_Billing,NPI-1884264226,Dr. Karen Berg,SNBC,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,130561.97,0,2024-03-01,,Rebecca Johnson,Audit
+SIU-2024-10185,Provider_FWA,Phantom_Billing,NPI-1349917685,Sarah Nguyen,Commercial,Twin Cities Metro,Closed_Unsubstantiated,Low,40363.99,0,2025-01-31,2025-04-29,Angela Peterson,Tipline
+SIU-2024-10186,Pharmacy_Fraud,GLP1_Diversion,PHR-37479,Lakeview Pharmacy Brainerd,MSHO,Twin Cities Metro,Closed_Substantiated,Low,40895.85,25399.77,2023-06-05,2024-01-30,Lisa Fernandez,Internal_Review
+SIU-2024-10187,Provider_FWA,Phantom_Billing,NPI-1642026586,Donna Miller,PMAP,Central MN,Open,Low,29046.53,0,2025-05-20,,Thomas Anderson,Internal_Review
+SIU-2024-10188,Network_Abuse,Self_Referral,NPI-1117434526,Dr. Matthew Olson,PMAP,Southwest MN,Recovery_In_Progress,Medium,138224.97,38051.69,2023-04-15,,Thomas Anderson,Peer_Review
+SIU-2024-10189,Provider_FWA,Upcoding,NPI-1557054862,Dr. Donald Erickson,MSHO,Twin Cities Metro,Closed_Substantiated,High,354237.21,138675.78,2025-11-04,2025-12-31,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10190,Provider_FWA,Unbundling,NPI-1842103498,Dr. Kimberly Brown,SNBC,Southwest MN,Under_Review,Medium,85952.55,0,2023-08-02,,Thomas Anderson,Algorithm_Detection
+SIU-2024-10191,Provider_FWA,Upcoding,NPI-1117427280,Dr. Jessica Davis,SNBC,Twin Cities Metro,Under_Review,Critical,761679.85,0,2023-12-08,,Michael Swanson,Tipline
+SIU-2024-10192,Pharmacy_Fraud,Pill_Mill,PHR-61849,Walgreens #3421 Minneapolis,SNBC,Central MN,Closed_Substantiated,High,579302.44,327040.68,2024-02-23,2024-11-09,David Nakamura,Audit
+SIU-2024-10193,Pharmacy_Fraud,GLP1_Diversion,PHR-80371,Walmart Pharmacy Brooklyn Park,MSHO,Southwest MN,Closed_Unsubstantiated,Medium,89013.78,0,2024-02-22,2024-11-12,Michael Swanson,CMS_Referral
+SIU-2024-10194,Network_Abuse,Kickback_Indicator,NPI-1630291513,Dr. Matthew Erickson,PMAP,Southwest MN,Closed_Substantiated,Medium,172965.62,137175.19,2024-01-03,2024-07-03,Thomas Anderson,Algorithm_Detection
+SIU-2024-10195,Provider_FWA,Upcoding,NPI-1548494024,Mark Jackson,PMAP,Southwest MN,Closed_Substantiated,High,189613.74,53097.08,2025-03-10,2025-11-11,Jennifer Olson,CMS_Referral
+SIU-2024-10196,Provider_FWA,Duplicate_Billing,NPI-1484258607,Dr. Matthew Johnson,Commercial,Northwest MN,Under_Review,High,414995.8,0,2024-02-18,,Angela Peterson,Internal_Review
+SIU-2024-10197,Member_FWA,Prescription_Surfing,MBR-612438,William Anderson,MSHO,Twin Cities Metro,Closed_Unsubstantiated,Medium,123944.61,0,2024-04-10,2024-10-06,Lisa Fernandez,Tipline
+SIU-2024-10198,Pharmacy_Fraud,Forged_Prescription,PHR-24969,Genoa Healthcare Minneapolis,PMAP,Central MN,Open,Medium,160644.78,0,2025-02-04,,Michael Swanson,CMS_Referral
+SIU-2024-10199,Provider_FWA,Phantom_Billing,NPI-1806751081,Dr. Karen Fernandez,SNBC,Central MN,Closed_Unsubstantiated,High,749553.24,0,2025-07-24,2025-12-31,Michael Swanson,Algorithm_Detection
+SIU-2024-10200,Pharmacy_Fraud,Pill_Mill,PHR-55957,Eagan Family Pharmacy,PMAP,Central MN,Closed_Unsubstantiated,High,561990.07,0,2025-06-09,2025-10-01,David Nakamura,Algorithm_Detection
+SIU-2024-10201,Member_FWA,Eligibility_Abuse,MBR-838253,Christopher Swanson,MSHO,Central MN,Open,Medium,125228.73,0,2023-07-29,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10202,Network_Abuse,Self_Referral,NPI-1268088898,Dr. Daniel Nguyen,PMAP,Twin Cities Metro,Recovery_In_Progress,High,260910.58,64127.51,2025-03-29,,Rebecca Johnson,Peer_Review
+SIU-2024-10203,Member_FWA,Doctor_Shopping,MBR-828449,Nancy Thompson,MSHO,Central MN,Closed_Unsubstantiated,Medium,191294.46,0,2024-11-15,2025-10-08,Marcus Williams,Internal_Review
+SIU-2024-10204,Network_Abuse,Self_Referral,NPI-1068000803,Susan Williams,SNBC,Northeast MN,Under_Review,Medium,169348.34,0,2025-10-24,,Thomas Anderson,CMS_Referral
+SIU-2024-10205,Member_FWA,Prescription_Surfing,MBR-899281,Patricia Smith,Commercial,Twin Cities Metro,Recovery_In_Progress,Low,9480.86,535.79,2025-08-13,,Michael Swanson,Algorithm_Detection
+SIU-2024-10206,Network_Abuse,Kickback_Indicator,NPI-1141640592,Dr. William Fernandez,SNBC,Twin Cities Metro,Closed_Substantiated,High,706271.62,429562.57,2024-07-29,2024-10-14,Jennifer Olson,Algorithm_Detection
+SIU-2024-10207,Provider_FWA,Duplicate_Billing,NPI-1460883210,Dr. Michael Johnson,PMAP,Southeast MN,Closed_Unsubstantiated,Low,14603.95,0,2023-06-23,2023-09-28,Michael Swanson,Algorithm_Detection
+SIU-2024-10208,Provider_FWA,Duplicate_Billing,NPI-1453456129,Dr. Steven Anderson,MSHO,Twin Cities Metro,Recovery_In_Progress,Low,15302.61,5238.17,2023-07-16,,Lisa Fernandez,Tipline
+SIU-2024-10209,Provider_FWA,Unbundling,NPI-1073456403,Dr. Michelle Lee,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,53720.4,31676.56,2025-01-03,2025-05-22,Michael Swanson,Tipline
+SIU-2024-10210,Provider_FWA,Upcoding,NPI-1783841357,Matthew Williams,MSHO,Southwest MN,Open,High,304427.38,0,2023-10-28,,David Nakamura,CMS_Referral
+SIU-2024-10211,Member_FWA,Eligibility_Abuse,MBR-989079,Karen Carlson,SNBC,Twin Cities Metro,Closed_Substantiated,Low,28298.71,19058.91,2025-11-23,2025-12-31,David Nakamura,Peer_Review
+SIU-2024-10212,Provider_FWA,Unbundling,NPI-1567243311,Dr. Nancy Kowalski,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,80382.71,35738.51,2025-03-17,2025-12-31,Michael Swanson,Algorithm_Detection
+SIU-2024-10213,Provider_FWA,Upcoding,NPI-1990611973,Dr. Betty Davis,Commercial,Twin Cities Metro,Under_Review,Critical,929731.7,0,2025-11-06,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10214,Member_FWA,Identity_Fraud,MBR-636141,Susan Martinez,SNBC,Southwest MN,Under_Review,High,200995.14,0,2024-11-14,,Marcus Williams,Audit
+SIU-2024-10215,Pharmacy_Fraud,Pill_Mill,PHR-66948,Hy-Vee Pharmacy Rochester,SNBC,Central MN,Open,Critical,1180057.76,0,2023-05-07,,Jennifer Olson,Algorithm_Detection
+SIU-2024-10216,Provider_FWA,Unbundling,NPI-1372271797,Dr. William Erickson,PMAP,Twin Cities Metro,Open,Low,10711.88,0,2024-07-18,,Sarah Chen,Audit
+SIU-2024-10217,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-85582,Nordic Pharmacy Moorhead,PMAP,Twin Cities Metro,Under_Review,Medium,38487.26,0,2025-08-04,,Robert Kim,Tipline
+SIU-2024-10218,Provider_FWA,Duplicate_Billing,NPI-1723831302,Dr. Joseph Patel,MSHO,Twin Cities Metro,Recovery_In_Progress,Low,27897.12,10976.84,2023-04-15,,Thomas Anderson,Peer_Review
+SIU-2024-10219,Network_Abuse,OON_Routing,NPI-1593634042,Joseph Berg,Commercial,Southeast MN,Closed_Unsubstantiated,Low,16171.84,0,2024-10-31,2025-04-17,Marcus Williams,CMS_Referral
+SIU-2024-10220,Pharmacy_Fraud,GLP1_Diversion,PHR-16019,NorthStar Rx Plymouth,Commercial,Twin Cities Metro,Closed_Unsubstantiated,High,144802.18,0,2025-08-24,2025-12-31,Marcus Williams,CMS_Referral
+SIU-2024-10221,Member_FWA,Eligibility_Abuse,MBR-418672,Michelle Larson,PMAP,Central MN,Closed_Substantiated,High,401552.35,266118.51,2025-10-21,2025-12-31,Jennifer Olson,Algorithm_Detection
+SIU-2024-10222,Network_Abuse,OON_Routing,NPI-1901485722,Dr. Lisa Johnson,Commercial,Central MN,Under_Review,High,593303.95,0,2025-02-23,,Marcus Williams,Tipline
+SIU-2024-10223,Member_FWA,Identity_Fraud,MBR-249289,Sarah Anderson,PMAP,Central MN,Recovery_In_Progress,Medium,32682.55,13364.38,2024-05-03,,Thomas Anderson,Peer_Review
+SIU-2024-10224,Network_Abuse,OON_Routing,NPI-1684205125,Robert Taylor,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,124368.63,39268.18,2025-06-23,2025-09-27,Rebecca Johnson,Internal_Review
+SIU-2024-10225,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-19789,Thrifty White Drug Duluth,MSHO,Twin Cities Metro,Under_Review,Medium,48819.57,0,2023-08-26,,Michael Swanson,Audit
+SIU-2024-10226,Member_FWA,Eligibility_Abuse,MBR-423284,Sandra Hansen,MSHO,Southwest MN,Under_Review,Low,43361.7,0,2023-07-19,,Robert Kim,Algorithm_Detection
+SIU-2024-10227,Provider_FWA,Duplicate_Billing,NPI-1381975879,Paul Smith,MSHO,Twin Cities Metro,Closed_Unsubstantiated,High,540169.2,0,2024-06-30,2024-10-27,Michael Swanson,CMS_Referral
+SIU-2024-10228,Pharmacy_Fraud,Pill_Mill,PHR-28322,Hy-Vee Pharmacy Rochester,MSHO,Northeast MN,Open,High,107772.0,0,2024-04-14,,Thomas Anderson,Internal_Review
+SIU-2024-10229,Member_FWA,Doctor_Shopping,MBR-952227,Robert Johnson,Commercial,Twin Cities Metro,Under_Review,Medium,199503.25,0,2024-02-23,,Jennifer Olson,Algorithm_Detection
+SIU-2024-10230,Network_Abuse,Kickback_Indicator,NPI-1054371817,Dr. Joshua Williams,SNBC,Twin Cities Metro,Recovery_In_Progress,High,634095.51,157541.38,2025-04-02,,Thomas Anderson,Tipline
+SIU-2024-10231,Network_Abuse,Kickback_Indicator,NPI-1037204552,Dr. Christopher Brown,SNBC,Twin Cities Metro,Recovery_In_Progress,High,367794.93,27360.86,2025-09-22,,David Nakamura,Internal_Review
+SIU-2024-10232,Network_Abuse,Self_Referral,NPI-1583746914,Dr. Anthony Martinez,SNBC,Northeast MN,Recovery_In_Progress,High,563690.93,150960.45,2025-09-23,,Angela Peterson,Audit
+SIU-2024-10233,Provider_FWA,Unbundling,NPI-1031464348,Dr. Patricia Martinez,Commercial,Twin Cities Metro,Closed_Substantiated,Critical,1987296.99,1688653.99,2025-01-16,2025-12-11,David Nakamura,Audit
+SIU-2024-10234,Member_FWA,Doctor_Shopping,MBR-703656,Anthony Erickson,PMAP,Central MN,Recovery_In_Progress,Low,47084.27,5670.84,2024-01-05,,Thomas Anderson,CMS_Referral
+SIU-2024-10235,Provider_FWA,Duplicate_Billing,NPI-1604633564,Dr. Ashley Wilson,MSHO,Twin Cities Metro,Closed_Substantiated,Low,18907.39,4030.68,2025-10-15,2025-12-03,Angela Peterson,Peer_Review
+SIU-2024-10236,Provider_FWA,Impossible_Day,NPI-1769805921,Dr. Daniel Smith,Commercial,Northeast MN,Open,High,114243.38,0,2023-11-01,,Thomas Anderson,Algorithm_Detection
+SIU-2024-10237,Provider_FWA,Phantom_Billing,NPI-1346392556,Dr. William Patel,PMAP,Twin Cities Metro,Under_Review,Medium,191021.37,0,2025-10-08,,Angela Peterson,Internal_Review
+SIU-2024-10238,Network_Abuse,Self_Referral,NPI-1632380409,Dr. Anthony Swanson,MSHO,Central MN,Under_Review,Low,38029.77,0,2024-09-09,,Robert Kim,Peer_Review
+SIU-2024-10239,Network_Abuse,Self_Referral,NPI-1988957253,Dr. Joshua Peterson,MSHO,Northwest MN,Closed_Substantiated,Critical,1905031.69,1279686.62,2023-10-30,2024-05-16,Jennifer Olson,Internal_Review
+SIU-2024-10240,Network_Abuse,OON_Routing,NPI-1783064819,Dr. Donald Johnson,Commercial,Central MN,Closed_Substantiated,Low,16934.56,6694.85,2024-06-09,2024-08-12,Sarah Chen,Peer_Review
+SIU-2024-10241,Member_FWA,Prescription_Surfing,MBR-617033,Anthony Erickson,Commercial,Southeast MN,Recovery_In_Progress,Low,29571.08,11282.04,2023-08-10,,David Nakamura,Tipline
+SIU-2024-10242,Member_FWA,Doctor_Shopping,MBR-209812,Robert Berg,MSHO,Twin Cities Metro,Under_Review,High,210568.38,0,2025-02-21,,Marcus Williams,Audit
+SIU-2024-10243,Member_FWA,Prescription_Surfing,MBR-785386,William Jackson,MSHO,Twin Cities Metro,Referred_to_Law_Enforcement,Low,45038.9,0,2023-12-02,,David Nakamura,Peer_Review
+SIU-2024-10244,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-22571,CVS Health #8812 St Paul,MSHO,Twin Cities Metro,Under_Review,Medium,93757.89,0,2025-10-16,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10245,Provider_FWA,Impossible_Day,NPI-1222214072,Dr. Christopher Anderson,SNBC,Twin Cities Metro,Open,Medium,107874.86,0,2023-09-08,,Michael Swanson,Internal_Review
+SIU-2024-10246,Provider_FWA,Impossible_Day,NPI-1409573649,Dr. Barbara Thompson,SNBC,Twin Cities Metro,Under_Review,Medium,32807.96,0,2025-07-03,,Lisa Fernandez,CMS_Referral
+SIU-2024-10247,Provider_FWA,Upcoding,NPI-1581376445,Donna Larson,Commercial,Twin Cities Metro,Under_Review,High,459841.24,0,2025-03-17,,Angela Peterson,Internal_Review
+SIU-2024-10248,Network_Abuse,Kickback_Indicator,NPI-1320890008,Dr. Betty Nakamura,PMAP,Northeast MN,Under_Review,Medium,174439.47,0,2023-03-27,,Robert Kim,Internal_Review
+SIU-2024-10249,Network_Abuse,OON_Routing,NPI-1185627380,Dr. Susan Martinez,MSHO,Southwest MN,Closed_Unsubstantiated,High,225271.95,0,2023-04-12,2023-12-14,David Nakamura,Internal_Review
+SIU-2024-10250,Provider_FWA,Impossible_Day,NPI-1981586784,Dr. Jennifer Miller,PMAP,Northeast MN,Recovery_In_Progress,High,461636.73,181261.51,2024-11-12,,Sarah Chen,Internal_Review
+SIU-2024-10251,Member_FWA,Prescription_Surfing,MBR-694116,Donna Taylor,Commercial,Southeast MN,Open,High,592945.3,0,2023-08-08,,Marcus Williams,Audit
+SIU-2024-10252,Network_Abuse,Kickback_Indicator,NPI-1703072911,Joshua Jackson,SNBC,Twin Cities Metro,Under_Review,Low,26287.1,0,2024-01-02,,Robert Kim,Internal_Review
+SIU-2024-10253,Pharmacy_Fraud,GLP1_Diversion,PHR-41139,CVS Health #8812 St Paul,MSHO,Central MN,Recovery_In_Progress,Medium,155506.22,63572.89,2024-07-18,,Lisa Fernandez,Audit
+SIU-2024-10254,Provider_FWA,Phantom_Billing,NPI-1932974300,Dr. David Swanson,SNBC,Southwest MN,Closed_Substantiated,Low,48839.87,16536.89,2025-07-10,2025-12-31,David Nakamura,Peer_Review
+SIU-2024-10255,Provider_FWA,Phantom_Billing,NPI-1931137066,Dr. Patricia Davis,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Low,40617.07,0,2023-05-29,2023-12-04,Angela Peterson,CMS_Referral
+SIU-2024-10256,Provider_FWA,Unbundling,NPI-1061877074,Dr. John Thompson,PMAP,Twin Cities Metro,Under_Review,Low,7275.17,0,2025-01-22,,Michael Swanson,CMS_Referral
+SIU-2024-10257,Provider_FWA,Upcoding,NPI-1524830763,Barbara Fernandez,SNBC,Northeast MN,Under_Review,Medium,108051.9,0,2024-12-31,,Lisa Fernandez,Internal_Review
+SIU-2024-10258,Pharmacy_Fraud,GLP1_Diversion,PHR-31352,Eagan Family Pharmacy,Commercial,Southwest MN,Referred_to_Law_Enforcement,High,471967.74,0,2024-03-28,,David Nakamura,Audit
+SIU-2024-10259,Pharmacy_Fraud,GLP1_Diversion,PHR-99417,Walgreens #3421 Minneapolis,PMAP,Twin Cities Metro,Recovery_In_Progress,Low,26334.37,8135.97,2023-10-12,,Lisa Fernandez,CMS_Referral
+SIU-2024-10260,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-46094,Community Pharmacy Willmar,SNBC,Southwest MN,Closed_Substantiated,Low,45296.73,14784.81,2024-12-29,2025-09-20,Robert Kim,Peer_Review
+SIU-2024-10261,Member_FWA,Doctor_Shopping,MBR-984247,Nancy Wilson,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,138284.87,86993.52,2024-08-15,2025-02-13,Lisa Fernandez,Internal_Review
+SIU-2024-10262,Provider_FWA,Duplicate_Billing,NPI-1958179065,Dr. Richard Nelson,Commercial,Central MN,Closed_Unsubstantiated,High,436240.83,0,2024-05-21,2024-07-19,Robert Kim,Peer_Review
+SIU-2024-10263,Pharmacy_Fraud,Pill_Mill,PHR-48745,Genoa Healthcare Minneapolis,PMAP,Northwest MN,Closed_Substantiated,Low,45811.02,30496.97,2025-04-22,2025-12-06,David Nakamura,Audit
+SIU-2024-10264,Pharmacy_Fraud,Pill_Mill,PHR-72355,Woodbury Health Pharmacy,MSHO,Southwest MN,Closed_Substantiated,Medium,189616.89,68287.94,2025-01-18,2025-11-03,Angela Peterson,Tipline
+SIU-2024-10265,Provider_FWA,Phantom_Billing,NPI-1867952618,Dr. Lisa Lee,MSHO,Northeast MN,Under_Review,High,158044.88,0,2025-01-11,,Rebecca Johnson,Audit
+SIU-2024-10266,Provider_FWA,Impossible_Day,NPI-1505234798,Dr. Donna Taylor,Commercial,Southeast MN,Closed_Unsubstantiated,High,713795.64,0,2023-06-09,2024-03-06,Rebecca Johnson,CMS_Referral
+SIU-2024-10267,Provider_FWA,Upcoding,NPI-1215066828,Dr. Mark Taylor,MSHO,Northeast MN,Open,Low,45178.03,0,2025-08-09,,Jennifer Olson,Algorithm_Detection
+SIU-2024-10268,Member_FWA,Identity_Fraud,MBR-574012,Sarah Carlson,PMAP,Twin Cities Metro,Open,Medium,158208.82,0,2023-12-26,,Marcus Williams,Tipline
+SIU-2024-10269,Member_FWA,Prescription_Surfing,MBR-501936,James Smith,Commercial,Central MN,Recovery_In_Progress,Medium,118411.96,50920.39,2025-02-17,,Angela Peterson,Tipline
+SIU-2024-10270,Provider_FWA,Upcoding,NPI-1744666527,Dr. Karen Nelson,PMAP,Twin Cities Metro,Under_Review,Medium,42973.94,0,2025-11-10,,Sarah Chen,Audit
+SIU-2024-10271,Network_Abuse,Kickback_Indicator,NPI-1362747729,David Berg,MSHO,Northeast MN,Closed_Substantiated,Low,49826.25,33636.75,2025-10-14,2025-12-31,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10272,Provider_FWA,Unbundling,NPI-1541846158,Dr. Linda Erickson,SNBC,Southwest MN,Open,High,562221.56,0,2023-04-01,,Angela Peterson,CMS_Referral
+SIU-2024-10273,Provider_FWA,Upcoding,NPI-1021197567,Dr. Linda Williams,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,102755.0,33592.34,2023-09-25,2024-07-31,Sarah Chen,Audit
+SIU-2024-10274,Member_FWA,Doctor_Shopping,MBR-735053,David Williams,PMAP,Southwest MN,Under_Review,Medium,170364.23,0,2023-08-17,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10275,Pharmacy_Fraud,Forged_Prescription,PHR-44471,North Loop Rx Minneapolis,SNBC,Twin Cities Metro,Open,High,440044.97,0,2024-03-03,,Jennifer Olson,Algorithm_Detection
+SIU-2024-10276,Member_FWA,Identity_Fraud,MBR-345896,James Johnson,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,142535.8,88132.07,2023-08-29,2024-07-17,Angela Peterson,Algorithm_Detection
+SIU-2024-10277,Pharmacy_Fraud,GLP1_Diversion,PHR-69867,Omnicare of Minnesota,Commercial,Northeast MN,Closed_Substantiated,Low,16885.63,12144.57,2023-04-27,2023-07-17,Thomas Anderson,Internal_Review
+SIU-2024-10278,Provider_FWA,Upcoding,NPI-1049273037,Dr. David Kim,Commercial,Northwest MN,Closed_Unsubstantiated,High,520679.11,0,2024-11-18,2025-06-19,Lisa Fernandez,Internal_Review
+SIU-2024-10279,Provider_FWA,Duplicate_Billing,NPI-1490204687,Dr. Anthony Chen,PMAP,Central MN,Referred_to_Law_Enforcement,High,652936.53,0,2025-05-27,,Marcus Williams,Tipline
+SIU-2024-10280,Pharmacy_Fraud,GLP1_Diversion,PHR-23593,Community Pharmacy Willmar,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Low,46005.2,0,2025-09-29,2025-12-31,Rebecca Johnson,Audit
+SIU-2024-10281,Member_FWA,Identity_Fraud,MBR-531262,Donald Smith,PMAP,Central MN,Closed_Substantiated,Medium,36083.81,23209.02,2024-10-19,2024-11-24,Robert Kim,Internal_Review
+SIU-2024-10282,Member_FWA,Eligibility_Abuse,MBR-748270,Michael Williams,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,140799.82,55197.0,2024-06-07,2025-03-10,Angela Peterson,CMS_Referral
+SIU-2024-10283,Provider_FWA,Unbundling,NPI-1532398698,Dr. Robert Garcia,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,111038.39,92062.1,2024-05-22,2024-12-07,Rebecca Johnson,Peer_Review
+SIU-2024-10284,Pharmacy_Fraud,GLP1_Diversion,PHR-68733,Cub Pharmacy Bloomington,MSHO,Southeast MN,Closed_Unsubstantiated,Medium,174903.11,0,2025-07-18,2025-12-31,Sarah Chen,Algorithm_Detection
+SIU-2024-10285,Member_FWA,Doctor_Shopping,MBR-195310,Kenneth Jackson,PMAP,Southwest MN,Open,Medium,136569.17,0,2025-11-21,,Michael Swanson,Audit
+SIU-2024-10286,Provider_FWA,Upcoding,NPI-1356452891,Nancy Chen,MSHO,Twin Cities Metro,Closed_Unsubstantiated,Low,25363.96,0,2023-08-02,2023-12-23,Lisa Fernandez,CMS_Referral
+SIU-2024-10287,Member_FWA,Doctor_Shopping,MBR-247271,Mark Peterson,MSHO,Northwest MN,Open,Critical,881433.97,0,2024-02-20,,Rebecca Johnson,Tipline
+SIU-2024-10288,Member_FWA,Identity_Fraud,MBR-534603,John Kowalski,Commercial,Southeast MN,Open,Low,33495.82,0,2023-09-24,,Robert Kim,CMS_Referral
+SIU-2024-10289,Provider_FWA,Phantom_Billing,NPI-1594022242,Donna Brown,MSHO,Central MN,Closed_Unsubstantiated,Critical,1886556.31,0,2024-01-12,2024-12-03,Marcus Williams,Peer_Review
+SIU-2024-10290,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-89822,Woodbury Health Pharmacy,SNBC,Northwest MN,Referred_to_Law_Enforcement,Medium,146190.22,0,2024-06-06,,Lisa Fernandez,Peer_Review
+SIU-2024-10291,Pharmacy_Fraud,Pill_Mill,PHR-77147,Omnicare of Minnesota,MSHO,Southwest MN,Closed_Substantiated,Medium,172538.03,102281.98,2024-10-18,2025-08-27,Lisa Fernandez,Internal_Review
+SIU-2024-10292,Provider_FWA,Unbundling,NPI-1190924932,Dr. Linda Garcia,PMAP,Twin Cities Metro,Closed_Substantiated,Low,20850.7,11456.35,2025-09-24,2025-12-31,Angela Peterson,Audit
+SIU-2024-10293,Network_Abuse,Kickback_Indicator,NPI-1027135757,Elizabeth Smith,MSHO,Twin Cities Metro,Closed_Substantiated,Low,35161.44,23738.53,2024-02-28,2024-08-12,Lisa Fernandez,Tipline
+SIU-2024-10294,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-57013,North Loop Rx Minneapolis,MSHO,Central MN,Closed_Substantiated,High,394186.43,213999.63,2024-04-18,2025-04-14,Lisa Fernandez,Internal_Review
+SIU-2024-10295,Pharmacy_Fraud,Forged_Prescription,PHR-99803,PharMerica St Cloud,SNBC,Southwest MN,Recovery_In_Progress,Medium,194020.81,10707.25,2023-05-05,,Michael Swanson,Tipline
+SIU-2024-10296,Network_Abuse,Self_Referral,NPI-1631773948,Dr. Richard Swanson,MSHO,Twin Cities Metro,Under_Review,Low,25196.67,0,2023-06-16,,Angela Peterson,Algorithm_Detection
+SIU-2024-10297,Provider_FWA,Phantom_Billing,NPI-1172796036,Dr. James Berg,MSHO,Northwest MN,Under_Review,High,403115.37,0,2023-11-28,,Robert Kim,Algorithm_Detection
+SIU-2024-10298,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-56934,Cub Pharmacy Bloomington,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,162205.5,49306.16,2024-10-26,2025-08-21,Angela Peterson,Tipline
+SIU-2024-10299,Member_FWA,Prescription_Surfing,MBR-323717,Lisa Berg,Commercial,Southwest MN,Under_Review,High,334518.59,0,2024-04-06,,Michael Swanson,CMS_Referral
+SIU-2024-10300,Pharmacy_Fraud,GLP1_Diversion,PHR-41502,Maple Grove Pharmacy,Commercial,Southwest MN,Under_Review,High,517471.83,0,2024-05-28,,Thomas Anderson,Peer_Review
+SIU-2024-10301,Network_Abuse,OON_Routing,NPI-1303685324,Dr. Kimberly Nguyen,SNBC,Southwest MN,Closed_Substantiated,Medium,159836.51,78441.89,2025-11-21,2025-12-31,Thomas Anderson,CMS_Referral
+SIU-2024-10302,Provider_FWA,Upcoding,NPI-1577646075,Dr. Robert Carlson,SNBC,Twin Cities Metro,Recovery_In_Progress,High,535717.83,212133.73,2024-03-26,,Angela Peterson,Internal_Review
+SIU-2024-10303,Network_Abuse,Self_Referral,NPI-1077438788,Dr. Mary Thompson,MSHO,Twin Cities Metro,Closed_Substantiated,Low,37259.07,7499.27,2023-04-02,2023-06-15,Marcus Williams,CMS_Referral
+SIU-2024-10304,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-63011,Community Pharmacy Willmar,PMAP,Southeast MN,Referred_to_Law_Enforcement,Medium,80370.74,0,2025-03-22,,Robert Kim,Algorithm_Detection
+SIU-2024-10305,Pharmacy_Fraud,GLP1_Diversion,PHR-75907,Hy-Vee Pharmacy Rochester,PMAP,Twin Cities Metro,Open,Low,18042.65,0,2024-09-23,,Michael Swanson,Peer_Review
+SIU-2024-10306,Provider_FWA,Upcoding,NPI-1146438473,Andrew Swanson,Commercial,Central MN,Closed_Substantiated,Medium,193023.5,120466.42,2023-11-06,2024-05-06,Thomas Anderson,Algorithm_Detection
+SIU-2024-10307,Member_FWA,Identity_Fraud,MBR-725637,Betty Wilson,SNBC,Central MN,Open,High,455891.54,0,2023-07-08,,Thomas Anderson,Tipline
+SIU-2024-10308,Member_FWA,Identity_Fraud,MBR-975297,Thomas Carlson,Commercial,Northwest MN,Under_Review,High,174504.65,0,2023-05-06,,Angela Peterson,Peer_Review
+SIU-2024-10309,Member_FWA,Doctor_Shopping,MBR-202972,Richard Patel,SNBC,Southwest MN,Open,High,477387.17,0,2024-11-22,,David Nakamura,Algorithm_Detection
+SIU-2024-10310,Provider_FWA,Upcoding,NPI-1483877436,Dr. Michelle Kim,PMAP,Twin Cities Metro,Under_Review,Low,18755.4,0,2023-11-23,,Thomas Anderson,Peer_Review
+SIU-2024-10311,Provider_FWA,Duplicate_Billing,NPI-1794371615,Sarah Nguyen,Commercial,Southeast MN,Under_Review,High,333665.9,0,2024-11-24,,Thomas Anderson,Audit
+SIU-2024-10312,Member_FWA,Doctor_Shopping,MBR-982683,Sarah Fernandez,PMAP,Central MN,Closed_Substantiated,High,637188.39,422762.54,2024-02-21,2024-08-03,Sarah Chen,CMS_Referral
+SIU-2024-10313,Member_FWA,Prescription_Surfing,MBR-138436,Emily Hansen,PMAP,Twin Cities Metro,Under_Review,Low,29456.12,0,2025-09-07,,Rebecca Johnson,Tipline
+SIU-2024-10314,Network_Abuse,Self_Referral,NPI-1498969054,Dr. Betty Erickson,Commercial,Central MN,Under_Review,Low,27597.53,0,2024-05-18,,Robert Kim,Internal_Review
+SIU-2024-10315,Provider_FWA,Impossible_Day,NPI-1608121468,Dr. Steven Erickson,MSHO,Twin Cities Metro,Open,High,126272.89,0,2025-10-09,,David Nakamura,Algorithm_Detection
+SIU-2024-10316,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-16086,CVS Health #8812 St Paul,Commercial,Southwest MN,Recovery_In_Progress,Medium,196603.21,17947.91,2024-11-08,,Lisa Fernandez,Internal_Review
+SIU-2024-10317,Provider_FWA,Impossible_Day,NPI-1406431167,Dr. Donna Lee,PMAP,Twin Cities Metro,Under_Review,Medium,182189.66,0,2023-06-23,,David Nakamura,CMS_Referral
+SIU-2024-10318,Member_FWA,Eligibility_Abuse,MBR-733561,James Davis,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,179355.99,55778.55,2025-07-03,2025-10-25,Jennifer Olson,Tipline
+SIU-2024-10319,Provider_FWA,Impossible_Day,NPI-1247332488,Lisa Patel,SNBC,Southeast MN,Open,Low,10100.24,0,2025-09-21,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10320,Provider_FWA,Unbundling,NPI-1675963880,Dr. Joshua Nelson,Commercial,Southeast MN,Open,Medium,34784.6,0,2024-06-26,,Rebecca Johnson,CMS_Referral
+SIU-2024-10321,Network_Abuse,Self_Referral,NPI-1710543344,Dr. Jennifer Carlson,MSHO,Northeast MN,Closed_Unsubstantiated,Critical,1173805.04,0,2025-09-06,2025-12-31,Robert Kim,Tipline
+SIU-2024-10322,Pharmacy_Fraud,Pill_Mill,PHR-31983,Valley Pharmacy Fargo,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,144978.45,81683.35,2025-07-31,2025-12-31,Marcus Williams,Algorithm_Detection
+SIU-2024-10323,Provider_FWA,Impossible_Day,NPI-1650162509,Dr. Barbara Brown,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Medium,182781.44,0,2023-04-04,2024-01-31,Michael Swanson,Internal_Review
+SIU-2024-10324,Provider_FWA,Impossible_Day,NPI-1832010779,Kimberly Williams,PMAP,Twin Cities Metro,Open,Medium,89816.05,0,2023-04-13,,Michael Swanson,Peer_Review
+SIU-2024-10325,Provider_FWA,Impossible_Day,NPI-1512326496,Dr. Jennifer Swanson,SNBC,Twin Cities Metro,Open,High,488890.03,0,2025-04-30,,Sarah Chen,CMS_Referral
+SIU-2024-10326,Member_FWA,Doctor_Shopping,MBR-943356,Daniel Williams,SNBC,Southeast MN,Under_Review,Medium,88397.21,0,2023-11-27,,Lisa Fernandez,CMS_Referral
+SIU-2024-10327,Member_FWA,Eligibility_Abuse,MBR-516760,Susan Williams,PMAP,Southeast MN,Recovery_In_Progress,Medium,121618.37,14775.15,2025-09-29,,Lisa Fernandez,CMS_Referral
+SIU-2024-10328,Provider_FWA,Phantom_Billing,NPI-1707899575,Dr. Joseph Thompson,MSHO,Twin Cities Metro,Closed_Unsubstantiated,Low,40239.92,0,2023-12-12,2024-03-02,Thomas Anderson,CMS_Referral
+SIU-2024-10329,Member_FWA,Doctor_Shopping,MBR-105547,Jennifer Nguyen,SNBC,Twin Cities Metro,Recovery_In_Progress,High,194463.48,16579.23,2025-06-24,,Robert Kim,Algorithm_Detection
+SIU-2024-10330,Pharmacy_Fraud,Forged_Prescription,PHR-88311,CVS Health #8812 St Paul,MSHO,Northeast MN,Closed_Substantiated,Medium,190500.28,94499.16,2024-01-08,2024-12-30,Angela Peterson,Audit
+SIU-2024-10331,Provider_FWA,Impossible_Day,NPI-1660555221,Dr. John Erickson,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,66869.91,14095.51,2023-01-15,2023-05-05,Rebecca Johnson,Peer_Review
+SIU-2024-10332,Member_FWA,Doctor_Shopping,MBR-194545,Emily Swanson,SNBC,Central MN,Open,Low,37676.24,0,2024-12-27,,David Nakamura,CMS_Referral
+SIU-2024-10333,Network_Abuse,Kickback_Indicator,NPI-1280362052,Dr. Mark Davis,Commercial,Central MN,Closed_Substantiated,Low,9790.92,3485.34,2023-06-12,2024-03-25,Lisa Fernandez,CMS_Referral
+SIU-2024-10334,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-83815,Metro Rx Express Minneapolis,SNBC,Southeast MN,Recovery_In_Progress,Medium,159744.26,69408.16,2024-12-10,,Robert Kim,Algorithm_Detection
+SIU-2024-10335,Member_FWA,Eligibility_Abuse,MBR-331087,Joseph Martinez,PMAP,Twin Cities Metro,Closed_Substantiated,Critical,973596.04,511095.41,2025-01-07,2025-10-28,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10336,Provider_FWA,Duplicate_Billing,NPI-1511697526,Dr. Matthew Carlson,PMAP,Northwest MN,Recovery_In_Progress,Critical,1841474.38,226710.87,2024-07-19,,David Nakamura,Peer_Review
+SIU-2024-10337,Pharmacy_Fraud,Pill_Mill,PHR-37102,Lewis Drug Mankato,SNBC,Central MN,Recovery_In_Progress,Low,14124.5,5431.35,2024-06-09,,Marcus Williams,Algorithm_Detection
+SIU-2024-10338,Pharmacy_Fraud,Forged_Prescription,PHR-80972,CVS Health #8812 St Paul,SNBC,Northeast MN,Closed_Unsubstantiated,Medium,173401.85,0,2025-02-13,2025-12-31,Robert Kim,Audit
+SIU-2024-10339,Member_FWA,Eligibility_Abuse,MBR-234475,Patricia Davis,MSHO,Twin Cities Metro,Closed_Unsubstantiated,Medium,164872.24,0,2025-09-20,2025-12-31,Jennifer Olson,Peer_Review
+SIU-2024-10340,Network_Abuse,Self_Referral,NPI-1009039413,Dr. Susan Miller,SNBC,Northeast MN,Under_Review,Medium,126676.44,0,2024-11-11,,Jennifer Olson,CMS_Referral
+SIU-2024-10341,Provider_FWA,Duplicate_Billing,NPI-1392908067,Dr. Ashley Williams,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,61843.18,46260.45,2025-02-15,2025-09-19,Jennifer Olson,CMS_Referral
+SIU-2024-10342,Pharmacy_Fraud,GLP1_Diversion,PHR-82789,Community Pharmacy Willmar,Commercial,Central MN,Closed_Unsubstantiated,Low,43533.89,0,2024-02-20,2024-06-03,Michael Swanson,Algorithm_Detection
+SIU-2024-10343,Provider_FWA,Phantom_Billing,NPI-1677157408,Dr. Ashley Swanson,PMAP,Twin Cities Metro,Recovery_In_Progress,High,263133.12,55089.75,2023-04-22,,Lisa Fernandez,Peer_Review
+SIU-2024-10344,Pharmacy_Fraud,GLP1_Diversion,PHR-57312,CarePATH Pharmacy Burnsville,SNBC,Twin Cities Metro,Under_Review,Medium,123061.26,0,2024-06-25,,Thomas Anderson,Internal_Review
+SIU-2024-10345,Network_Abuse,OON_Routing,NPI-1578143675,Dr. Christopher Erickson,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,81890.8,56694.73,2025-11-25,2025-12-31,Robert Kim,Audit
+SIU-2024-10346,Member_FWA,Identity_Fraud,MBR-453777,Mark Lee,SNBC,Twin Cities Metro,Closed_Substantiated,Low,32553.96,6685.88,2025-04-22,2025-06-27,Lisa Fernandez,Internal_Review
+SIU-2024-10347,Provider_FWA,Phantom_Billing,NPI-1926431406,Dr. Donna Davis,MSHO,Northeast MN,Referred_to_Law_Enforcement,High,727591.92,0,2025-05-11,,Jennifer Olson,Internal_Review
+SIU-2024-10348,Provider_FWA,Duplicate_Billing,NPI-1085968857,Dr. William Miller,MSHO,Twin Cities Metro,Closed_Substantiated,Low,9635.42,5144.39,2023-05-25,2024-02-21,Marcus Williams,Algorithm_Detection
+SIU-2024-10349,Provider_FWA,Unbundling,NPI-1418594177,Dr. Joseph Larson,MSHO,Northeast MN,Recovery_In_Progress,High,579435.6,174173.86,2025-07-10,,Sarah Chen,Algorithm_Detection
+SIU-2024-10350,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-80855,Woodbury Health Pharmacy,PMAP,Twin Cities Metro,Closed_Substantiated,Low,17258.65,14301.89,2025-07-14,2025-10-21,Robert Kim,Peer_Review
+SIU-2024-10351,Member_FWA,Prescription_Surfing,MBR-424703,Matthew Brown,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,119441.92,43656.95,2023-07-17,2024-03-29,Sarah Chen,Algorithm_Detection
+SIU-2024-10352,Member_FWA,Identity_Fraud,MBR-108721,Ashley Garcia,PMAP,Central MN,Closed_Substantiated,Medium,108486.74,76871.03,2023-02-02,2023-10-10,Angela Peterson,Audit
+SIU-2024-10353,Provider_FWA,Impossible_Day,NPI-1767658814,Anthony Larson,PMAP,Southeast MN,Under_Review,Medium,71021.55,0,2025-05-28,,Robert Kim,Internal_Review
+SIU-2024-10354,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-45235,Community Pharmacy Willmar,MSHO,Southeast MN,Closed_Substantiated,Medium,57900.11,14222.4,2023-06-04,2023-10-05,Michael Swanson,Audit
+SIU-2024-10355,Pharmacy_Fraud,Forged_Prescription,PHR-16505,Iron Range Pharmacy Hibbing,SNBC,Twin Cities Metro,Open,High,114385.08,0,2023-08-12,,Michael Swanson,Internal_Review
+SIU-2024-10356,Provider_FWA,Upcoding,NPI-1367126134,Karen Martinez,MSHO,Twin Cities Metro,Closed_Substantiated,High,619650.53,395246.79,2025-02-13,2025-11-07,Jennifer Olson,Algorithm_Detection
+SIU-2024-10357,Provider_FWA,Phantom_Billing,NPI-1206364903,Dr. Anthony Nguyen,SNBC,Central MN,Closed_Substantiated,Critical,518923.23,357983.2,2024-06-07,2025-01-20,Sarah Chen,Tipline
+SIU-2024-10358,Member_FWA,Doctor_Shopping,MBR-595793,Anthony Kim,PMAP,Central MN,Recovery_In_Progress,Medium,193212.43,21918.9,2024-11-06,,Angela Peterson,CMS_Referral
+SIU-2024-10359,Provider_FWA,Phantom_Billing,NPI-1952966891,Dr. Susan Peterson,SNBC,Twin Cities Metro,Open,Medium,66294.02,0,2025-06-22,,Lisa Fernandez,CMS_Referral
+SIU-2024-10360,Provider_FWA,Unbundling,NPI-1841250135,Kenneth Nelson,MSHO,Southeast MN,Open,Critical,1057097.99,0,2023-07-17,,Robert Kim,Audit
+SIU-2024-10361,Network_Abuse,Self_Referral,NPI-1165268660,Dr. David Brown,Commercial,Twin Cities Metro,Under_Review,Critical,849011.95,0,2024-12-26,,David Nakamura,Algorithm_Detection
+SIU-2024-10362,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-15175,Metro Rx Express Minneapolis,PMAP,Southeast MN,Under_Review,Low,36798.17,0,2024-09-09,,Robert Kim,Tipline
+SIU-2024-10363,Member_FWA,Eligibility_Abuse,MBR-971733,Kenneth Kowalski,MSHO,Twin Cities Metro,Under_Review,Low,43725.24,0,2023-12-09,,Lisa Fernandez,Audit
+SIU-2024-10364,Member_FWA,Prescription_Surfing,MBR-497455,Barbara Nakamura,PMAP,Southwest MN,Closed_Substantiated,Critical,528079.78,167480.81,2025-01-29,2025-12-31,Angela Peterson,Peer_Review
+SIU-2024-10365,Provider_FWA,Phantom_Billing,NPI-1304007541,Dr. Mark Lee,PMAP,Twin Cities Metro,Open,Low,19491.08,0,2023-07-31,,Jennifer Olson,Tipline
+SIU-2024-10366,Network_Abuse,OON_Routing,NPI-1034163406,Ashley Davis,MSHO,Twin Cities Metro,Open,High,505580.81,0,2024-06-22,,Marcus Williams,Algorithm_Detection
+SIU-2024-10367,Network_Abuse,OON_Routing,NPI-1893436624,Dr. Sandra Martinez,Commercial,Twin Cities Metro,Recovery_In_Progress,Medium,136810.43,37377.7,2025-01-23,,Thomas Anderson,Internal_Review
+SIU-2024-10368,Provider_FWA,Impossible_Day,NPI-1075578677,Dr. Robert Carlson,MSHO,Twin Cities Metro,Open,High,724381.38,0,2023-08-01,,Rebecca Johnson,Tipline
+SIU-2024-10369,Provider_FWA,Unbundling,NPI-1599602642,Michael Garcia,PMAP,Twin Cities Metro,Recovery_In_Progress,Medium,136759.25,43735.2,2025-01-17,,Marcus Williams,Tipline
+SIU-2024-10370,Pharmacy_Fraud,Forged_Prescription,PHR-79979,Heartland Pharmacy Owatonna,Commercial,Northeast MN,Closed_Substantiated,Medium,102527.13,54857.85,2025-01-05,2025-07-15,Rebecca Johnson,Internal_Review
+SIU-2024-10371,Member_FWA,Eligibility_Abuse,MBR-324319,Anthony Garcia,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,121291.77,99842.08,2024-06-18,2025-01-18,Sarah Chen,Audit
+SIU-2024-10372,Member_FWA,Identity_Fraud,MBR-414922,Joseph Carlson,Commercial,Northwest MN,Under_Review,Low,43507.42,0,2023-02-28,,Lisa Fernandez,CMS_Referral
+SIU-2024-10373,Member_FWA,Identity_Fraud,MBR-263690,David Hansen,SNBC,Southeast MN,Closed_Substantiated,High,338603.88,111526.19,2024-06-09,2024-11-05,Robert Kim,Tipline
+SIU-2024-10374,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-85527,North Loop Rx Minneapolis,MSHO,Central MN,Open,Low,45844.5,0,2024-09-21,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10375,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-64594,Woodbury Health Pharmacy,Commercial,Northwest MN,Closed_Unsubstantiated,Medium,176870.44,0,2024-04-23,2025-04-22,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10376,Provider_FWA,Upcoding,NPI-1350932787,Dr. Elizabeth Smith,PMAP,Twin Cities Metro,Closed_Substantiated,Medium,142886.17,96732.24,2025-03-29,2025-12-12,Rebecca Johnson,Audit
+SIU-2024-10377,Pharmacy_Fraud,Pill_Mill,PHR-84899,Valley Pharmacy Fargo,SNBC,Twin Cities Metro,Open,High,132052.21,0,2025-04-11,,Rebecca Johnson,Internal_Review
+SIU-2024-10378,Provider_FWA,Unbundling,NPI-1424470332,Dr. Emily Jackson,MSHO,Twin Cities Metro,Open,Medium,199488.78,0,2024-06-02,,Rebecca Johnson,Audit
+SIU-2024-10379,Pharmacy_Fraud,GLP1_Diversion,PHR-57876,CarePATH Pharmacy Burnsville,PMAP,Twin Cities Metro,Referred_to_Law_Enforcement,High,223818.33,0,2024-12-20,,Lisa Fernandez,Tipline
+SIU-2024-10380,Network_Abuse,Self_Referral,NPI-1669136744,Dr. Donald Smith,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Low,46589.59,0,2024-05-07,2024-09-16,Marcus Williams,Algorithm_Detection
+SIU-2024-10381,Pharmacy_Fraud,Pill_Mill,PHR-47707,Walgreens #3421 Minneapolis,SNBC,Twin Cities Metro,Recovery_In_Progress,Low,20447.21,3517.89,2023-08-30,,Angela Peterson,Tipline
+SIU-2024-10382,Provider_FWA,Impossible_Day,NPI-1668986243,Dr. Mary Miller,SNBC,Central MN,Closed_Substantiated,Low,31235.22,8409.26,2023-04-14,2023-09-21,Robert Kim,Audit
+SIU-2024-10383,Provider_FWA,Upcoding,NPI-1711871111,Dr. Michael Johnson,PMAP,Central MN,Closed_Substantiated,Critical,938743.37,784653.34,2025-03-16,2025-08-11,Thomas Anderson,Peer_Review
+SIU-2024-10384,Network_Abuse,Self_Referral,NPI-1491759000,Dr. John Larson,SNBC,Twin Cities Metro,Open,High,699475.58,0,2024-09-30,,Jennifer Olson,Algorithm_Detection
+SIU-2024-10385,Provider_FWA,Duplicate_Billing,NPI-1538214657,Dr. Patricia Lee,Commercial,Central MN,Under_Review,Medium,70093.89,0,2025-03-17,,Sarah Chen,CMS_Referral
+SIU-2024-10386,Network_Abuse,OON_Routing,NPI-1705375110,Dr. Jennifer Patel,PMAP,Twin Cities Metro,Recovery_In_Progress,High,348434.63,75587.09,2024-04-24,,Lisa Fernandez,CMS_Referral
+SIU-2024-10387,Provider_FWA,Impossible_Day,NPI-1623876967,Dr. David Swanson,Commercial,Twin Cities Metro,Closed_Substantiated,High,547545.86,463760.43,2023-10-18,2024-06-24,Robert Kim,Tipline
+SIU-2024-10388,Provider_FWA,Impossible_Day,NPI-1197713683,Dr. Elizabeth Patel,Commercial,Twin Cities Metro,Closed_Unsubstantiated,Medium,30159.59,0,2024-10-28,2025-06-26,Lisa Fernandez,Tipline
+SIU-2024-10389,Pharmacy_Fraud,GLP1_Diversion,PHR-90213,Heartland Pharmacy Owatonna,PMAP,Twin Cities Metro,Open,High,273460.7,0,2024-05-01,,Sarah Chen,Audit
+SIU-2024-10390,Provider_FWA,Phantom_Billing,NPI-1503330974,Dr. Barbara Fernandez,MSHO,Twin Cities Metro,Closed_Unsubstantiated,High,351849.19,0,2025-09-11,2025-12-20,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10391,Network_Abuse,Kickback_Indicator,NPI-1217790892,Dr. Robert Olson,SNBC,Southeast MN,Closed_Substantiated,High,702617.08,346362.14,2025-07-02,2025-12-31,David Nakamura,Peer_Review
+SIU-2024-10392,Member_FWA,Doctor_Shopping,MBR-855185,Daniel Miller,MSHO,Southeast MN,Closed_Unsubstantiated,Medium,132013.35,0,2023-04-03,2024-01-24,Sarah Chen,Tipline
+SIU-2024-10393,Member_FWA,Prescription_Surfing,MBR-506216,Kimberly Garcia,MSHO,Twin Cities Metro,Open,Low,33379.18,0,2023-04-25,,Lisa Fernandez,Audit
+SIU-2024-10394,Member_FWA,Prescription_Surfing,MBR-823468,Kimberly Nakamura,PMAP,Twin Cities Metro,Recovery_In_Progress,High,192455.75,16585.13,2025-07-28,,Robert Kim,Internal_Review
+SIU-2024-10395,Member_FWA,Prescription_Surfing,MBR-287567,Sandra Taylor,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,181908.06,0,2024-03-03,,Thomas Anderson,Internal_Review
+SIU-2024-10396,Member_FWA,Identity_Fraud,MBR-219710,Donald Lee,PMAP,Northwest MN,Open,Low,21332.45,0,2025-03-11,,Robert Kim,Tipline
+SIU-2024-10397,Provider_FWA,Phantom_Billing,NPI-1359910894,Dr. William Fernandez,SNBC,Twin Cities Metro,Open,Critical,716911.06,0,2023-04-30,,Michael Swanson,Audit
+SIU-2024-10398,Member_FWA,Doctor_Shopping,MBR-103704,Michelle Garcia,SNBC,Central MN,Recovery_In_Progress,Low,16389.99,4081.94,2025-08-11,,Robert Kim,Peer_Review
+SIU-2024-10399,Provider_FWA,Impossible_Day,NPI-1474460059,Dr. Kenneth Jackson,PMAP,Southeast MN,Referred_to_Law_Enforcement,Medium,26150.28,0,2024-08-06,,David Nakamura,Algorithm_Detection
+SIU-2024-10400,Provider_FWA,Upcoding,NPI-1916792220,Dr. Joshua Nguyen,Commercial,Twin Cities Metro,Open,Medium,130574.96,0,2024-11-23,,Rebecca Johnson,Tipline
+SIU-2024-10401,Provider_FWA,Duplicate_Billing,NPI-1638843080,Dr. Sandra Patel,SNBC,Northeast MN,Closed_Substantiated,Medium,126319.1,86902.28,2023-03-29,2023-06-14,Marcus Williams,Peer_Review
+SIU-2024-10402,Pharmacy_Fraud,GLP1_Diversion,PHR-45968,PharMerica St Cloud,PMAP,Southwest MN,Open,High,442584.28,0,2024-03-19,,Marcus Williams,CMS_Referral
+SIU-2024-10403,Pharmacy_Fraud,GLP1_Diversion,PHR-47642,Community Pharmacy Willmar,Commercial,Twin Cities Metro,Closed_Substantiated,Medium,131547.81,68112.02,2024-10-24,2025-04-04,Jennifer Olson,CMS_Referral
+SIU-2024-10404,Member_FWA,Prescription_Surfing,MBR-739008,Joseph Chen,MSHO,Twin Cities Metro,Open,Medium,75835.41,0,2024-02-15,,Marcus Williams,Internal_Review
+SIU-2024-10405,Pharmacy_Fraud,Forged_Prescription,PHR-83454,Uptown Pharmacy Minneapolis,PMAP,Southwest MN,Under_Review,Medium,136563.12,0,2023-02-07,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10406,Provider_FWA,Impossible_Day,NPI-1122231288,Dr. Lisa Miller,MSHO,Northeast MN,Closed_Unsubstantiated,Medium,151769.41,0,2023-03-15,2023-07-12,Michael Swanson,Peer_Review
+SIU-2024-10407,Pharmacy_Fraud,Pill_Mill,PHR-80381,Maple Grove Pharmacy,SNBC,Central MN,Closed_Substantiated,Medium,83644.19,61442.85,2025-05-11,2025-07-08,Thomas Anderson,CMS_Referral
+SIU-2024-10408,Member_FWA,Identity_Fraud,MBR-934438,Matthew Anderson,Commercial,Twin Cities Metro,Under_Review,Medium,194682.33,0,2024-08-11,,Rebecca Johnson,Internal_Review
+SIU-2024-10409,Member_FWA,Identity_Fraud,MBR-724103,Linda Fernandez,PMAP,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,161910.19,0,2024-10-07,,Sarah Chen,Audit
+SIU-2024-10410,Member_FWA,Prescription_Surfing,MBR-969749,Karen Carlson,MSHO,Central MN,Under_Review,Low,28629.52,0,2024-01-08,,David Nakamura,Algorithm_Detection
+SIU-2024-10411,Member_FWA,Doctor_Shopping,MBR-261562,Richard Berg,MSHO,Northeast MN,Recovery_In_Progress,Low,46563.65,16772.85,2024-10-11,,Angela Peterson,Internal_Review
+SIU-2024-10412,Network_Abuse,OON_Routing,NPI-1766305263,Dr. James Swanson,SNBC,Northeast MN,Referred_to_Law_Enforcement,Low,46955.18,0,2023-07-12,,Marcus Williams,CMS_Referral
+SIU-2024-10413,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-93735,Maple Grove Pharmacy,SNBC,Southeast MN,Closed_Unsubstantiated,Critical,814768.53,0,2024-02-29,2024-07-06,Michael Swanson,Internal_Review
+SIU-2024-10414,Provider_FWA,Unbundling,NPI-1668882058,Dr. Susan Wilson,SNBC,Northwest MN,Open,High,327706.79,0,2024-10-28,,Lisa Fernandez,CMS_Referral
+SIU-2024-10415,Provider_FWA,Upcoding,NPI-1580440242,Patricia Nelson,MSHO,Twin Cities Metro,Recovery_In_Progress,Medium,30073.72,2777.93,2023-04-28,,Jennifer Olson,Internal_Review
+SIU-2024-10416,Member_FWA,Prescription_Surfing,MBR-957150,Richard Chen,Commercial,Central MN,Under_Review,Medium,157720.45,0,2023-06-24,,Michael Swanson,CMS_Referral
+SIU-2024-10417,Provider_FWA,Phantom_Billing,NPI-1691939208,Steven Larson,Commercial,Southwest MN,Under_Review,High,715841.38,0,2023-11-05,,Thomas Anderson,Peer_Review
+SIU-2024-10418,Provider_FWA,Duplicate_Billing,NPI-1486708987,Mary Anderson,Commercial,Twin Cities Metro,Recovery_In_Progress,Low,26390.05,6372.16,2025-01-03,,Thomas Anderson,CMS_Referral
+SIU-2024-10419,Member_FWA,Doctor_Shopping,MBR-212178,Daniel Wilson,SNBC,Southeast MN,Closed_Unsubstantiated,Medium,138654.0,0,2024-09-24,2025-07-23,David Nakamura,CMS_Referral
+SIU-2024-10420,Provider_FWA,Unbundling,NPI-1365839040,Dr. Donna Williams,PMAP,Twin Cities Metro,Referred_to_Law_Enforcement,Low,40294.13,0,2025-06-24,,David Nakamura,Tipline
+SIU-2024-10421,Pharmacy_Fraud,GLP1_Diversion,PHR-73783,Hy-Vee Pharmacy Rochester,PMAP,Northeast MN,Closed_Unsubstantiated,Low,31647.34,0,2025-08-20,2025-12-31,Jennifer Olson,Audit
+SIU-2024-10422,Network_Abuse,OON_Routing,NPI-1640385433,Daniel Brown,MSHO,Southeast MN,Closed_Substantiated,Medium,137873.1,41682.93,2023-05-20,2023-08-04,Sarah Chen,Tipline
+SIU-2024-10423,Pharmacy_Fraud,Forged_Prescription,PHR-85750,Lakeview Pharmacy Brainerd,SNBC,Central MN,Referred_to_Law_Enforcement,Medium,59241.66,0,2024-10-24,,Lisa Fernandez,Peer_Review
+SIU-2024-10424,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-90149,Prairie Health Pharmacy Marshall,Commercial,Northwest MN,Closed_Substantiated,Low,23188.88,4491.39,2023-10-03,2024-03-31,Sarah Chen,Internal_Review
+SIU-2024-10425,Member_FWA,Eligibility_Abuse,MBR-132699,Jessica Williams,PMAP,Central MN,Under_Review,High,556444.22,0,2025-04-01,,Rebecca Johnson,Peer_Review
+SIU-2024-10426,Member_FWA,Identity_Fraud,MBR-297370,Emily Miller,Commercial,Southwest MN,Closed_Substantiated,Medium,172582.34,44524.02,2025-01-21,2025-09-21,Jennifer Olson,Algorithm_Detection
+SIU-2024-10427,Provider_FWA,Upcoding,NPI-1706443412,David Anderson,Commercial,Southwest MN,Recovery_In_Progress,High,189193.17,74553.67,2025-05-15,,Rebecca Johnson,CMS_Referral
+SIU-2024-10428,Provider_FWA,Impossible_Day,NPI-1413084285,Dr. Joseph Olson,SNBC,Central MN,Closed_Unsubstantiated,Medium,99335.08,0,2023-01-30,2023-12-21,Angela Peterson,Audit
+SIU-2024-10429,Member_FWA,Eligibility_Abuse,MBR-606743,Nancy Peterson,MSHO,Central MN,Open,Critical,1370403.17,0,2023-06-27,,Lisa Fernandez,Peer_Review
+SIU-2024-10430,Member_FWA,Doctor_Shopping,MBR-795978,Robert Kim,SNBC,Central MN,Closed_Substantiated,High,511896.98,95695.04,2024-10-15,2025-09-23,Michael Swanson,Peer_Review
+SIU-2024-10431,Member_FWA,Prescription_Surfing,MBR-470057,Christopher Swanson,PMAP,Southeast MN,Under_Review,Medium,54313.93,0,2024-09-28,,Sarah Chen,Internal_Review
+SIU-2024-10432,Member_FWA,Identity_Fraud,MBR-405925,Michelle Johnson,Commercial,Twin Cities Metro,Closed_Substantiated,Medium,75192.74,37890.92,2023-07-02,2023-10-04,Jennifer Olson,CMS_Referral
+SIU-2024-10433,Provider_FWA,Duplicate_Billing,NPI-1187490184,Dr. Donald Erickson,Commercial,Twin Cities Metro,Open,Critical,1711761.04,0,2024-07-03,,Jennifer Olson,CMS_Referral
+SIU-2024-10434,Network_Abuse,Kickback_Indicator,NPI-1639460592,Dr. Ashley Garcia,SNBC,Southwest MN,Recovery_In_Progress,Low,49711.35,7217.04,2025-03-09,,David Nakamura,CMS_Referral
+SIU-2024-10435,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-25203,CVS Health #8812 St Paul,SNBC,Southeast MN,Under_Review,Critical,751400.6,0,2025-04-10,,Angela Peterson,Tipline
+SIU-2024-10436,Provider_FWA,Phantom_Billing,NPI-1934453606,James Swanson,SNBC,Twin Cities Metro,Open,Medium,187263.94,0,2025-07-22,,Angela Peterson,Internal_Review
+SIU-2024-10437,Network_Abuse,OON_Routing,NPI-1906495028,Michelle Kowalski,Commercial,Twin Cities Metro,Closed_Substantiated,Low,34342.97,11650.11,2024-07-26,2025-02-12,Robert Kim,Peer_Review
+SIU-2024-10438,Member_FWA,Identity_Fraud,MBR-304394,Kimberly Berg,PMAP,Northeast MN,Closed_Substantiated,Low,35497.32,18931.74,2024-01-18,2024-07-26,Sarah Chen,Peer_Review
+SIU-2024-10439,Provider_FWA,Upcoding,NPI-1778731965,Dr. Thomas Carlson,MSHO,Southeast MN,Under_Review,Medium,30957.31,0,2023-07-22,,David Nakamura,CMS_Referral
+SIU-2024-10440,Member_FWA,Doctor_Shopping,MBR-494220,Joshua Martinez,SNBC,Northwest MN,Closed_Substantiated,High,728657.58,238515.14,2023-08-30,2024-01-01,Michael Swanson,Audit
+SIU-2024-10441,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-46344,Summit Pharmacy St Paul,Commercial,Twin Cities Metro,Closed_Unsubstantiated,High,140551.8,0,2025-03-20,2025-10-06,Lisa Fernandez,Tipline
+SIU-2024-10442,Member_FWA,Prescription_Surfing,MBR-511707,Barbara Lee,PMAP,Twin Cities Metro,Under_Review,Low,27142.58,0,2023-11-05,,Robert Kim,Internal_Review
+SIU-2024-10443,Provider_FWA,Phantom_Billing,NPI-1078296722,Dr. Joshua Patel,MSHO,Southeast MN,Open,Low,16276.84,0,2025-07-16,,Sarah Chen,Algorithm_Detection
+SIU-2024-10444,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-61292,River City Pharmacy Red Wing,SNBC,Twin Cities Metro,Under_Review,High,102407.44,0,2025-10-15,,Marcus Williams,CMS_Referral
+SIU-2024-10445,Provider_FWA,Phantom_Billing,NPI-1517614792,Dr. Joshua Wilson,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Low,47076.9,0,2025-01-19,2025-08-07,Marcus Williams,Audit
+SIU-2024-10446,Member_FWA,Eligibility_Abuse,MBR-903741,Christopher Lee,Commercial,Southwest MN,Referred_to_Law_Enforcement,High,232028.31,0,2023-04-05,,Lisa Fernandez,Internal_Review
+SIU-2024-10447,Provider_FWA,Upcoding,NPI-1091120392,Richard Nelson,PMAP,Southeast MN,Under_Review,Medium,31247.2,0,2023-03-07,,Michael Swanson,Peer_Review
+SIU-2024-10448,Provider_FWA,Impossible_Day,NPI-1895769426,Mary Smith,MSHO,Southwest MN,Closed_Substantiated,Medium,84374.89,36606.51,2024-12-06,2025-01-26,Angela Peterson,Peer_Review
+SIU-2024-10449,Network_Abuse,Self_Referral,NPI-1993013417,Dr. John Patel,PMAP,Twin Cities Metro,Closed_Substantiated,High,192033.81,150751.38,2023-02-23,2023-11-21,Jennifer Olson,Algorithm_Detection
+SIU-2024-10450,Provider_FWA,Upcoding,NPI-1104466746,Michelle Olson,MSHO,Southeast MN,Closed_Unsubstantiated,Low,42590.85,0,2023-05-25,2023-08-17,Robert Kim,Tipline
+SIU-2024-10451,Provider_FWA,Unbundling,NPI-1792344588,Daniel Peterson,Commercial,Central MN,Closed_Unsubstantiated,Medium,195774.32,0,2023-10-23,2024-05-04,Sarah Chen,CMS_Referral
+SIU-2024-10452,Provider_FWA,Upcoding,NPI-1445768567,Dr. Nancy Wilson,Commercial,Twin Cities Metro,Open,High,207253.98,0,2024-05-27,,Marcus Williams,Internal_Review
+SIU-2024-10453,Member_FWA,Identity_Fraud,MBR-106658,James Olson,Commercial,Southeast MN,Closed_Substantiated,Critical,1889205.43,1200500.26,2024-08-18,2025-04-18,Jennifer Olson,Tipline
+SIU-2024-10454,Provider_FWA,Duplicate_Billing,NPI-1187420491,Dr. Kenneth Olson,PMAP,Central MN,Referred_to_Law_Enforcement,Medium,150509.78,0,2023-07-14,,Thomas Anderson,Peer_Review
+SIU-2024-10455,Provider_FWA,Unbundling,NPI-1102739753,Dr. Andrew Davis,MSHO,Central MN,Recovery_In_Progress,High,242529.49,38943.11,2024-03-16,,Michael Swanson,Peer_Review
+SIU-2024-10456,Provider_FWA,Upcoding,NPI-1225045286,Thomas Berg,MSHO,Central MN,Under_Review,Critical,1425229.03,0,2025-07-31,,Angela Peterson,Tipline
+SIU-2024-10457,Provider_FWA,Upcoding,NPI-1961083946,Dr. Donald Taylor,MSHO,Southwest MN,Open,Medium,126458.31,0,2025-05-22,,Thomas Anderson,Tipline
+SIU-2024-10458,Pharmacy_Fraud,Controlled_Substance_Anomaly,PHR-64079,Eagan Family Pharmacy,MSHO,Southeast MN,Under_Review,High,229971.29,0,2024-04-10,,Sarah Chen,Peer_Review
+SIU-2024-10459,Provider_FWA,Impossible_Day,NPI-1146463340,Richard Lee,MSHO,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,87753.28,0,2024-07-20,,Robert Kim,Algorithm_Detection
+SIU-2024-10460,Provider_FWA,Upcoding,NPI-1183826012,Dr. Joseph Nakamura,Commercial,Southwest MN,Referred_to_Law_Enforcement,Low,18282.27,0,2023-12-02,,Robert Kim,Tipline
+SIU-2024-10461,Member_FWA,Identity_Fraud,MBR-612977,Susan Taylor,MSHO,Twin Cities Metro,Closed_Unsubstantiated,High,407767.85,0,2025-08-19,2025-12-31,David Nakamura,Tipline
+SIU-2024-10462,Provider_FWA,Impossible_Day,NPI-1159954997,Dr. Mark Smith,PMAP,Twin Cities Metro,Recovery_In_Progress,High,126038.14,43280.3,2025-09-04,,Rebecca Johnson,Peer_Review
+SIU-2024-10463,Pharmacy_Fraud,GLP1_Diversion,PHR-83202,Summit Pharmacy St Paul,Commercial,Twin Cities Metro,Under_Review,Medium,27174.02,0,2025-04-26,,Lisa Fernandez,Tipline
+SIU-2024-10464,Member_FWA,Doctor_Shopping,MBR-269662,Sandra Fernandez,MSHO,Central MN,Closed_Substantiated,Critical,1355571.2,643398.08,2023-03-05,2023-11-22,Jennifer Olson,Audit
+SIU-2024-10465,Member_FWA,Doctor_Shopping,MBR-824304,Lisa Davis,Commercial,Southwest MN,Open,Low,6472.14,0,2025-06-05,,Robert Kim,CMS_Referral
+SIU-2024-10466,Member_FWA,Identity_Fraud,MBR-452001,Patricia Davis,Commercial,Twin Cities Metro,Open,Low,47539.5,0,2025-01-29,,Thomas Anderson,Peer_Review
+SIU-2024-10467,Member_FWA,Eligibility_Abuse,MBR-839113,Robert Wilson,MSHO,Twin Cities Metro,Closed_Substantiated,Medium,149134.0,124806.69,2024-03-09,2024-06-17,Michael Swanson,Internal_Review
+SIU-2024-10468,Network_Abuse,Self_Referral,NPI-1808713884,Dr. Daniel Erickson,MSHO,Twin Cities Metro,Closed_Substantiated,Low,45406.99,15620.08,2025-11-11,2025-12-31,Michael Swanson,CMS_Referral
+SIU-2024-10469,Member_FWA,Doctor_Shopping,MBR-965472,Andrew Nakamura,Commercial,Twin Cities Metro,Closed_Substantiated,Medium,76146.26,21461.63,2025-02-06,2025-04-10,Rebecca Johnson,Tipline
+SIU-2024-10470,Provider_FWA,Upcoding,NPI-1748486223,Dr. Ashley Nelson,SNBC,Northwest MN,Under_Review,High,668745.54,0,2023-03-02,,Angela Peterson,Tipline
+SIU-2024-10471,Member_FWA,Prescription_Surfing,MBR-405677,Richard Anderson,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,28856.41,17350.51,2024-05-04,2025-02-24,Thomas Anderson,Peer_Review
+SIU-2024-10472,Member_FWA,Prescription_Surfing,MBR-927691,Karen Olson,SNBC,Northeast MN,Closed_Substantiated,Medium,163121.85,66934.05,2024-04-23,2025-01-25,Jennifer Olson,Audit
+SIU-2024-10473,Provider_FWA,Unbundling,NPI-1574791917,Dr. Barbara Olson,MSHO,Twin Cities Metro,Open,Medium,171883.04,0,2023-11-25,,Thomas Anderson,CMS_Referral
+SIU-2024-10474,Provider_FWA,Duplicate_Billing,NPI-1759279763,Dr. Daniel Erickson,PMAP,Twin Cities Metro,Under_Review,Medium,50890.24,0,2025-07-21,,Lisa Fernandez,Algorithm_Detection
+SIU-2024-10475,Network_Abuse,Kickback_Indicator,NPI-1491817492,Dr. Elizabeth Johnson,PMAP,Twin Cities Metro,Closed_Unsubstantiated,Low,48656.76,0,2025-11-19,2025-12-31,Lisa Fernandez,CMS_Referral
+SIU-2024-10476,Pharmacy_Fraud,Forged_Prescription,PHR-72781,Maple Grove Pharmacy,SNBC,Twin Cities Metro,Open,Medium,32014.16,0,2023-09-11,,David Nakamura,Peer_Review
+SIU-2024-10477,Provider_FWA,Duplicate_Billing,NPI-1626454737,Dr. Sarah Carlson,SNBC,Southeast MN,Closed_Substantiated,Critical,533822.97,444721.33,2025-07-15,2025-09-27,Robert Kim,CMS_Referral
+SIU-2024-10478,Member_FWA,Doctor_Shopping,MBR-255132,Margaret Erickson,SNBC,Twin Cities Metro,Under_Review,Low,22375.07,0,2023-02-08,,Michael Swanson,CMS_Referral
+SIU-2024-10479,Provider_FWA,Phantom_Billing,NPI-1475135446,Dr. William Martinez,PMAP,Twin Cities Metro,Referred_to_Law_Enforcement,Low,37760.03,0,2025-06-01,,Robert Kim,CMS_Referral
+SIU-2024-10480,Provider_FWA,Unbundling,NPI-1564037702,Dr. Robert Kowalski,SNBC,Northeast MN,Recovery_In_Progress,Medium,193016.68,16479.63,2025-02-22,,Rebecca Johnson,Tipline
+SIU-2024-10481,Member_FWA,Identity_Fraud,MBR-403524,Emily Brown,SNBC,Southeast MN,Closed_Unsubstantiated,High,127451.39,0,2024-09-24,2025-08-19,Michael Swanson,Tipline
+SIU-2024-10482,Provider_FWA,Upcoding,NPI-1687790914,Linda Lee,SNBC,Southeast MN,Under_Review,High,532843.75,0,2024-08-26,,David Nakamura,Algorithm_Detection
+SIU-2024-10483,Provider_FWA,Duplicate_Billing,NPI-1643054662,Dr. Donna Brown,SNBC,Southwest MN,Recovery_In_Progress,Medium,123975.55,37341.24,2024-06-26,,Marcus Williams,Audit
+SIU-2024-10484,Member_FWA,Doctor_Shopping,MBR-161352,Elizabeth Berg,SNBC,Twin Cities Metro,Open,Low,25746.98,0,2023-10-19,,Thomas Anderson,Peer_Review
+SIU-2024-10485,Member_FWA,Eligibility_Abuse,MBR-769983,Robert Davis,Commercial,Southeast MN,Under_Review,Critical,790722.25,0,2024-01-25,,Jennifer Olson,CMS_Referral
+SIU-2024-10486,Provider_FWA,Duplicate_Billing,NPI-1323273934,Dr. Nancy Peterson,PMAP,Twin Cities Metro,Closed_Substantiated,Low,29048.91,4619.6,2025-01-04,2025-04-17,Michael Swanson,Peer_Review
+SIU-2024-10487,Provider_FWA,Unbundling,NPI-1237418815,Dr. Emily Jackson,SNBC,Northeast MN,Open,High,548274.34,0,2023-09-05,,Marcus Williams,Tipline
+SIU-2024-10488,Network_Abuse,Kickback_Indicator,NPI-1149265120,Kenneth Davis,MSHO,Central MN,Closed_Substantiated,Medium,158628.17,102620.75,2024-12-15,2025-04-12,David Nakamura,Tipline
+SIU-2024-10489,Network_Abuse,OON_Routing,NPI-1225315065,Dr. Jennifer Williams,MSHO,Central MN,Under_Review,Medium,145893.17,0,2023-08-31,,Rebecca Johnson,Algorithm_Detection
+SIU-2024-10490,Provider_FWA,Upcoding,NPI-1063635565,Linda Kowalski,Commercial,Central MN,Closed_Substantiated,Low,16385.56,10114.98,2023-05-30,2023-11-30,Robert Kim,Tipline
+SIU-2024-10491,Member_FWA,Identity_Fraud,MBR-195189,Elizabeth Fernandez,Commercial,Twin Cities Metro,Under_Review,High,585028.71,0,2024-08-05,,Jennifer Olson,CMS_Referral
+SIU-2024-10492,Pharmacy_Fraud,Pill_Mill,PHR-85777,Summit Pharmacy St Paul,PMAP,Northwest MN,Open,Medium,27447.25,0,2024-04-03,,Jennifer Olson,CMS_Referral
+SIU-2024-10493,Provider_FWA,Upcoding,NPI-1914072990,Nancy Chen,MSHO,Northeast MN,Recovery_In_Progress,Low,31522.13,10068.49,2025-07-03,,Rebecca Johnson,Peer_Review
+SIU-2024-10494,Provider_FWA,Unbundling,NPI-1337455876,Dr. Sandra Peterson,PMAP,Southeast MN,Closed_Unsubstantiated,Medium,115952.33,0,2025-10-26,2025-12-31,Sarah Chen,Algorithm_Detection
+SIU-2024-10495,Provider_FWA,Upcoding,NPI-1790461268,Dr. Donald Larson,Commercial,Twin Cities Metro,Referred_to_Law_Enforcement,Medium,121935.28,0,2024-09-01,,Marcus Williams,Peer_Review
+SIU-2024-10496,Network_Abuse,Kickback_Indicator,NPI-1527903421,Dr. Betty Thompson,SNBC,Southwest MN,Recovery_In_Progress,High,439730.54,42956.02,2023-07-08,,Marcus Williams,Internal_Review
+SIU-2024-10497,Network_Abuse,OON_Routing,NPI-1363602964,Dr. Kenneth Fernandez,SNBC,Southeast MN,Recovery_In_Progress,Critical,1985991.98,284290.49,2023-09-23,,Robert Kim,CMS_Referral
+SIU-2024-10498,Provider_FWA,Phantom_Billing,NPI-1434268004,Paul Hansen,SNBC,Twin Cities Metro,Closed_Substantiated,Medium,50790.47,11962.83,2025-08-03,2025-10-27,Jennifer Olson,Algorithm_Detection
+SIU-2024-10499,Provider_FWA,Upcoding,NPI-1028721392,Dr. Anthony Jackson,MSHO,Twin Cities Metro,Closed_Substantiated,Low,35564.2,20818.46,2023-11-23,2024-05-26,Angela Peterson,Peer_Review
+SIU-2024-10500,Pharmacy_Fraud,Pill_Mill,PHR-76164,Genoa Healthcare Minneapolis,Commercial,Twin Cities Metro,Closed_Substantiated,High,452584.77,381754.39,2023-02-20,2023-04-07,Michael Swanson,Audit

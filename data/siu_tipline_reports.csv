@@ -1,0 +1,201 @@
+TIP_ID,REPORT_DATE,REPORTER_TYPE,CASE_TYPE_ALLEGED,SUBJECT_DESCRIPTION,REGION,STATUS,LINKED_CASE_ID,URGENCY
+TIP-2024-20001,2025-10-29,Provider,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Southeast MN,New,,Standard
+TIP-2024-20002,2024-10-12,Anonymous,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Southeast MN,New,,Standard
+TIP-2024-20003,2024-12-27,Member,Member_FWA,Individual using multiple member IDs to receive overlapping benefits across plan types,Southwest MN,Assigned_to_Case,SIU-2024-10293,Standard
+TIP-2024-20004,2024-05-27,Provider,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Assigned_to_Case,SIU-2024-10194,Standard
+TIP-2024-20005,2025-09-06,External_Agency,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Southeast MN,New,,Standard
+TIP-2024-20006,2023-07-28,Member,Provider_FWA,Physician billing for extended office visits averaging 45 minutes when peers average 15 minutes,Twin Cities Metro,Assigned_to_Case,SIU-2024-10183,Standard
+TIP-2024-20007,2024-04-08,Anonymous,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Southeast MN,Duplicate,,Immediate
+TIP-2024-20008,2024-08-06,External_Agency,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Southeast MN,New,,Standard
+TIP-2024-20009,2024-06-21,External_Agency,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Assigned_to_Case,SIU-2024-10012,Low
+TIP-2024-20010,2024-10-27,Provider,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Twin Cities Metro,Assigned_to_Case,SIU-2024-10106,Standard
+TIP-2024-20011,2025-08-15,Anonymous,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Twin Cities Metro,Assigned_to_Case,SIU-2024-10255,Standard
+TIP-2024-20012,2024-07-16,Member,Pharmacy_Fraud,Store filling early refills on schedule II controlled substances beyond allowable limits,Twin Cities Metro,New,,Low
+TIP-2024-20013,2025-01-01,External_Agency,Member_FWA,Suspect member is using deceased spouse's insurance card to fill prescriptions,Central MN,Assigned_to_Case,SIU-2024-10173,Standard
+TIP-2024-20014,2024-10-29,Provider,Member_FWA,Individual presenting different identification at multiple clinics in Rochester area,Twin Cities Metro,New,,Low
+TIP-2024-20015,2025-07-21,External_Agency,Member_FWA,Person obtaining duplicate prescriptions for pain medications from multiple physicians,Twin Cities Metro,Assigned_to_Case,SIU-2024-10264,Standard
+TIP-2024-20016,2024-01-05,Employee,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Southwest MN,Assigned_to_Case,SIU-2024-10096,Standard
+TIP-2024-20017,2024-12-31,Anonymous,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Central MN,Dismissed,,Low
+TIP-2024-20018,2025-07-23,Provider,Member_FWA,Person obtaining duplicate prescriptions for pain medications from multiple physicians,Southeast MN,Under_Review,,Standard
+TIP-2024-20019,2023-12-26,Employee,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Twin Cities Metro,Dismissed,,Immediate
+TIP-2024-20020,2024-07-20,Member,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Southwest MN,Under_Review,,Standard
+TIP-2024-20021,2024-10-10,External_Agency,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Twin Cities Metro,Dismissed,,Standard
+TIP-2024-20022,2023-10-18,Anonymous,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Southwest MN,New,,Standard
+TIP-2024-20023,2025-06-09,Employee,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Southwest MN,Under_Review,,Low
+TIP-2024-20024,2025-11-04,Anonymous,Pharmacy_Fraud,Pharmacy dispensing unusually high volumes of Ozempic pens compared to similar sized stores in the area,Northeast MN,New,,Standard
+TIP-2024-20025,2025-10-07,Member,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Northeast MN,Assigned_to_Case,SIU-2024-10047,Standard
+TIP-2024-20026,2025-09-26,External_Agency,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Central MN,Duplicate,,Standard
+TIP-2024-20027,2023-10-04,Provider,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Twin Cities Metro,Dismissed,,Standard
+TIP-2024-20028,2024-08-07,Member,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Central MN,Dismissed,,Standard
+TIP-2024-20029,2025-10-31,External_Agency,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20030,2024-08-07,Employee,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Twin Cities Metro,Duplicate,,Standard
+TIP-2024-20031,2025-06-02,Provider,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Northeast MN,Duplicate,,Standard
+TIP-2024-20032,2025-06-27,Anonymous,Pharmacy_Fraud,Pharmacy dispensing unusually high volumes of Ozempic pens compared to similar sized stores in the area,Southwest MN,Duplicate,,Immediate
+TIP-2024-20033,2025-05-18,Provider,Pharmacy_Fraud,Store filling early refills on schedule II controlled substances beyond allowable limits,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20034,2023-06-09,Employee,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Southeast MN,Under_Review,,Standard
+TIP-2024-20035,2024-03-31,Member,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Twin Cities Metro,Duplicate,,Low
+TIP-2024-20036,2024-03-07,Anonymous,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Northeast MN,Assigned_to_Case,SIU-2024-10209,Low
+TIP-2024-20037,2025-11-14,Anonymous,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Southeast MN,Assigned_to_Case,SIU-2024-10171,Standard
+TIP-2024-20038,2025-09-10,External_Agency,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Southeast MN,Under_Review,,Standard
+TIP-2024-20039,2023-12-06,Employee,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Southwest MN,Dismissed,,Standard
+TIP-2024-20040,2025-01-10,Anonymous,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20041,2025-07-21,Member,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Southeast MN,Duplicate,,Low
+TIP-2024-20042,2025-06-22,Member,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Central MN,Under_Review,,Standard
+TIP-2024-20043,2024-07-29,Provider,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Northeast MN,Dismissed,,Standard
+TIP-2024-20044,2023-06-24,External_Agency,Provider_FWA,Provider billing for imaging services without proper referral documentation,Northwest MN,Dismissed,,Standard
+TIP-2024-20045,2025-05-19,Member,Member_FWA,Individual presenting different identification at multiple clinics in Rochester area,Northeast MN,Duplicate,,Standard
+TIP-2024-20046,2024-06-11,Member,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Twin Cities Metro,Under_Review,,Immediate
+TIP-2024-20047,2024-10-19,Anonymous,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Twin Cities Metro,Assigned_to_Case,SIU-2024-10233,Low
+TIP-2024-20048,2024-03-21,Employee,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Twin Cities Metro,Dismissed,,Low
+TIP-2024-20049,2023-12-11,Employee,Provider_FWA,Provider billing for imaging services without proper referral documentation,Northeast MN,Assigned_to_Case,SIU-2024-10145,Standard
+TIP-2024-20050,2024-09-04,Member,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Twin Cities Metro,Duplicate,,Standard
+TIP-2024-20051,2024-07-12,Member,Provider_FWA,Clinic appears to be performing unnecessary diagnostic tests on every patient visit,Twin Cities Metro,Assigned_to_Case,SIU-2024-10166,Low
+TIP-2024-20052,2023-07-31,Anonymous,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Central MN,Under_Review,,Immediate
+TIP-2024-20053,2025-04-17,External_Agency,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Southeast MN,Under_Review,,Standard
+TIP-2024-20054,2024-07-09,Provider,Pharmacy_Fraud,Pharmacy dispensing unusually high volumes of Ozempic pens compared to similar sized stores in the area,Twin Cities Metro,Assigned_to_Case,SIU-2024-10196,Standard
+TIP-2024-20055,2024-10-17,Provider,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20056,2023-09-28,Provider,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Twin Cities Metro,Assigned_to_Case,SIU-2024-10222,Immediate
+TIP-2024-20057,2024-06-04,Employee,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Southeast MN,Duplicate,,Standard
+TIP-2024-20058,2024-04-16,Employee,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Southwest MN,Dismissed,,Standard
+TIP-2024-20059,2025-04-04,Employee,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Central MN,Assigned_to_Case,SIU-2024-10078,Standard
+TIP-2024-20060,2023-11-15,Employee,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20061,2024-10-09,Employee,Member_FWA,Individual using multiple member IDs to receive overlapping benefits across plan types,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20062,2023-12-02,Member,Member_FWA,Member appears to be receiving the same physical therapy services from 3 different providers simultaneously,Twin Cities Metro,New,,Low
+TIP-2024-20063,2023-06-05,External_Agency,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Southeast MN,Assigned_to_Case,SIU-2024-10109,Standard
+TIP-2024-20064,2025-04-24,Anonymous,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Twin Cities Metro,New,,Low
+TIP-2024-20065,2024-06-17,External_Agency,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Twin Cities Metro,Duplicate,,Immediate
+TIP-2024-20066,2025-09-28,Employee,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Northeast MN,Under_Review,,Immediate
+TIP-2024-20067,2025-04-02,External_Agency,Member_FWA,Member maintains eligibility despite not meeting residency requirements for Minnesota programs,Southeast MN,New,,Low
+TIP-2024-20068,2025-08-25,External_Agency,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Northwest MN,Duplicate,,Low
+TIP-2024-20069,2025-07-01,Anonymous,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Central MN,Under_Review,,Low
+TIP-2024-20070,2025-07-29,Employee,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20071,2025-07-10,Member,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Twin Cities Metro,Dismissed,,Standard
+TIP-2024-20072,2025-02-07,Member,Provider_FWA,Clinic appears to be performing unnecessary diagnostic tests on every patient visit,Central MN,Assigned_to_Case,SIU-2024-10159,Low
+TIP-2024-20073,2024-07-02,Employee,Provider_FWA,Clinic billing separately for procedures that should be bundled under single CPT code,Northeast MN,Assigned_to_Case,SIU-2024-10251,Standard
+TIP-2024-20074,2025-02-18,Member,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Twin Cities Metro,Dismissed,,Low
+TIP-2024-20075,2025-03-25,Member,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Assigned_to_Case,SIU-2024-10238,Standard
+TIP-2024-20076,2023-08-21,Employee,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Southwest MN,Assigned_to_Case,SIU-2024-10149,Standard
+TIP-2024-20077,2024-08-11,Provider,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Southwest MN,Under_Review,,Standard
+TIP-2024-20078,2023-09-05,Employee,Member_FWA,Suspect member is using deceased spouse's insurance card to fill prescriptions,Northeast MN,Assigned_to_Case,SIU-2024-10262,Standard
+TIP-2024-20079,2025-06-28,Employee,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Twin Cities Metro,Assigned_to_Case,SIU-2024-10258,Immediate
+TIP-2024-20080,2025-05-22,Provider,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Northeast MN,New,,Standard
+TIP-2024-20081,2025-11-09,Member,Provider_FWA,Clinic appears to be performing unnecessary diagnostic tests on every patient visit,Central MN,Assigned_to_Case,SIU-2024-10136,Standard
+TIP-2024-20082,2023-06-19,Anonymous,Provider_FWA,Clinic billing separately for procedures that should be bundled under single CPT code,Central MN,Assigned_to_Case,SIU-2024-10055,Standard
+TIP-2024-20083,2025-07-02,External_Agency,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Twin Cities Metro,Assigned_to_Case,SIU-2024-10208,Low
+TIP-2024-20084,2025-04-20,Employee,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Southwest MN,Duplicate,,Standard
+TIP-2024-20085,2023-06-17,Member,Pharmacy_Fraud,Small independent pharmacy filling controlled substance prescriptions from only two prescribers,Twin Cities Metro,New,,Immediate
+TIP-2024-20086,2025-10-10,External_Agency,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Southeast MN,New,,Standard
+TIP-2024-20087,2023-09-28,Member,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Central MN,New,,Standard
+TIP-2024-20088,2023-12-24,Provider,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Northwest MN,Assigned_to_Case,SIU-2024-10231,Standard
+TIP-2024-20089,2025-05-31,Employee,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,New,,Standard
+TIP-2024-20090,2023-07-08,Employee,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Central MN,Assigned_to_Case,SIU-2024-10284,Low
+TIP-2024-20091,2023-08-02,External_Agency,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Southeast MN,Assigned_to_Case,SIU-2024-10250,Standard
+TIP-2024-20092,2024-08-01,Employee,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Twin Cities Metro,New,,Low
+TIP-2024-20093,2023-06-22,Member,Provider_FWA,Office consistently billing modifier 25 on every E/M visit to increase reimbursement,Northwest MN,Under_Review,,Standard
+TIP-2024-20094,2025-05-02,Provider,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Southeast MN,Assigned_to_Case,SIU-2024-10260,Standard
+TIP-2024-20095,2024-07-31,Provider,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20096,2025-04-14,Employee,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Southwest MN,Under_Review,,Standard
+TIP-2024-20097,2024-10-18,Provider,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Twin Cities Metro,Assigned_to_Case,SIU-2024-10213,Low
+TIP-2024-20098,2024-05-31,Member,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Twin Cities Metro,New,,Low
+TIP-2024-20099,2025-02-22,Member,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Twin Cities Metro,New,,Standard
+TIP-2024-20100,2025-07-27,Anonymous,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Southeast MN,Duplicate,,Low
+TIP-2024-20101,2025-02-08,Anonymous,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Northeast MN,Dismissed,,Low
+TIP-2024-20102,2023-09-17,External_Agency,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Central MN,Duplicate,,Low
+TIP-2024-20103,2025-03-07,Anonymous,Member_FWA,Suspect member is using deceased spouse's insurance card to fill prescriptions,Northeast MN,New,,Immediate
+TIP-2024-20104,2024-10-31,Employee,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20105,2023-10-04,Member,Pharmacy_Fraud,Small independent pharmacy filling controlled substance prescriptions from only two prescribers,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20106,2024-09-28,Provider,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Central MN,New,,Low
+TIP-2024-20107,2024-06-04,Member,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20108,2024-07-28,Employee,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20109,2023-10-28,Anonymous,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Central MN,Under_Review,,Immediate
+TIP-2024-20110,2023-11-16,Employee,Pharmacy_Fraud,Small independent pharmacy filling controlled substance prescriptions from only two prescribers,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20111,2025-03-08,External_Agency,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Southwest MN,Assigned_to_Case,SIU-2024-10295,Immediate
+TIP-2024-20112,2025-06-08,Provider,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Twin Cities Metro,Assigned_to_Case,SIU-2024-10284,Low
+TIP-2024-20113,2023-10-29,Employee,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Northeast MN,Duplicate,,Standard
+TIP-2024-20114,2025-11-25,Employee,Member_FWA,Individual presenting different identification at multiple clinics in Rochester area,Northeast MN,Assigned_to_Case,SIU-2024-10227,Standard
+TIP-2024-20115,2025-06-27,Member,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Twin Cities Metro,Assigned_to_Case,SIU-2024-10200,Standard
+TIP-2024-20116,2025-07-15,Member,Member_FWA,Member maintains eligibility despite not meeting residency requirements for Minnesota programs,Twin Cities Metro,Assigned_to_Case,SIU-2024-10160,Standard
+TIP-2024-20117,2025-06-13,Employee,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Southeast MN,Under_Review,,Low
+TIP-2024-20118,2024-11-01,Provider,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Central MN,Dismissed,,Standard
+TIP-2024-20119,2024-01-28,External_Agency,Provider_FWA,Clinic billing separately for procedures that should be bundled under single CPT code,Twin Cities Metro,Assigned_to_Case,SIU-2024-10003,Standard
+TIP-2024-20120,2025-06-02,External_Agency,Member_FWA,Individual presenting different identification at multiple clinics in Rochester area,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20121,2025-01-17,Member,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Southeast MN,Under_Review,,Standard
+TIP-2024-20122,2024-07-26,Anonymous,Pharmacy_Fraud,Suspected alteration of prescription quantities for GLP-1 medications before dispensing,Southeast MN,New,,Standard
+TIP-2024-20123,2025-04-24,External_Agency,Provider_FWA,Provider billing for imaging services without proper referral documentation,Northeast MN,Assigned_to_Case,SIU-2024-10229,Immediate
+TIP-2024-20124,2025-05-06,Employee,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Northeast MN,Assigned_to_Case,SIU-2024-10217,Low
+TIP-2024-20125,2025-05-29,Employee,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Northeast MN,New,,Immediate
+TIP-2024-20126,2024-09-27,Anonymous,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Northeast MN,New,,Standard
+TIP-2024-20127,2023-09-21,Anonymous,Pharmacy_Fraud,Suspected alteration of prescription quantities for GLP-1 medications before dispensing,Northwest MN,New,,Low
+TIP-2024-20128,2024-06-18,Provider,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20129,2023-07-20,Provider,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Central MN,New,,Standard
+TIP-2024-20130,2024-05-23,Anonymous,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Twin Cities Metro,Assigned_to_Case,SIU-2024-10002,Immediate
+TIP-2024-20131,2024-05-11,Employee,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Southeast MN,Under_Review,,Standard
+TIP-2024-20132,2025-04-14,Employee,Member_FWA,Member appears to be receiving the same physical therapy services from 3 different providers simultaneously,Central MN,Assigned_to_Case,SIU-2024-10236,Low
+TIP-2024-20133,2025-12-08,Employee,Provider_FWA,Physician billing for extended office visits averaging 45 minutes when peers average 15 minutes,Twin Cities Metro,Assigned_to_Case,SIU-2024-10210,Standard
+TIP-2024-20134,2025-03-23,Anonymous,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Northwest MN,Dismissed,,Standard
+TIP-2024-20135,2024-12-26,Anonymous,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Southeast MN,Dismissed,,Standard
+TIP-2024-20136,2025-01-04,External_Agency,Member_FWA,Suspect member is using deceased spouse's insurance card to fill prescriptions,Twin Cities Metro,Assigned_to_Case,SIU-2024-10296,Low
+TIP-2024-20137,2024-11-26,Member,Provider_FWA,Clinic appears to be performing unnecessary diagnostic tests on every patient visit,Southeast MN,New,,Standard
+TIP-2024-20138,2025-11-25,External_Agency,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Central MN,Under_Review,,Standard
+TIP-2024-20139,2023-06-24,Provider,Member_FWA,Person obtaining duplicate prescriptions for pain medications from multiple physicians,Twin Cities Metro,New,,Low
+TIP-2024-20140,2023-09-26,Anonymous,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Assigned_to_Case,SIU-2024-10196,Standard
+TIP-2024-20141,2024-04-10,Employee,Member_FWA,Member maintains eligibility despite not meeting residency requirements for Minnesota programs,Twin Cities Metro,Under_Review,,Immediate
+TIP-2024-20142,2023-07-30,Provider,Pharmacy_Fraud,Pharmacy dispensing unusually high volumes of Ozempic pens compared to similar sized stores in the area,Southwest MN,Under_Review,,Immediate
+TIP-2024-20143,2025-09-25,Anonymous,Provider_FWA,Physician billing for extended office visits averaging 45 minutes when peers average 15 minutes,Twin Cities Metro,Dismissed,,Standard
+TIP-2024-20144,2024-10-29,Employee,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Central MN,Assigned_to_Case,SIU-2024-10253,Standard
+TIP-2024-20145,2023-06-30,Employee,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Twin Cities Metro,Assigned_to_Case,SIU-2024-10209,Immediate
+TIP-2024-20146,2024-02-08,External_Agency,Member_FWA,Member visiting 8 different emergency rooms across the metro area in the past month,Twin Cities Metro,Duplicate,,Standard
+TIP-2024-20147,2024-10-25,Member,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Twin Cities Metro,Assigned_to_Case,SIU-2024-10043,Low
+TIP-2024-20148,2024-12-02,Employee,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Twin Cities Metro,Duplicate,,Low
+TIP-2024-20149,2025-09-27,External_Agency,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Southeast MN,New,,Standard
+TIP-2024-20150,2025-02-02,Provider,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Twin Cities Metro,Duplicate,,Standard
+TIP-2024-20151,2025-10-08,External_Agency,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Northwest MN,Dismissed,,Standard
+TIP-2024-20152,2025-05-16,Anonymous,Provider_FWA,Same provider billing for 28 patient visits on a single day which seems physically impossible,Central MN,Assigned_to_Case,SIU-2024-10154,Immediate
+TIP-2024-20153,2025-08-30,Provider,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Northeast MN,Under_Review,,Standard
+TIP-2024-20154,2024-03-06,Member,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Southwest MN,Duplicate,,Standard
+TIP-2024-20155,2025-05-09,Member,Pharmacy_Fraud,Suspected alteration of prescription quantities for GLP-1 medications before dispensing,Twin Cities Metro,Assigned_to_Case,SIU-2024-10169,Immediate
+TIP-2024-20156,2023-11-25,Employee,Member_FWA,Member visiting 8 different emergency rooms across the metro area in the past month,Southwest MN,New,,Immediate
+TIP-2024-20157,2025-11-30,Employee,Member_FWA,Individual using multiple member IDs to receive overlapping benefits across plan types,Central MN,Assigned_to_Case,SIU-2024-10040,Standard
+TIP-2024-20158,2024-07-01,Member,Pharmacy_Fraud,Suspected alteration of prescription quantities for GLP-1 medications before dispensing,Northwest MN,Under_Review,,Standard
+TIP-2024-20159,2023-06-10,Member,Pharmacy_Fraud,Pharmacy dispensing unusually high volumes of Ozempic pens compared to similar sized stores in the area,Twin Cities Metro,Under_Review,,Standard
+TIP-2024-20160,2025-02-18,Provider,Pharmacy_Fraud,Pharmacy dispensing quantities significantly higher than prescribed amounts on multiple claims,Southwest MN,Assigned_to_Case,SIU-2024-10099,Immediate
+TIP-2024-20161,2024-10-17,External_Agency,Pharmacy_Fraud,Store filling early refills on schedule II controlled substances beyond allowable limits,Twin Cities Metro,Assigned_to_Case,SIU-2024-10186,Immediate
+TIP-2024-20162,2025-01-03,External_Agency,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Northwest MN,Assigned_to_Case,SIU-2024-10057,Low
+TIP-2024-20163,2025-01-23,Member,Member_FWA,Individual presenting different identification at multiple clinics in Rochester area,Southwest MN,Assigned_to_Case,SIU-2024-10290,Standard
+TIP-2024-20164,2025-06-16,Provider,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Twin Cities Metro,Assigned_to_Case,SIU-2024-10117,Low
+TIP-2024-20165,2025-04-28,External_Agency,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Northwest MN,Assigned_to_Case,SIU-2024-10273,Standard
+TIP-2024-20166,2024-04-26,Employee,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Northwest MN,Assigned_to_Case,SIU-2024-10027,Low
+TIP-2024-20167,2024-11-11,Anonymous,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Twin Cities Metro,Assigned_to_Case,SIU-2024-10239,Standard
+TIP-2024-20168,2024-04-19,Anonymous,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Twin Cities Metro,Duplicate,,Standard
+TIP-2024-20169,2024-01-18,Employee,Provider_FWA,Physician billing for extended office visits averaging 45 minutes when peers average 15 minutes,Twin Cities Metro,Assigned_to_Case,SIU-2024-10013,Low
+TIP-2024-20170,2025-03-02,Anonymous,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Twin Cities Metro,Under_Review,,Immediate
+TIP-2024-20171,2024-02-09,Anonymous,Provider_FWA,Provider billing for imaging services without proper referral documentation,Central MN,Assigned_to_Case,SIU-2024-10172,Low
+TIP-2024-20172,2024-01-29,Anonymous,Member_FWA,Person obtaining duplicate prescriptions for pain medications from multiple physicians,Northeast MN,Dismissed,,Standard
+TIP-2024-20173,2023-08-02,Anonymous,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Central MN,Assigned_to_Case,SIU-2024-10297,Immediate
+TIP-2024-20174,2023-07-27,Provider,Provider_FWA,Clinic billing separately for procedures that should be bundled under single CPT code,Central MN,New,,Low
+TIP-2024-20175,2025-10-18,Employee,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Assigned_to_Case,SIU-2024-10287,Immediate
+TIP-2024-20176,2024-09-18,Employee,Member_FWA,Member filing claims for services allegedly received while out of state for extended period,Twin Cities Metro,Assigned_to_Case,SIU-2024-10006,Standard
+TIP-2024-20177,2024-05-02,External_Agency,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Twin Cities Metro,Assigned_to_Case,SIU-2024-10014,Standard
+TIP-2024-20178,2023-10-08,External_Agency,Provider_FWA,Clinic billing separately for procedures that should be bundled under single CPT code,Twin Cities Metro,Assigned_to_Case,SIU-2024-10100,Low
+TIP-2024-20179,2025-08-25,Anonymous,Provider_FWA,Provider billing for imaging services without proper referral documentation,Southeast MN,Assigned_to_Case,SIU-2024-10096,Standard
+TIP-2024-20180,2025-11-23,External_Agency,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Southeast MN,Assigned_to_Case,SIU-2024-10184,Standard
+TIP-2024-20181,2023-06-09,External_Agency,Pharmacy_Fraud,Pharmacy appears to be dispensing medications without valid prescriptions on file,Southeast MN,Assigned_to_Case,SIU-2024-10150,Standard
+TIP-2024-20182,2024-08-06,Provider,Member_FWA,Member appears to be receiving the same physical therapy services from 3 different providers simultaneously,Twin Cities Metro,Assigned_to_Case,SIU-2024-10287,Low
+TIP-2024-20183,2023-12-11,Employee,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Southwest MN,Under_Review,,Immediate
+TIP-2024-20184,2024-05-09,External_Agency,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Southeast MN,Under_Review,,Standard
+TIP-2024-20185,2023-06-04,Member,Provider_FWA,Physician billing for extended office visits averaging 45 minutes when peers average 15 minutes,Twin Cities Metro,Assigned_to_Case,SIU-2024-10022,Standard
+TIP-2024-20186,2025-09-12,Provider,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Southwest MN,Under_Review,,Standard
+TIP-2024-20187,2024-06-06,Anonymous,Pharmacy_Fraud,Pharmacy billing for brand name medications but dispensing generics to patients,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20188,2025-03-08,External_Agency,Provider_FWA,Provider appears to be billing 99215 office visits for routine checkups that should be coded as 99213,Southeast MN,New,,Standard
+TIP-2024-20189,2023-11-26,Member,Network_Abuse,Physician consistently referring patients to own imaging center despite closer in-network options,Twin Cities Metro,New,,Standard
+TIP-2024-20190,2023-11-28,Provider,Network_Abuse,Pattern of referrals between two providers suggests potential kickback arrangement,Twin Cities Metro,Assigned_to_Case,SIU-2024-10092,Standard
+TIP-2024-20191,2025-11-23,Anonymous,Network_Abuse,Provider appears to be routing patients to out-of-network lab facility owned by family member,Northeast MN,New,,Standard
+TIP-2024-20192,2025-04-07,Member,Provider_FWA,Provider consistently billing for services on dates when the clinic was closed,Twin Cities Metro,Under_Review,,Low
+TIP-2024-20193,2023-10-26,Member,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Northeast MN,Dismissed,,Immediate
+TIP-2024-20194,2025-03-13,Member,Pharmacy_Fraud,Store filling early refills on schedule II controlled substances beyond allowable limits,Southeast MN,Assigned_to_Case,SIU-2024-10163,Standard
+TIP-2024-20195,2023-10-31,Provider,Network_Abuse,Clinic referring all specialty cases to single out-of-network provider group,Southeast MN,Dismissed,,Standard
+TIP-2024-20196,2025-11-24,Employee,Provider_FWA,Multiple claims from same provider for identical procedures on same patient same day,Northeast MN,Dismissed,,Low
+TIP-2024-20197,2023-11-19,External_Agency,Provider_FWA,Clinic billing separately for procedures that should be bundled under single CPT code,Central MN,Dismissed,,Standard
+TIP-2024-20198,2024-06-17,External_Agency,Provider_FWA,Provider submitting claims for high-complexity procedures on simple diagnosis codes,Twin Cities Metro,Assigned_to_Case,SIU-2024-10092,Standard
+TIP-2024-20199,2023-12-30,Member,Pharmacy_Fraud,Unusual pattern of patients traveling long distances to use this specific pharmacy for controlled substances,Southeast MN,Assigned_to_Case,SIU-2024-10299,Standard
+TIP-2024-20200,2025-11-27,Employee,Network_Abuse,Provider steering Medica patients to specific DME supplier with unusually high prices,Northeast MN,Under_Review,,Standard

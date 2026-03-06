@@ -1,0 +1,22 @@
+# DST SIU Nexus - Snowflake CLI Deployment Configuration
+# Deploy with: cd streamlit && snow streamlit deploy --replace
+definition_version: 2
+entities:
+  siu_nexus:
+    type: streamlit
+    identifier:
+      name: SIU_NEXUS_APP
+      schema: ANALYTICS
+      database: DST_SIU_DB
+    title: "SIU Nexus | DST"
+    comment: "DST Special Investigations Unit fraud detection dashboard"
+    query_warehouse: DST_SIU_WH
+    main_file: streamlit_app.py
+    pages_dir: pages/
+    artifacts:
+      - streamlit_app.py
+      - environment.yml
+      - pages/
+      - utils/
+      - snowflake-icon.png
+      - client-icon.png

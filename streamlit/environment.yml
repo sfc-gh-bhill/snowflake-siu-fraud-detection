@@ -1,0 +1,10 @@
+# DST SIU Nexus - Streamlit in Snowflake Dependencies
+# Used by: snow streamlit deploy --replace
+name: sf_env
+channels:
+  - snowflake
+dependencies:
+  - altair
+  - numpy
+  - pandas
+  - streamlit
