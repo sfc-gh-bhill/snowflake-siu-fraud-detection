@@ -1,0 +1,1085 @@
+name: siu_sentinel_investigations
+description: |
+  Semantic model for DST SIU (Special Investigations Unit) analytics.
+  Covers fraud, waste, and abuse investigations across provider FWA,
+  member fraud, pharmacy fraud, and network abuse domains.
+
+  Key metrics tracked:
+  - Case volume and pipeline by domain
+  - Financial exposure and recovery rates
+  - Provider composite risk scores and FWA flags
+  - Member fraud indicators (doctor shopping, identity fraud)
+  - Pharmacy alert confirmation rates
+  - Investigator productivity and workload
+  - Tipline conversion rates
+
+  Supports SIU investigators, compliance officers, and executive leadership.
+
+tables:
+- name: SIU_CASES
+  description: |
+    Core investigation case records covering all SIU domains.
+    Case types: Provider_FWA, Member_FWA, Pharmacy_Fraud, Network_Abuse.
+    Tracks status from Open through investigation to closure/recovery.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_CASES
+  primary_key:
+    columns:
+    - CASE_ID
+  dimensions:
+  - name: CASE_ID
+    description: Unique investigation case identifier (SIU-2024-XXXXX format)
+    expr: CASE_ID
+    data_type: VARCHAR
+    unique: true
+    synonyms:
+    - case number
+    - investigation ID
+  - name: CASE_TYPE
+    description: Investigation domain (Provider_FWA, Member_FWA, Pharmacy_Fraud, Network_Abuse)
+    expr: CASE_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - fraud type
+    - domain
+    - investigation type
+    - category
+  - name: SUBTYPE
+    description: Specific fraud pattern (Upcoding, Doctor_Shopping, GLP1_Diversion, etc.)
+    expr: SUBTYPE
+    data_type: VARCHAR
+    synonyms:
+    - fraud pattern
+    - scheme type
+    - violation type
+  - name: SUBJECT_ID
+    description: Subject under investigation (NPI, Member ID, or Pharmacy ID)
+    expr: SUBJECT_ID
+    data_type: VARCHAR
+    synonyms:
+    - target ID
+    - subject identifier
+  - name: SUBJECT_NAME
+    description: Name of the subject under investigation
+    expr: SUBJECT_NAME
+    data_type: VARCHAR
+    synonyms:
+    - target name
+    - provider name
+    - member name
+  - name: PLAN_TYPE
+    description: Health plan type (MSHO, SNBC, PMAP, Commercial)
+    expr: PLAN_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - line of business
+    - LOB
+    - plan
+    - product
+  - name: REGION
+    description: Geographic region
+    expr: REGION
+    data_type: VARCHAR
+    synonyms:
+    - geography
+    - location
+    - area
+    - market
+  - name: STATUS
+    description: Case status (Open, Under_Review, Referred_to_Law_Enforcement, Closed_Substantiated, Closed_Unsubstantiated, Recovery_In_Progress)
+    expr: STATUS
+    data_type: VARCHAR
+    synonyms:
+    - case status
+    - investigation status
+    - state
+  - name: PRIORITY
+    description: Case priority level (Critical, High, Medium, Low)
+    expr: PRIORITY
+    data_type: VARCHAR
+    synonyms:
+    - urgency
+    - severity
+    - risk level
+  - name: ASSIGNED_INVESTIGATOR
+    description: SIU investigator assigned to the case
+    expr: ASSIGNED_INVESTIGATOR
+    data_type: VARCHAR
+    synonyms:
+    - investigator
+    - analyst
+    - assigned to
+    - owner
+  - name: REFERRAL_SOURCE
+    description: How the case was initiated (Algorithm_Detection, Tipline, Audit, Peer_Review, CMS_Referral, Internal_Review)
+    expr: REFERRAL_SOURCE
+    data_type: VARCHAR
+    synonyms:
+    - source
+    - origin
+    - referral
+    - detection method
+  time_dimensions:
+  - name: OPEN_DATE
+    description: Date the investigation case was opened
+    expr: OPEN_DATE
+    data_type: DATE
+    synonyms:
+    - start date
+    - opened
+    - created date
+  - name: CLOSE_DATE
+    description: Date the investigation was closed (NULL if still open)
+    expr: CLOSE_DATE
+    data_type: DATE
+    synonyms:
+    - closed date
+    - resolution date
+    - end date
+  measures:
+  - name: CASE_COUNT
+    description: Total number of investigation cases
+    expr: COUNT(*)
+    data_type: NUMBER
+    synonyms:
+    - cases
+    - investigations
+    - case volume
+    - number of cases
+  - name: TOTAL_EXPOSURE
+    description: Total estimated financial exposure across cases
+    expr: SUM(ESTIMATED_EXPOSURE)
+    data_type: NUMBER
+    synonyms:
+    - exposure
+    - dollar amount at risk
+    - financial risk
+    - total risk
+    - money at risk
+  - name: TOTAL_RECOVERED
+    description: Total amount recovered through investigations
+    expr: SUM(RECOVERED_AMOUNT)
+    data_type: NUMBER
+    synonyms:
+    - recoveries
+    - recovered
+    - money recovered
+    - savings
+  - name: RECOVERY_RATE
+    description: Percentage of exposure that has been recovered
+    expr: ROUND(SUM(RECOVERED_AMOUNT) * 100.0 / NULLIF(SUM(ESTIMATED_EXPOSURE), 0), 2)
+    data_type: NUMBER
+    synonyms:
+    - recovery percentage
+    - recovery ratio
+  - name: AVG_EXPOSURE
+    description: Average estimated exposure per case
+    expr: AVG(ESTIMATED_EXPOSURE)
+    data_type: NUMBER
+    synonyms:
+    - average exposure
+    - avg case size
+  - name: AVG_DAYS_TO_CLOSE
+    description: Average days from case open to close
+    expr: AVG(CASE WHEN CLOSE_DATE IS NOT NULL THEN DATEDIFF(day, OPEN_DATE, CLOSE_DATE) END)
+    data_type: NUMBER
+    synonyms:
+    - resolution time
+    - cycle time
+    - days to resolve
+
+- name: SIU_TIPLINE_REPORTS
+  description: |
+    Tipline reports and anonymous referrals alleging fraud, waste, or abuse.
+    Sources include anonymous tips, member reports, provider referrals,
+    employee reports, and external agency referrals.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_TIPLINE_REPORTS
+  primary_key:
+    columns:
+    - TIP_ID
+  dimensions:
+  - name: TIP_ID
+    description: Unique tipline report identifier
+    expr: TIP_ID
+    data_type: VARCHAR
+    unique: true
+    synonyms:
+    - tip number
+    - report ID
+  - name: REPORTER_TYPE
+    description: Type of reporter (Anonymous, Member, Provider, Employee, External_Agency)
+    expr: REPORTER_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - source
+    - reporter
+    - who reported
+  - name: CASE_TYPE_ALLEGED
+    description: Alleged fraud type reported
+    expr: CASE_TYPE_ALLEGED
+    data_type: VARCHAR
+    synonyms:
+    - alleged fraud
+    - allegation type
+  - name: SUBJECT_DESCRIPTION
+    description: Narrative description of the allegation
+    expr: SUBJECT_DESCRIPTION
+    data_type: VARCHAR
+    synonyms:
+    - allegation
+    - description
+    - tip details
+  - name: REGION
+    description: Geographic region of the reported activity
+    expr: REGION
+    data_type: VARCHAR
+  - name: STATUS
+    description: Tip status (New, Under_Review, Assigned_to_Case, Dismissed, Duplicate)
+    expr: STATUS
+    data_type: VARCHAR
+    synonyms:
+    - tip status
+  - name: LINKED_CASE_ID
+    description: Investigation case ID if tip was assigned to a case
+    expr: LINKED_CASE_ID
+    data_type: VARCHAR
+    synonyms:
+    - case link
+    - assigned case
+  - name: URGENCY
+    description: Tip urgency level (Immediate, Standard, Low)
+    expr: URGENCY
+    data_type: VARCHAR
+  time_dimensions:
+  - name: REPORT_DATE
+    description: Date the tip was reported
+    expr: REPORT_DATE
+    data_type: DATE
+    synonyms:
+    - tip date
+    - reported date
+  measures:
+  - name: TIP_COUNT
+    description: Total number of tipline reports
+    expr: COUNT(*)
+    data_type: NUMBER
+    synonyms:
+    - tips
+    - reports
+    - tip volume
+  - name: ASSIGNED_TIP_COUNT
+    description: Tips that were linked to investigation cases
+    expr: SUM(CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1 ELSE 0 END)
+    data_type: NUMBER
+    synonyms:
+    - converted tips
+    - assigned tips
+  - name: TIP_CONVERSION_RATE
+    description: Percentage of tips that resulted in a case
+    expr: ROUND(SUM(CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1.0 ELSE 0 END) * 100.0 / NULLIF(COUNT(*), 0), 2)
+    data_type: NUMBER
+    synonyms:
+    - conversion rate
+    - hit rate
+
+- name: SIU_PROVIDER_RISK_PROFILES
+  description: |
+    Provider risk profiles with composite FWA scoring, peer benchmarks,
+    and outlier detection. Covers provider networks including
+    Network A, Network B, Network C, Network D, and Network E.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_PROVIDER_RISK_PROFILES
+  primary_key:
+    columns:
+    - PROVIDER_NPI
+  dimensions:
+  - name: PROVIDER_NPI
+    description: National Provider Identifier
+    expr: PROVIDER_NPI
+    data_type: VARCHAR
+    unique: true
+    synonyms:
+    - NPI
+    - provider ID
+  - name: PROVIDER_NAME
+    description: Provider name
+    expr: PROVIDER_NAME
+    data_type: VARCHAR
+    synonyms:
+    - doctor name
+    - provider
+  - name: PROVIDER_NETWORK
+    description: Network affiliation (Network A, Network B, Network C, Network D, Network E, Independent)
+    expr: PROVIDER_NETWORK
+    data_type: VARCHAR
+    synonyms:
+    - network
+    - hospital system
+    - affiliation
+  - name: SPECIALTY
+    description: Health Plan Co.l specialty
+    expr: SPECIALTY
+    data_type: VARCHAR
+  - name: REGION
+    description: Geographic region
+    expr: REGION
+    data_type: VARCHAR
+  - name: RISK_TIER
+    description: Risk classification (Critical, High, Medium, Low)
+    expr: RISK_TIER
+    data_type: VARCHAR
+    synonyms:
+    - risk level
+    - tier
+    - risk category
+  - name: FWA_FLAGS
+    description: Comma-separated list of triggered FWA flags
+    expr: FWA_FLAGS
+    data_type: VARCHAR
+    synonyms:
+    - flags
+    - fraud flags
+    - indicators
+    - red flags
+  measures:
+  - name: PROVIDER_COUNT
+    description: Number of providers
+    expr: COUNT(DISTINCT PROVIDER_NPI)
+    data_type: NUMBER
+    synonyms:
+    - providers
+    - provider volume
+  - name: AVG_RISK_SCORE
+    description: Average composite risk score
+    expr: AVG(COMPOSITE_RISK_SCORE)
+    data_type: NUMBER
+    synonyms:
+    - risk score
+    - average risk
+    - composite score
+  - name: AVG_CLEAN_CLAIM_RATE
+    description: Average clean claim rate across providers
+    expr: AVG(CLEAN_CLAIM_RATE)
+    data_type: NUMBER
+    synonyms:
+    - clean claim rate
+    - claim accuracy
+  - name: HIGH_RISK_PROVIDER_COUNT
+    description: Number of Critical or High risk providers
+    expr: SUM(CASE WHEN RISK_TIER IN ('Critical', 'High') THEN 1 ELSE 0 END)
+    data_type: NUMBER
+    synonyms:
+    - high risk providers
+    - flagged providers
+  - name: TOTAL_PAID_EXPOSURE
+    description: Total paid amount for Critical and High risk providers
+    expr: SUM(CASE WHEN RISK_TIER IN ('Critical', 'High') THEN TOTAL_PAID_12M ELSE 0 END)
+    data_type: NUMBER
+    synonyms:
+    - risk exposure
+    - high risk spend
+
+- name: SIU_MEMBER_FRAUD_INDICATORS
+  description: |
+    Member-side fraud indicators including doctor shopping, identity fraud,
+    eligibility abuse, and prescription surfing patterns. Risk scored
+    using behavioral analytics across claims and eligibility data.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_MEMBER_FRAUD_INDICATORS
+  primary_key:
+    columns:
+    - MEMBER_ID
+  dimensions:
+  - name: MEMBER_ID
+    description: Unique member identifier
+    expr: MEMBER_ID
+    data_type: VARCHAR
+    unique: true
+  - name: MEMBER_NAME
+    description: Member name
+    expr: MEMBER_NAME
+    data_type: VARCHAR
+  - name: PLAN_TYPE
+    description: Health plan type
+    expr: PLAN_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - line of business
+    - LOB
+  - name: REGION
+    description: Geographic region
+    expr: REGION
+    data_type: VARCHAR
+  - name: INDICATOR_TYPE
+    description: Type of fraud indicator (Doctor_Shopping, Identity_Fraud, Eligibility_Abuse, Prescription_Surfing, Multiple_ID_Usage)
+    expr: INDICATOR_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - fraud type
+    - indicator
+    - pattern
+  - name: RISK_TIER
+    description: Risk classification
+    expr: RISK_TIER
+    data_type: VARCHAR
+    synonyms:
+    - risk level
+  - name: DETECTION_METHOD
+    description: How the indicator was detected (Algorithm, Audit, Referral, Tipline)
+    expr: DETECTION_METHOD
+    data_type: VARCHAR
+    synonyms:
+    - detection source
+    - found by
+  measures:
+  - name: MEMBER_FRAUD_COUNT
+    description: Number of members with fraud indicators
+    expr: COUNT(*)
+    data_type: NUMBER
+    synonyms:
+    - flagged members
+    - member alerts
+  - name: AVG_MEMBER_RISK_SCORE
+    description: Average member fraud risk score
+    expr: AVG(RISK_SCORE)
+    data_type: NUMBER
+    synonyms:
+    - risk score
+    - average risk
+  - name: TOTAL_MEMBER_EXPOSURE
+    description: Total financial exposure from member fraud
+    expr: SUM(ESTIMATED_EXPOSURE)
+    data_type: NUMBER
+    synonyms:
+    - member exposure
+    - member fraud dollars
+  - name: AVG_PROVIDERS_90D
+    description: Average unique providers visited in 90 days
+    expr: AVG(UNIQUE_PROVIDERS_90D)
+    data_type: NUMBER
+    synonyms:
+    - provider visits
+    - doctor visits
+  - name: AVG_PHARMACIES_90D
+    description: Average unique pharmacies visited in 90 days
+    expr: AVG(UNIQUE_PHARMACIES_90D)
+    data_type: NUMBER
+    synonyms:
+    - pharmacy visits
+
+- name: SIU_PHARMACY_ALERTS
+  description: |
+    Pharmacy fraud detection alerts covering GLP-1 diversion, pill mill
+    patterns, controlled substance anomalies, and forged prescriptions.
+    Metric deviations are measured against peer pharmacy benchmarks.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_PHARMACY_ALERTS
+  primary_key:
+    columns:
+    - ALERT_ID
+  dimensions:
+  - name: ALERT_ID
+    description: Unique alert identifier
+    expr: ALERT_ID
+    data_type: VARCHAR
+    unique: true
+  - name: PHARMACY_ID
+    description: Pharmacy identifier
+    expr: PHARMACY_ID
+    data_type: VARCHAR
+    synonyms:
+    - pharmacy
+    - store ID
+  - name: PHARMACY_NAME
+    description: Pharmacy name
+    expr: PHARMACY_NAME
+    data_type: VARCHAR
+  - name: REGION
+    description: Geographic region
+    expr: REGION
+    data_type: VARCHAR
+  - name: ALERT_TYPE
+    description: Type of alert (GLP1_Volume_Anomaly, Controlled_Substance_Spike, Forged_Prescription_Suspect, Early_Refill_Pattern, Quantity_Anomaly, Prescriber_Concentration)
+    expr: ALERT_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - alert category
+    - anomaly type
+    - flag type
+  - name: DRUG_CATEGORY
+    description: Drug category involved (GLP-1, Opioid, Benzodiazepine, Stimulant, Other_Controlled)
+    expr: DRUG_CATEGORY
+    data_type: VARCHAR
+    synonyms:
+    - drug type
+    - medication class
+    - substance
+  - name: STATUS
+    description: Alert status (New, Investigating, Confirmed_Fraud, False_Positive, Monitoring)
+    expr: STATUS
+    data_type: VARCHAR
+    synonyms:
+    - alert status
+  - name: LINKED_CASE_ID
+    description: Investigation case linked to this alert
+    expr: LINKED_CASE_ID
+    data_type: VARCHAR
+  - name: PRESCRIBER_NPI
+    description: NPI of the prescriber associated with the alert
+    expr: PRESCRIBER_NPI
+    data_type: VARCHAR
+    synonyms:
+    - prescriber
+    - ordering provider
+  time_dimensions:
+  - name: ALERT_DATE
+    description: Date the alert was generated
+    expr: ALERT_DATE
+    data_type: DATE
+    synonyms:
+    - detection date
+    - flagged date
+  measures:
+  - name: ALERT_COUNT
+    description: Total number of pharmacy alerts
+    expr: COUNT(*)
+    data_type: NUMBER
+    synonyms:
+    - alerts
+    - pharmacy alerts
+    - flags
+  - name: CONFIRMED_FRAUD_COUNT
+    description: Alerts confirmed as fraud
+    expr: SUM(CASE WHEN STATUS = 'Confirmed_Fraud' THEN 1 ELSE 0 END)
+    data_type: NUMBER
+    synonyms:
+    - confirmed cases
+    - validated fraud
+  - name: FALSE_POSITIVE_COUNT
+    description: Alerts determined to be false positives
+    expr: SUM(CASE WHEN STATUS = 'False_Positive' THEN 1 ELSE 0 END)
+    data_type: NUMBER
+  - name: TOTAL_PHARMACY_EXPOSURE
+    description: Total financial exposure from pharmacy alerts
+    expr: SUM(ESTIMATED_EXPOSURE)
+    data_type: NUMBER
+    synonyms:
+    - pharmacy exposure
+    - pharmacy fraud dollars
+  - name: CONFIRMATION_RATE
+    description: Percentage of resolved alerts that were confirmed fraud
+    expr: ROUND(SUM(CASE WHEN STATUS = 'Confirmed_Fraud' THEN 1.0 ELSE 0 END) * 100.0 / NULLIF(SUM(CASE WHEN STATUS IN ('Confirmed_Fraud', 'False_Positive') THEN 1.0 ELSE 0 END), 0), 2)
+    data_type: NUMBER
+    synonyms:
+    - hit rate
+    - accuracy
+  - name: AVG_DEVIATION
+    description: Average deviation from peer benchmarks
+    expr: AVG(DEVIATION_PERCENT)
+    data_type: NUMBER
+    synonyms:
+    - average deviation
+    - anomaly score
+
+- name: SIU_INVESTIGATION_NOTES
+  description: |
+    Investigation notes and case narratives. Includes initial assessments,
+    interview summaries, document reviews, field visits, surveillance
+    reports, expert consultations, and closing summaries.
+    Use Cortex Search for full-text natural language querying.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_INVESTIGATION_NOTES
+  primary_key:
+    columns:
+    - NOTE_ID
+  dimensions:
+  - name: NOTE_ID
+    description: Unique note identifier
+    expr: NOTE_ID
+    data_type: VARCHAR
+    unique: true
+  - name: CASE_ID
+    description: Investigation case this note belongs to
+    expr: CASE_ID
+    data_type: VARCHAR
+    synonyms:
+    - case
+    - investigation
+  - name: AUTHOR
+    description: Investigator who wrote the note
+    expr: AUTHOR
+    data_type: VARCHAR
+    synonyms:
+    - writer
+    - investigator
+  - name: NOTE_TYPE
+    description: Type of note (Initial_Assessment, Interview_Summary, Document_Review, Field_Visit, Surveillance, Expert_Consultation, Closing_Summary, Evidence_Log)
+    expr: NOTE_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - note category
+    - entry type
+  time_dimensions:
+  - name: NOTE_DATE
+    description: Date the note was created
+    expr: NOTE_DATE
+    data_type: DATE
+  measures:
+  - name: NOTE_COUNT
+    description: Number of investigation notes
+    expr: COUNT(*)
+    data_type: NUMBER
+    synonyms:
+    - notes
+    - entries
+  - name: ACTIVE_AUTHORS
+    description: Number of distinct investigators contributing notes
+    expr: COUNT(DISTINCT AUTHOR)
+    data_type: NUMBER
+
+# =============================================================================
+# PHASE 2: CLAIMS & TAXONOMY TABLES
+# =============================================================================
+- name: SIU_CLAIMS
+  description: |
+    Granular claims-level data with 24+ columns for anomaly detection.
+    Each row = one claim line with procedure codes, modifiers, time,
+    geolocation, and high-risk service categorization.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: SIU_CLAIMS
+  primary_key:
+    columns:
+    - CLAIM_ID
+    - CLAIM_LINE_NBR
+  dimensions:
+  - name: CLAIM_ID
+    description: Unique claim identifier
+    expr: CLAIM_ID
+    data_type: VARCHAR
+    synonyms:
+    - claim number
+  - name: PERSON_ID
+    description: Member/patient identifier
+    expr: PERSON_ID
+    data_type: VARCHAR
+    synonyms:
+    - member ID
+    - patient ID
+    - member
+  - name: TIN
+    description: Tax Identification Number of billing entity
+    expr: TIN
+    data_type: VARCHAR
+    synonyms:
+    - tax ID
+    - facility ID
+    - entity
+  - name: TIN_NAME
+    description: Name of the billing entity
+    expr: TIN_NAME
+    data_type: VARCHAR
+    synonyms:
+    - facility name
+    - entity name
+  - name: NPI
+    description: National Provider Identifier (10-digit)
+    expr: NPI
+    data_type: VARCHAR
+    synonyms:
+    - provider NPI
+    - provider ID
+  - name: NPI_NAME
+    description: Provider name
+    expr: NPI_NAME
+    data_type: VARCHAR
+    synonyms:
+    - provider name
+    - doctor name
+  - name: PROCEDURE_CODE
+    description: CPT/HCPCS procedure code (e.g. S5135, 97153, H2017)
+    expr: PROCEDURE_CODE
+    data_type: VARCHAR
+    synonyms:
+    - proc code
+    - CPT code
+    - HCPCS code
+    - service code
+  - name: MODIFIER_1
+    description: First modifier on the claim line
+    expr: MODIFIER_1
+    data_type: VARCHAR
+  - name: HIGH_RISK_CATEGORY
+    description: High-risk service category code (ACS, CFSS, HSS, NIGHT, ADC, NEMT, ARMHS, ACT, EIDBI, IRTS, PCA, SUD, UDT, EM)
+    expr: HIGH_RISK_CATEGORY
+    data_type: VARCHAR
+    synonyms:
+    - risk category
+    - service category
+    - HR category
+    - high risk
+  - name: CITY
+    description: Service location city
+    expr: CITY
+    data_type: VARCHAR
+  - name: ZIP
+    description: Service location ZIP code
+    expr: ZIP
+    data_type: VARCHAR
+  - name: PLAN_TYPE
+    description: Insurance plan type (MSHO, SNBC, PMAP, Commercial)
+    expr: PLAN_TYPE
+    data_type: VARCHAR
+    synonyms:
+    - plan
+    - product
+  time_dimensions:
+  - name: SERVICE_DATE
+    description: Date of service
+    expr: SERVICE_DATE
+    data_type: DATE
+    synonyms:
+    - DOS
+    - date of service
+    - claim date
+  measures:
+  - name: CLAIM_LINE_COUNT
+    description: Number of claim lines
+    expr: COUNT(*)
+    data_type: NUMBER
+    synonyms:
+    - claims
+    - claim count
+    - volume
+  - name: TOTAL_AMOUNT_PAID
+    description: Total paid amount
+    expr: SUM(AMOUNT_PAID)
+    data_type: NUMBER
+    synonyms:
+    - total paid
+    - paid amount
+    - dollars paid
+  - name: TOTAL_AMOUNT_ALLOWED
+    description: Total allowed amount
+    expr: SUM(AMOUNT_ALLOWED)
+    data_type: NUMBER
+    synonyms:
+    - allowed
+    - total allowed
+  - name: TOTAL_AMOUNT_BILLED
+    description: Total billed amount
+    expr: SUM(AMOUNT_BILLED)
+    data_type: NUMBER
+    synonyms:
+    - billed
+    - total billed
+  - name: TOTAL_MINUTES
+    description: Total service time in minutes
+    expr: SUM(TIME_IN_MINUTES)
+    data_type: NUMBER
+    synonyms:
+    - total time
+    - minutes
+  - name: TOTAL_HOURS
+    description: Total service time in hours
+    expr: SUM(TIME_IN_HOURS)
+    data_type: NUMBER
+    synonyms:
+    - hours
+    - total hours
+  - name: UNIQUE_MEMBERS
+    description: Count of distinct members/patients
+    expr: COUNT(DISTINCT PERSON_ID)
+    data_type: NUMBER
+    synonyms:
+    - member count
+    - patients
+  - name: UNIQUE_PROVIDERS
+    description: Count of distinct providers
+    expr: COUNT(DISTINCT NPI)
+    data_type: NUMBER
+    synonyms:
+    - provider count
+  - name: AVG_PAID_PER_LINE
+    description: Average paid amount per claim line
+    expr: AVG(AMOUNT_PAID)
+    data_type: NUMBER
+
+- name: HIGH_RISK_TAXONOMY
+  description: |
+    Reference taxonomy of 16 high-risk service categories with procedure codes,
+    billing limits, supervision ratios, and fraud detection rules.
+  base_table:
+    database: DST_SIU_DB
+    schema: RAW_DATA
+    table: HIGH_RISK_TAXONOMY
+  primary_key:
+    columns:
+    - CATEGORY_CODE
+    - PROCEDURE_CODE
+  dimensions:
+  - name: CATEGORY_CODE
+    description: Short category code (ACS, CFSS, EIDBI, etc.)
+    expr: CATEGORY_CODE
+    data_type: VARCHAR
+    synonyms:
+    - category
+    - HR code
+  - name: CATEGORY_NAME
+    description: Full category name
+    expr: CATEGORY_NAME
+    data_type: VARCHAR
+    synonyms:
+    - service name
+    - category name
+  - name: PROCEDURE_CODE
+    description: CPT/HCPCS procedure code
+    expr: PROCEDURE_CODE
+    data_type: VARCHAR
+  - name: RULE_CATEGORY
+    description: Detection rule type (temporal, ratio, overlap, geospatial, volume)
+    expr: RULE_CATEGORY
+    data_type: VARCHAR
+    synonyms:
+    - rule type
+    - detection type
+  measures:
+  - name: MAX_DAILY_HOURS
+    description: Maximum allowable daily hours for this category
+    expr: MAX_DAILY_HOURS
+    data_type: NUMBER
+  - name: SUPERVISION_RATIO
+    description: Required supervision percentage (e.g. 10% for EIDBI)
+    expr: SUPERVISION_RATIO
+    data_type: NUMBER
+
+relationships:
+- name: claims_to_taxonomy
+  left_table: SIU_CLAIMS
+  right_table: HIGH_RISK_TAXONOMY
+  join_type: left_outer
+  relationship_type: many_to_one
+  relationship_columns:
+  - left_column: HIGH_RISK_CATEGORY
+    right_column: CATEGORY_CODE
+- name: tipline_to_cases
+  left_table: SIU_TIPLINE_REPORTS
+  right_table: SIU_CASES
+  join_type: left_outer
+  relationship_type: many_to_one
+  relationship_columns:
+  - left_column: LINKED_CASE_ID
+    right_column: CASE_ID
+- name: notes_to_cases
+  left_table: SIU_INVESTIGATION_NOTES
+  right_table: SIU_CASES
+  join_type: left_outer
+  relationship_type: many_to_one
+  relationship_columns:
+  - left_column: CASE_ID
+    right_column: CASE_ID
+- name: pharmacy_to_cases
+  left_table: SIU_PHARMACY_ALERTS
+  right_table: SIU_CASES
+  join_type: left_outer
+  relationship_type: many_to_one
+  relationship_columns:
+  - left_column: LINKED_CASE_ID
+    right_column: CASE_ID
+- name: member_to_cases
+  left_table: SIU_MEMBER_FRAUD_INDICATORS
+  right_table: SIU_CASES
+  join_type: left_outer
+  relationship_type: many_to_one
+  relationship_columns:
+  - left_column: LINKED_CASE_ID
+    right_column: CASE_ID
+
+verified_queries:
+- name: open_cases_by_type
+  question: How many open cases do we have by investigation type?
+  sql: |
+    SELECT CASE_TYPE, STATUS, COUNT(*) AS CASE_COUNT, SUM(ESTIMATED_EXPOSURE) AS TOTAL_EXPOSURE
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    WHERE STATUS NOT IN ('Closed_Substantiated', 'Closed_Unsubstantiated')
+    GROUP BY CASE_TYPE, STATUS
+    ORDER BY TOTAL_EXPOSURE DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: financial_exposure_by_domain
+  question: What is the total financial exposure by investigation domain?
+  sql: |
+    SELECT CASE_TYPE, COUNT(*) AS CASES, SUM(ESTIMATED_EXPOSURE) AS TOTAL_EXPOSURE,
+           SUM(RECOVERED_AMOUNT) AS TOTAL_RECOVERED,
+           ROUND(SUM(RECOVERED_AMOUNT) * 100.0 / NULLIF(SUM(ESTIMATED_EXPOSURE), 0), 2) AS RECOVERY_RATE_PCT
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    GROUP BY CASE_TYPE
+    ORDER BY TOTAL_EXPOSURE DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: recovery_rate_by_case_type
+  question: What is the recovery rate by case type and subtype?
+  sql: |
+    SELECT CASE_TYPE, SUBTYPE, COUNT(*) AS CASES,
+           SUM(ESTIMATED_EXPOSURE) AS EXPOSURE,
+           SUM(RECOVERED_AMOUNT) AS RECOVERED,
+           ROUND(SUM(RECOVERED_AMOUNT) * 100.0 / NULLIF(SUM(ESTIMATED_EXPOSURE), 0), 2) AS RECOVERY_RATE
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    WHERE STATUS IN ('Closed_Substantiated', 'Recovery_In_Progress')
+    GROUP BY CASE_TYPE, SUBTYPE
+    ORDER BY RECOVERY_RATE DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: top_high_risk_providers
+  question: Who are the top 10 highest risk providers?
+  sql: |
+    SELECT PROVIDER_NPI, PROVIDER_NAME, PROVIDER_NETWORK, SPECIALTY,
+           COMPOSITE_RISK_SCORE, RISK_TIER, CLEAN_CLAIM_RATE, FWA_FLAGS,
+           TOTAL_PAID_12M, ACTIVE_CASES
+    FROM DST_SIU_DB.RAW_DATA.SIU_PROVIDER_RISK_PROFILES
+    ORDER BY COMPOSITE_RISK_SCORE DESC
+    LIMIT 10
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: glp1_pharmacy_alerts
+  question: What are the GLP-1 related pharmacy alerts?
+  sql: |
+    SELECT PHARMACY_NAME, ALERT_TYPE, DRUG_CATEGORY, METRIC_VALUE,
+           PEER_BENCHMARK, DEVIATION_PERCENT, STATUS, ESTIMATED_EXPOSURE
+    FROM DST_SIU_DB.RAW_DATA.SIU_PHARMACY_ALERTS
+    WHERE DRUG_CATEGORY = 'GLP-1'
+    ORDER BY DEVIATION_PERCENT DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: doctor_shopping_by_plan
+  question: How many doctor shopping indicators are there by plan type?
+  sql: |
+    SELECT PLAN_TYPE, COUNT(*) AS MEMBER_COUNT,
+           AVG(UNIQUE_PROVIDERS_90D) AS AVG_PROVIDERS,
+           AVG(RISK_SCORE) AS AVG_RISK_SCORE,
+           SUM(ESTIMATED_EXPOSURE) AS TOTAL_EXPOSURE
+    FROM DST_SIU_DB.RAW_DATA.SIU_MEMBER_FRAUD_INDICATORS
+    WHERE INDICATOR_TYPE = 'Doctor_Shopping'
+    GROUP BY PLAN_TYPE
+    ORDER BY TOTAL_EXPOSURE DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: tipline_conversion_rate
+  question: What is the tipline conversion rate by reporter type?
+  sql: |
+    SELECT REPORTER_TYPE, COUNT(*) AS TOTAL_TIPS,
+           SUM(CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1 ELSE 0 END) AS CONVERTED,
+           ROUND(SUM(CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1.0 ELSE 0 END) * 100.0 / COUNT(*), 2) AS CONVERSION_RATE
+    FROM DST_SIU_DB.RAW_DATA.SIU_TIPLINE_REPORTS
+    GROUP BY REPORTER_TYPE
+    ORDER BY CONVERSION_RATE DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: investigator_productivity
+  question: How productive are our investigators? Show cases and recovery per investigator.
+  sql: |
+    SELECT ASSIGNED_INVESTIGATOR, COUNT(*) AS TOTAL_CASES,
+           SUM(CASE WHEN STATUS NOT IN ('Closed_Substantiated', 'Closed_Unsubstantiated') THEN 1 ELSE 0 END) AS OPEN_CASES,
+           SUM(RECOVERED_AMOUNT) AS TOTAL_RECOVERED,
+           AVG(CASE WHEN CLOSE_DATE IS NOT NULL THEN DATEDIFF(day, OPEN_DATE, CLOSE_DATE) END) AS AVG_DAYS_TO_CLOSE
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    GROUP BY ASSIGNED_INVESTIGATOR
+    ORDER BY TOTAL_RECOVERED DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: cases_by_region
+  question: Where are our investigation cases concentrated by region?
+  sql: |
+    SELECT REGION, CASE_TYPE, COUNT(*) AS CASES, SUM(ESTIMATED_EXPOSURE) AS EXPOSURE
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    GROUP BY REGION, CASE_TYPE
+    ORDER BY EXPOSURE DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+- name: monthly_case_trend
+  question: What is the monthly trend of new investigation cases?
+  sql: |
+    SELECT DATE_TRUNC('month', OPEN_DATE) AS CASE_MONTH,
+           CASE_TYPE, COUNT(*) AS NEW_CASES, SUM(ESTIMATED_EXPOSURE) AS NEW_EXPOSURE
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    GROUP BY DATE_TRUNC('month', OPEN_DATE), CASE_TYPE
+    ORDER BY CASE_MONTH DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+
+# =============================================================================
+# PHASE 2: CLAIMS-LEVEL TABLES & ANOMALY DETECTION
+# =============================================================================
+
+- name: claims_by_high_risk_category
+  question: How many claims are there by high-risk service category?
+  sql: |
+    SELECT HIGH_RISK_CATEGORY, COUNT(*) AS CLAIM_COUNT,
+           SUM(AMOUNT_PAID) AS TOTAL_PAID,
+           COUNT(DISTINCT NPI) AS PROVIDER_COUNT,
+           COUNT(DISTINCT PERSON_ID) AS MEMBER_COUNT
+    FROM DST_SIU_DB.RAW_DATA.SIU_CLAIMS
+    WHERE HIGH_RISK_CATEGORY IS NOT NULL
+    GROUP BY HIGH_RISK_CATEGORY
+    ORDER BY TOTAL_PAID DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+
+- name: temporal_impossibility_providers
+  question: Which providers billed more than 24 hours in a single day?
+  sql: |
+    SELECT NPI, NPI_NAME, SERVICE_DATE, TOTAL_HOURS, TOTAL_PAID, SEVERITY
+    FROM DST_SIU_DB.ANALYTICS.DT_TEMPORAL_IMPOSSIBILITY
+    WHERE SEVERITY IN ('CRITICAL', 'HIGH')
+    ORDER BY TOTAL_HOURS DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+
+- name: eidbi_ratio_violations
+  question: Which EIDBI providers have supervision ratios exceeding 10%?
+  sql: |
+    SELECT NPI, NPI_NAME, SERVICE_MONTH, SUPERVISION_RATIO_PCT,
+           DIRECT_HOURS_97153, SUPERVISION_HOURS_97155, SEVERITY
+    FROM DST_SIU_DB.ANALYTICS.DT_EIDBI_RATIO_VIOLATIONS
+    ORDER BY SUPERVISION_RATIO_PCT DESC NULLS LAST
+  verified_at: 1772600000
+  verified_by: BHILL
+
+- name: geospatial_anomalies
+  question: What same-day services occurred at impossibly distant locations?
+  sql: |
+    SELECT PERSON_ID, SERVICE_DATE, NPI_NAME_A, CITY_A,
+           NPI_NAME_B, CITY_B, DISTANCE_MILES, COMBINED_PAID, SEVERITY
+    FROM DST_SIU_DB.ANALYTICS.DT_GEOSPATIAL_ANOMALIES
+    WHERE SEVERITY IN ('CRITICAL', 'HIGH')
+    ORDER BY DISTANCE_MILES DESC
+  verified_at: 1772600000
+  verified_by: BHILL
+
+- name: anomaly_summary_triage
+  question: Give me a summary of all detected anomalies by type and severity.
+  sql: |
+    SELECT ANOMALY_TYPE, SEVERITY, COUNT(*) AS ANOMALY_COUNT,
+           SUM(FINANCIAL_IMPACT) AS TOTAL_FINANCIAL_IMPACT
+    FROM DST_SIU_DB.ANALYTICS.ANOMALY_SUMMARY
+    GROUP BY ANOMALY_TYPE, SEVERITY
+    ORDER BY
+      CASE SEVERITY WHEN 'CRITICAL' THEN 1 WHEN 'HIGH' THEN 2
+                    WHEN 'MEDIUM' THEN 3 ELSE 4 END,
+      TOTAL_FINANCIAL_IMPACT DESC
+  verified_at: 1772600000
+  verified_by: BHILL

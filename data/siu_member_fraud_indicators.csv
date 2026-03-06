@@ -1,0 +1,301 @@
+MEMBER_ID,MEMBER_NAME,PLAN_TYPE,REGION,INDICATOR_TYPE,UNIQUE_PROVIDERS_90D,UNIQUE_PHARMACIES_90D,CONTROLLED_SUBSTANCE_RX_90D,ER_VISITS_90D,OVERLAPPING_ELIGIBILITY_FLAG,ADDRESS_CHANGE_FREQUENCY_12M,RISK_SCORE,RISK_TIER,ESTIMATED_EXPOSURE,LINKED_CASE_ID,DETECTION_DATE,DETECTION_METHOD
+MBR-200001,Michael Larson,PMAP,Southwest MN,Multiple_ID_Usage,4,2,2,3,FALSE,2,51.5,Medium,31463.64,,2024-03-31,Tipline
+MBR-200002,John Nguyen,MSHO,Southeast MN,Eligibility_Abuse,5,3,3,2,FALSE,7,72.5,High,117235.53,,2025-06-22,Audit
+MBR-200003,Ashley Thompson,PMAP,Southeast MN,Prescription_Surfing,5,6,3,2,FALSE,0,59.0,Medium,17952.94,,2024-01-16,Audit
+MBR-200004,Mary Jackson,PMAP,Northwest MN,Eligibility_Abuse,1,1,2,1,TRUE,10,71.0,High,128236.65,,2023-07-11,Audit
+MBR-200005,Sandra Swanson,Commercial,Northeast MN,Doctor_Shopping,1,6,6,4,FALSE,2,62.0,High,72577.85,SIU-2024-10133,2023-09-21,Algorithm
+MBR-200006,Joseph Patel,Commercial,Southeast MN,Prescription_Surfing,1,3,8,0,FALSE,0,46.5,Medium,38492.49,,2023-08-16,Referral
+MBR-200007,Kimberly Berg,PMAP,Twin Cities Metro,Identity_Fraud,6,3,0,2,FALSE,2,54.5,Medium,24501.99,,2023-12-12,Algorithm
+MBR-200008,Christopher Nelson,SNBC,Twin Cities Metro,Doctor_Shopping,13,4,6,4,FALSE,1,90.0,Critical,416240.98,,2023-12-21,Algorithm
+MBR-200009,Anthony Lee,SNBC,Twin Cities Metro,Multiple_ID_Usage,1,2,1,1,TRUE,2,47.5,Medium,16838.32,,2025-01-18,Audit
+MBR-200010,Andrew Brown,Commercial,Southeast MN,Eligibility_Abuse,2,2,1,2,FALSE,9,63.0,High,122560.73,SIU-2024-10192,2024-03-29,Algorithm
+MBR-200011,Linda Erickson,MSHO,Northwest MN,Identity_Fraud,3,2,3,2,FALSE,8,67.0,High,30635.59,SIU-2024-10182,2025-05-14,Tipline
+MBR-200012,Mark Smith,Commercial,Northeast MN,Identity_Fraud,4,3,3,1,TRUE,6,75.0,High,83510.8,,2024-12-27,Referral
+MBR-200013,Karen Thompson,PMAP,Twin Cities Metro,Eligibility_Abuse,4,2,3,2,FALSE,6,64.0,High,80543.23,SIU-2024-10112,2024-07-24,Audit
+MBR-200014,Mary Martinez,SNBC,Southeast MN,Multiple_ID_Usage,6,1,2,1,FALSE,0,46.0,Medium,47762.54,,2024-06-23,Algorithm
+MBR-200015,Andrew Miller,PMAP,Central MN,Eligibility_Abuse,5,1,0,1,FALSE,5,54.0,Medium,49334.78,,2025-10-28,Audit
+MBR-200016,Kimberly Peterson,SNBC,Northeast MN,Eligibility_Abuse,3,2,1,1,FALSE,2,43.5,Medium,43046.69,,2024-10-26,Tipline
+MBR-200017,Betty Nelson,MSHO,Twin Cities Metro,Prescription_Surfing,3,1,7,1,TRUE,2,63.0,High,31691.78,,2025-09-15,Referral
+MBR-200018,Richard Nguyen,MSHO,Twin Cities Metro,Doctor_Shopping,14,1,0,11,FALSE,2,87.0,Critical,463538.55,SIU-2024-10201,2025-02-10,Referral
+MBR-200019,Christopher Williams,Commercial,Southeast MN,Eligibility_Abuse,1,2,2,3,TRUE,6,64.5,High,145850.42,SIU-2024-10197,2023-09-04,Audit
+MBR-200020,Andrew Chen,PMAP,Southeast MN,Prescription_Surfing,6,9,7,3,TRUE,1,92.0,Critical,377400.85,,2023-09-19,Tipline
+MBR-200021,Jennifer Peterson,MSHO,Twin Cities Metro,Identity_Fraud,2,2,2,3,FALSE,6,57.5,Medium,19959.6,,2024-12-26,Audit
+MBR-200022,Ashley Hansen,Commercial,Southeast MN,Identity_Fraud,1,1,3,3,FALSE,5,51.0,Medium,7651.98,,2024-07-26,Referral
+MBR-200023,Andrew Brown,SNBC,Twin Cities Metro,Eligibility_Abuse,6,3,3,0,TRUE,5,76.5,High,116930.12,,2024-04-16,Audit
+MBR-200024,James Olson,Commercial,Central MN,Eligibility_Abuse,5,3,0,0,FALSE,3,51.5,Medium,21905.87,,2024-11-14,Algorithm
+MBR-200025,Emily Williams,SNBC,Twin Cities Metro,Identity_Fraud,1,1,3,3,FALSE,10,66.0,High,80771.11,,2024-07-13,Algorithm
+MBR-200026,Kimberly Kim,MSHO,Twin Cities Metro,Eligibility_Abuse,3,3,2,2,FALSE,7,64.5,High,91114.4,SIU-2024-10175,2023-12-27,Referral
+MBR-200027,Mark Olson,PMAP,Southeast MN,Multiple_ID_Usage,2,2,1,1,FALSE,1,37.5,Medium,5441.95,,2023-11-01,Tipline
+MBR-200028,Robert Erickson,MSHO,Twin Cities Metro,Doctor_Shopping,7,4,3,8,FALSE,0,69.0,High,23249.55,SIU-2024-10141,2025-03-13,Audit
+MBR-200029,Robert Taylor,MSHO,Northwest MN,Eligibility_Abuse,3,2,3,2,FALSE,8,67.0,High,141131.57,SIU-2024-10152,2023-11-04,Algorithm
+MBR-200030,Michelle Kim,PMAP,Twin Cities Metro,Identity_Fraud,5,1,1,3,FALSE,6,62.0,High,145498.95,,2024-09-27,Audit
+MBR-200031,Patricia Nelson,MSHO,Central MN,Identity_Fraud,2,1,1,1,FALSE,2,38.0,Medium,19550.2,,2024-11-05,Tipline
+MBR-200032,Daniel Davis,Commercial,Twin Cities Metro,Prescription_Surfing,5,2,7,3,FALSE,1,61.5,High,110343.02,SIU-2024-10234,2023-08-20,Audit
+MBR-200033,Matthew Olson,PMAP,Central MN,Identity_Fraud,4,3,3,3,FALSE,6,68.0,High,107524.62,SIU-2024-10212,2023-06-26,Referral
+MBR-200034,Kimberly Carlson,PMAP,Central MN,Prescription_Surfing,2,10,6,3,FALSE,2,73.5,High,149384.19,SIU-2024-10193,2023-06-06,Referral
+MBR-200035,Sarah Lee,MSHO,Northeast MN,Eligibility_Abuse,3,3,0,2,TRUE,6,67.5,High,101626.0,SIU-2024-10165,2023-07-29,Algorithm
+MBR-200036,David Anderson,Commercial,Southeast MN,Prescription_Surfing,4,12,3,0,FALSE,2,74.0,High,135725.79,SIU-2024-10146,2024-08-03,Algorithm
+MBR-200037,Mary Berg,Commercial,Southwest MN,Doctor_Shopping,2,6,3,8,FALSE,0,59.0,Medium,34479.74,,2025-10-05,Referral
+MBR-200038,Donald Smith,PMAP,Southeast MN,Identity_Fraud,6,2,3,0,FALSE,10,79.0,High,34914.38,SIU-2024-10145,2024-03-09,Audit
+MBR-200039,Joshua Nguyen,Commercial,Twin Cities Metro,Multiple_ID_Usage,6,1,2,2,FALSE,0,47.5,Medium,20365.36,,2025-05-14,Algorithm
+MBR-200040,William Martinez,Commercial,Twin Cities Metro,Multiple_ID_Usage,1,1,0,1,FALSE,2,33.0,Low,14520.72,,2023-06-11,Audit
+MBR-200041,Anthony Chen,Commercial,Twin Cities Metro,Eligibility_Abuse,6,1,2,1,FALSE,4,58.0,Medium,18971.92,,2024-03-20,Audit
+MBR-200042,Thomas Chen,SNBC,Southeast MN,Eligibility_Abuse,4,1,1,2,FALSE,4,51.5,Medium,49067.52,,2024-08-24,Referral
+MBR-200043,Anthony Nelson,Commercial,Twin Cities Metro,Doctor_Shopping,12,6,14,10,FALSE,0,100,Critical,66528.99,,2024-12-02,Audit
+MBR-200044,Sarah Anderson,PMAP,Southwest MN,Prescription_Surfing,6,5,6,2,FALSE,2,71.5,High,89467.51,,2024-11-07,Audit
+MBR-200045,Daniel Chen,SNBC,Southeast MN,Eligibility_Abuse,1,1,1,3,TRUE,7,63.0,High,65258.17,SIU-2024-10109,2023-09-16,Referral
+MBR-200046,Donald Martinez,SNBC,Twin Cities Metro,Doctor_Shopping,11,6,3,2,FALSE,1,80.0,Critical,123235.54,SIU-2024-10106,2025-02-21,Tipline
+MBR-200047,Karen Smith,Commercial,Central MN,Multiple_ID_Usage,4,1,2,2,FALSE,1,44.5,Medium,35535.01,,2025-11-15,Audit
+MBR-200048,Kenneth Chen,MSHO,Twin Cities Metro,Multiple_ID_Usage,3,3,3,0,FALSE,0,42.5,Medium,46505.91,,2024-11-18,Audit
+MBR-200049,Sandra Miller,SNBC,Twin Cities Metro,Multiple_ID_Usage,3,1,0,2,FALSE,0,34.5,Low,12220.85,,2023-11-17,Tipline
+MBR-200050,Elizabeth Kim,SNBC,Twin Cities Metro,Doctor_Shopping,6,5,9,1,FALSE,0,70.0,High,73934.1,,2024-12-20,Referral
+MBR-200051,Jessica Garcia,Commercial,Twin Cities Metro,Doctor_Shopping,4,8,12,11,FALSE,1,95.5,Critical,350796.58,,2023-09-07,Tipline
+MBR-200052,Ashley Kim,PMAP,Central MN,Identity_Fraud,2,2,2,2,FALSE,8,62.0,High,95586.75,SIU-2024-10189,2025-06-28,Algorithm
+MBR-200053,David Brown,SNBC,Central MN,Identity_Fraud,3,2,2,0,FALSE,8,62.0,High,138469.11,,2023-12-10,Algorithm
+MBR-200054,Steven Smith,PMAP,Twin Cities Metro,Identity_Fraud,3,2,1,3,FALSE,6,58.5,Medium,22406.7,,2024-02-23,Tipline
+MBR-200055,Betty Martinez,SNBC,Twin Cities Metro,Identity_Fraud,5,1,3,0,FALSE,3,52.5,Medium,34514.09,,2025-09-04,Algorithm
+MBR-200056,Thomas Patel,PMAP,Twin Cities Metro,Identity_Fraud,5,2,3,0,FALSE,8,70.0,High,72031.7,SIU-2024-10209,2025-03-11,Algorithm
+MBR-200057,Andrew Garcia,Commercial,Southeast MN,Multiple_ID_Usage,4,3,2,2,FALSE,0,46.5,Medium,49133.05,,2024-06-27,Algorithm
+MBR-200058,Linda Fernandez,MSHO,Twin Cities Metro,Identity_Fraud,6,3,2,1,FALSE,9,78.0,High,73709.89,SIU-2024-10111,2024-10-14,Tipline
+MBR-200059,Barbara Swanson,MSHO,Northeast MN,Eligibility_Abuse,6,2,2,3,FALSE,6,69.5,High,118522.56,SIU-2024-10169,2024-05-31,Tipline
+MBR-200060,Andrew Peterson,Commercial,Twin Cities Metro,Doctor_Shopping,2,10,3,5,FALSE,2,70.5,High,114721.84,SIU-2024-10122,2023-10-08,Audit
+MBR-200061,Anthony Davis,Commercial,Northeast MN,Prescription_Surfing,3,8,7,3,TRUE,1,80.5,Critical,217757.9,SIU-2024-10126,2025-06-12,Algorithm
+MBR-200062,Richard Taylor,PMAP,Twin Cities Metro,Eligibility_Abuse,1,1,2,0,FALSE,8,53.5,Medium,48432.2,,2024-02-23,Referral
+MBR-200063,Barbara Hansen,SNBC,Southwest MN,Multiple_ID_Usage,1,2,3,1,FALSE,1,38.5,Medium,17365.4,,2024-10-26,Algorithm
+MBR-200064,David Hansen,Commercial,Northeast MN,Multiple_ID_Usage,6,2,2,0,FALSE,0,47.0,Medium,40192.28,,2024-02-29,Tipline
+MBR-200065,Kenneth Nguyen,PMAP,Twin Cities Metro,Multiple_ID_Usage,2,1,2,1,FALSE,1,37.0,Medium,37767.38,,2024-09-14,Tipline
+MBR-200066,Elizabeth Thompson,PMAP,Southeast MN,Multiple_ID_Usage,4,3,0,2,FALSE,1,45.5,Medium,42018.29,,2025-10-22,Tipline
+MBR-200067,Nancy Swanson,SNBC,Southwest MN,Identity_Fraud,3,2,0,0,FALSE,10,64.0,High,147967.87,SIU-2024-10236,2024-03-25,Referral
+MBR-200068,Emily Patel,Commercial,Twin Cities Metro,Prescription_Surfing,5,10,5,2,FALSE,1,76.0,High,149436.49,SIU-2024-10173,2024-10-15,Audit
+MBR-200069,Barbara Fernandez,SNBC,Twin Cities Metro,Prescription_Surfing,1,2,12,1,FALSE,0,53.5,Medium,30683.53,,2023-11-10,Tipline
+MBR-200070,Daniel Davis,Commercial,Twin Cities Metro,Multiple_ID_Usage,2,2,2,2,FALSE,2,44.0,Medium,9753.74,,2024-11-30,Tipline
+MBR-200071,James Wilson,Commercial,Southeast MN,Identity_Fraud,4,2,3,1,FALSE,4,56.5,Medium,23002.45,,2025-09-27,Referral
+MBR-200072,Jennifer Jackson,SNBC,Southwest MN,Prescription_Surfing,1,7,13,3,FALSE,2,77.0,High,18920.53,SIU-2024-10229,2025-01-05,Tipline
+MBR-200073,Anthony Wilson,PMAP,Southwest MN,Doctor_Shopping,6,10,15,10,FALSE,1,100,Critical,60223.78,,2024-11-05,Audit
+MBR-200074,Mary Carlson,Commercial,Twin Cities Metro,Identity_Fraud,2,1,3,1,FALSE,6,54.0,Medium,7916.58,,2025-01-12,Tipline
+MBR-200075,Lisa Fernandez,SNBC,Southwest MN,Prescription_Surfing,4,4,5,3,FALSE,0,56.5,Medium,41165.91,,2023-11-11,Audit
+MBR-200076,Andrew Peterson,MSHO,Twin Cities Metro,Prescription_Surfing,1,11,13,3,FALSE,0,81.0,Critical,402369.23,,2025-06-02,Algorithm
+MBR-200077,Donald Williams,Commercial,Northeast MN,Prescription_Surfing,1,5,12,0,FALSE,2,65.5,High,140197.64,,2025-08-15,Algorithm
+MBR-200078,Susan Hansen,SNBC,Northeast MN,Doctor_Shopping,4,12,5,5,FALSE,1,82.5,Critical,113877.55,SIU-2024-10224,2023-09-08,Referral
+MBR-200079,Joshua Hansen,Commercial,Northeast MN,Doctor_Shopping,16,4,8,5,FALSE,1,100,Critical,198797.55,SIU-2024-10167,2025-01-29,Algorithm
+MBR-200080,William Taylor,SNBC,Southeast MN,Identity_Fraud,1,1,2,2,FALSE,6,50.5,Medium,47515.64,,2025-03-11,Referral
+MBR-200081,Donna Swanson,Commercial,Southwest MN,Prescription_Surfing,2,12,4,1,FALSE,1,68.5,High,49736.28,SIU-2024-10155,2023-10-30,Algorithm
+MBR-200082,Donna Fernandez,PMAP,Central MN,Eligibility_Abuse,6,3,3,3,FALSE,4,68.0,High,146274.45,,2024-10-26,Referral
+MBR-200083,Robert Berg,PMAP,Twin Cities Metro,Multiple_ID_Usage,4,3,1,3,FALSE,1,49.0,Medium,5640.47,,2024-01-17,Referral
+MBR-200084,James Nguyen,SNBC,Twin Cities Metro,Identity_Fraud,5,3,0,1,FALSE,9,71.0,High,91870.08,,2025-07-04,Audit
+MBR-200085,Jennifer Martinez,PMAP,Southwest MN,Identity_Fraud,4,3,0,2,FALSE,6,60.5,High,89693.4,SIU-2024-10238,2023-07-28,Tipline
+MBR-200086,Kenneth Hansen,SNBC,Twin Cities Metro,Multiple_ID_Usage,6,1,1,1,FALSE,1,47.0,Medium,12984.38,,2024-12-17,Referral
+MBR-200087,Donna Brown,SNBC,Central MN,Doctor_Shopping,3,3,9,0,FALSE,0,54.5,Medium,31355.48,,2024-09-18,Algorithm
+MBR-200088,Michael Wilson,MSHO,Twin Cities Metro,Multiple_ID_Usage,6,1,1,3,FALSE,0,47.0,Medium,26421.61,,2025-01-24,Audit
+MBR-200089,Richard Taylor,Commercial,Twin Cities Metro,Multiple_ID_Usage,1,3,3,0,FALSE,1,39.5,Medium,39982.81,,2025-09-03,Tipline
+MBR-200090,Thomas Fernandez,PMAP,Central MN,Doctor_Shopping,9,8,5,5,FALSE,2,90.5,Critical,177690.07,,2024-11-26,Audit
+MBR-200091,Daniel Nakamura,PMAP,Southwest MN,Eligibility_Abuse,5,2,3,0,FALSE,4,58.0,Medium,26941.12,,2024-11-03,Tipline
+MBR-200092,Barbara Carlson,SNBC,Twin Cities Metro,Prescription_Surfing,4,11,9,0,FALSE,1,80.5,Critical,204094.27,,2025-08-06,Algorithm
+MBR-200093,Elizabeth Berg,SNBC,Twin Cities Metro,Identity_Fraud,3,2,3,0,FALSE,5,55.0,Medium,30695.38,,2023-11-08,Audit
+MBR-200094,Sarah Larson,SNBC,Northeast MN,Prescription_Surfing,5,11,5,2,FALSE,1,78.5,High,103221.24,,2024-02-25,Tipline
+MBR-200095,James Garcia,PMAP,Twin Cities Metro,Eligibility_Abuse,3,3,2,2,FALSE,8,67.5,High,91043.66,,2024-07-18,Algorithm
+MBR-200096,Christopher Nguyen,PMAP,Southwest MN,Prescription_Surfing,2,8,8,0,FALSE,0,62.0,High,43162.22,,2024-06-17,Algorithm
+MBR-200097,William Berg,Commercial,Central MN,Eligibility_Abuse,3,3,1,1,FALSE,9,67.0,High,130614.46,SIU-2024-10163,2025-06-10,Tipline
+MBR-200098,Patricia Peterson,Commercial,Northwest MN,Multiple_ID_Usage,1,3,3,3,FALSE,2,47.0,Medium,31375.15,,2023-07-28,Referral
+MBR-200099,Mark Nguyen,PMAP,Twin Cities Metro,Eligibility_Abuse,3,1,3,1,FALSE,3,48.0,Medium,19604.55,,2023-11-03,Audit
+MBR-200100,Thomas Wilson,PMAP,Southeast MN,Multiple_ID_Usage,5,1,3,1,FALSE,2,51.0,Medium,39325.42,,2024-11-25,Referral
+MBR-200101,Sandra Larson,SNBC,Central MN,Doctor_Shopping,3,12,10,5,FALSE,1,89.5,Critical,386272.94,SIU-2024-10183,2024-09-14,Referral
+MBR-200102,Patricia Nguyen,SNBC,Southwest MN,Eligibility_Abuse,6,2,2,0,TRUE,8,81.0,Critical,242298.92,,2024-11-23,Algorithm
+MBR-200103,Robert Taylor,PMAP,Twin Cities Metro,Multiple_ID_Usage,4,1,2,3,FALSE,1,46.0,Medium,33546.82,,2023-09-03,Algorithm
+MBR-200104,Sarah Thompson,SNBC,Central MN,Multiple_ID_Usage,1,3,3,1,FALSE,2,44.0,Medium,24392.6,,2024-09-05,Audit
+MBR-200105,Mary Johnson,MSHO,Twin Cities Metro,Eligibility_Abuse,5,2,3,3,FALSE,8,74.5,High,92589.61,SIU-2024-10200,2024-01-17,Referral
+MBR-200106,Joshua Nelson,SNBC,Twin Cities Metro,Prescription_Surfing,2,10,10,3,FALSE,0,75.5,High,118940.26,SIU-2024-10191,2023-12-11,Audit
+MBR-200107,Daniel Kowalski,PMAP,Twin Cities Metro,Identity_Fraud,1,3,0,1,FALSE,3,41.0,Medium,19735.75,,2024-01-22,Audit
+MBR-200108,Mary Thompson,PMAP,Twin Cities Metro,Identity_Fraud,3,1,1,2,TRUE,9,73.5,High,31619.86,,2025-11-05,Audit
+MBR-200109,Barbara Davis,MSHO,Twin Cities Metro,Prescription_Surfing,4,4,6,3,FALSE,0,58.5,Medium,9178.33,,2025-01-13,Algorithm
+MBR-200110,Nancy Brown,SNBC,Twin Cities Metro,Identity_Fraud,4,3,2,2,FALSE,5,61.5,High,147995.53,,2024-02-17,Algorithm
+MBR-200111,Joseph Chen,MSHO,Twin Cities Metro,Prescription_Surfing,4,7,3,2,FALSE,1,61.5,High,127932.18,SIU-2024-10177,2023-08-26,Tipline
+MBR-200112,Elizabeth Nelson,MSHO,Northwest MN,Prescription_Surfing,3,12,10,0,FALSE,0,79.0,High,38943.38,SIU-2024-10233,2025-05-12,Tipline
+MBR-200113,Elizabeth Patel,MSHO,Southeast MN,Doctor_Shopping,7,12,9,5,FALSE,0,96.5,Critical,238657.62,SIU-2024-10233,2025-09-06,Audit
+MBR-200114,Thomas Jackson,MSHO,Central MN,Eligibility_Abuse,1,2,1,2,FALSE,7,54.0,Medium,45904.14,,2024-04-24,Algorithm
+MBR-200115,William Olson,PMAP,Twin Cities Metro,Doctor_Shopping,16,1,4,6,TRUE,1,100,Critical,393126.03,,2023-09-11,Algorithm
+MBR-200116,James Swanson,SNBC,Twin Cities Metro,Eligibility_Abuse,1,1,3,3,FALSE,10,66.0,High,74456.14,,2024-09-30,Tipline
+MBR-200117,Paul Nelson,SNBC,Twin Cities Metro,Eligibility_Abuse,5,2,0,3,FALSE,5,59.5,Medium,10662.48,,2025-09-02,Audit
+MBR-200118,Lisa Chen,MSHO,Central MN,Identity_Fraud,6,2,2,0,FALSE,6,65.0,High,39924.61,,2024-09-16,Referral
+MBR-200119,Jessica Olson,PMAP,Twin Cities Metro,Identity_Fraud,6,1,0,3,FALSE,5,60.0,High,147236.63,SIU-2024-10109,2024-07-11,Referral
+MBR-200120,Sarah Lee,Commercial,Southeast MN,Doctor_Shopping,12,4,12,7,FALSE,1,100,Critical,329590.65,SIU-2024-10131,2025-07-26,Referral
+MBR-200121,Margaret Lee,SNBC,Twin Cities Metro,Eligibility_Abuse,4,3,3,0,FALSE,7,66.5,High,118041.36,SIU-2024-10194,2023-06-27,Audit
+MBR-200122,Paul Olson,SNBC,Northwest MN,Doctor_Shopping,4,2,9,2,FALSE,1,61.0,High,76096.25,SIU-2024-10122,2024-07-12,Audit
+MBR-200123,Nancy Wilson,SNBC,Central MN,Identity_Fraud,2,3,2,1,FALSE,10,69.0,High,85881.11,,2024-01-22,Audit
+MBR-200124,Christopher Miller,SNBC,Twin Cities Metro,Eligibility_Abuse,2,3,1,1,FALSE,8,61.0,High,130869.85,SIU-2024-10203,2024-11-16,Tipline
+MBR-200125,Susan Kowalski,Commercial,Twin Cities Metro,Prescription_Surfing,6,5,0,0,FALSE,2,56.5,Medium,35065.41,,2025-06-21,Algorithm
+MBR-200126,Matthew Anderson,Commercial,Twin Cities Metro,Doctor_Shopping,16,3,7,6,FALSE,2,100,Critical,238554.18,SIU-2024-10164,2024-01-18,Referral
+MBR-200127,Kimberly Swanson,Commercial,Twin Cities Metro,Identity_Fraud,6,3,1,1,FALSE,6,67.0,High,117678.92,SIU-2024-10131,2024-11-18,Algorithm
+MBR-200128,Sarah Smith,Commercial,Twin Cities Metro,Multiple_ID_Usage,4,2,0,3,FALSE,2,47.5,Medium,20361.97,,2024-06-25,Referral
+MBR-200129,Kenneth Jackson,Commercial,Twin Cities Metro,Doctor_Shopping,6,12,15,12,FALSE,2,100,Critical,96372.57,,2025-11-02,Referral
+MBR-200130,Sarah Nakamura,Commercial,Northeast MN,Identity_Fraud,4,2,0,0,FALSE,6,55.0,Medium,42904.62,,2024-02-13,Referral
+MBR-200131,Margaret Kim,PMAP,Northwest MN,Prescription_Surfing,1,1,3,3,FALSE,1,39.0,Medium,14962.47,,2024-02-28,Algorithm
+MBR-200132,Jessica Erickson,Commercial,Southwest MN,Prescription_Surfing,6,7,1,0,FALSE,2,63.5,High,143799.65,SIU-2024-10131,2025-01-15,Tipline
+MBR-200133,Susan Taylor,MSHO,Twin Cities Metro,Prescription_Surfing,4,8,1,3,FALSE,2,64.5,High,115492.16,SIU-2024-10107,2023-12-03,Algorithm
+MBR-200134,Sarah Thompson,MSHO,Twin Cities Metro,Eligibility_Abuse,4,1,3,2,FALSE,7,64.5,High,62571.09,,2025-08-11,Algorithm
+MBR-200135,Matthew Garcia,Commercial,Southwest MN,Eligibility_Abuse,6,2,1,1,FALSE,10,76.5,High,102518.73,,2025-09-13,Audit
+MBR-200136,Daniel Jackson,MSHO,Twin Cities Metro,Prescription_Surfing,5,9,7,2,FALSE,0,74.5,High,138413.13,SIU-2024-10204,2024-10-22,Audit
+MBR-200137,Daniel Johnson,SNBC,Twin Cities Metro,Prescription_Surfing,6,8,11,2,FALSE,1,86.0,Critical,389646.88,,2023-09-23,Audit
+MBR-200138,Jennifer Anderson,PMAP,Northeast MN,Multiple_ID_Usage,6,3,2,1,FALSE,2,57.0,Medium,8417.09,,2025-05-29,Tipline
+MBR-200139,Christopher Jackson,SNBC,Central MN,Eligibility_Abuse,5,2,3,1,FALSE,3,56.5,Medium,43025.43,,2025-01-04,Algorithm
+MBR-200140,Joseph Larson,SNBC,Twin Cities Metro,Eligibility_Abuse,1,1,1,2,TRUE,5,55.5,Medium,42496.16,,2025-11-13,Audit
+MBR-200141,Joshua Carlson,SNBC,Twin Cities Metro,Prescription_Surfing,3,4,0,3,FALSE,1,46.5,Medium,30034.51,,2024-07-27,Audit
+MBR-200142,Nancy Nakamura,Commercial,Southwest MN,Multiple_ID_Usage,4,3,2,2,FALSE,1,49.5,Medium,24409.16,,2024-01-27,Referral
+MBR-200143,Paul Chen,PMAP,Twin Cities Metro,Multiple_ID_Usage,6,1,2,1,FALSE,2,52.0,Medium,10794.41,,2024-09-30,Referral
+MBR-200144,Robert Olson,SNBC,Central MN,Doctor_Shopping,18,4,14,4,FALSE,0,100,Critical,257107.49,SIU-2024-10212,2023-06-23,Tipline
+MBR-200145,Sarah Taylor,MSHO,Northeast MN,Multiple_ID_Usage,4,3,1,0,FALSE,0,41.5,Medium,47963.04,,2024-02-14,Algorithm
+MBR-200146,Lisa Larson,Commercial,Twin Cities Metro,Multiple_ID_Usage,2,2,1,3,FALSE,2,43.5,Medium,35360.04,,2025-01-04,Tipline
+MBR-200147,Kimberly Williams,PMAP,Northeast MN,Identity_Fraud,5,1,2,0,FALSE,3,50.5,Medium,32623.27,,2025-06-17,Audit
+MBR-200148,Betty Taylor,SNBC,Northwest MN,Identity_Fraud,2,1,0,3,FALSE,7,54.0,Medium,9009.76,,2025-05-18,Tipline
+MBR-200149,Thomas Brown,Commercial,Southwest MN,Prescription_Surfing,2,6,5,0,FALSE,0,51.0,Medium,36826.83,,2023-09-01,Audit
+MBR-200150,Mary Nakamura,Commercial,Twin Cities Metro,Eligibility_Abuse,3,3,0,2,FALSE,3,48.5,Medium,28574.03,,2025-02-10,Algorithm
+MBR-200151,Joshua Taylor,MSHO,Southwest MN,Multiple_ID_Usage,1,1,0,0,TRUE,1,38.5,Medium,18781.87,,2024-06-18,Algorithm
+MBR-200152,Joshua Olson,SNBC,Southwest MN,Identity_Fraud,4,1,1,2,FALSE,4,51.5,Medium,31987.32,,2025-11-29,Tipline
+MBR-200153,Michael Erickson,SNBC,Central MN,Identity_Fraud,4,1,0,0,FALSE,6,52.5,Medium,47076.46,,2025-04-30,Audit
+MBR-200154,Anthony Martinez,SNBC,Northeast MN,Multiple_ID_Usage,4,1,1,2,FALSE,2,45.5,Medium,29659.12,,2024-09-01,Algorithm
+MBR-200155,Patricia Kowalski,MSHO,Twin Cities Metro,Multiple_ID_Usage,3,1,1,3,FALSE,1,41.0,Medium,6871.57,,2024-10-04,Algorithm
+MBR-200156,Richard Swanson,MSHO,Southwest MN,Multiple_ID_Usage,3,3,3,1,FALSE,0,44.0,Medium,25155.71,,2025-03-03,Tipline
+MBR-200157,Patricia Davis,Commercial,Twin Cities Metro,Prescription_Surfing,4,1,15,0,FALSE,1,67.5,High,97304.54,SIU-2024-10174,2025-09-29,Algorithm
+MBR-200158,Anthony Carlson,MSHO,Twin Cities Metro,Identity_Fraud,5,3,1,2,FALSE,10,77.5,High,18775.02,,2024-05-26,Algorithm
+MBR-200159,Robert Chen,SNBC,Southeast MN,Prescription_Surfing,6,12,1,1,FALSE,0,71.5,High,135468.07,,2023-12-26,Tipline
+MBR-200160,Lisa Olson,MSHO,Twin Cities Metro,Identity_Fraud,4,1,0,2,TRUE,5,62.5,High,104045.22,,2024-07-04,Audit
+MBR-200161,Karen Carlson,Commercial,Twin Cities Metro,Eligibility_Abuse,2,3,1,2,FALSE,8,62.5,High,106853.42,,2025-11-16,Referral
+MBR-200162,John Chen,MSHO,Twin Cities Metro,Prescription_Surfing,4,7,8,1,FALSE,1,70.0,High,49212.44,SIU-2024-10202,2025-07-25,Tipline
+MBR-200163,Thomas Kim,SNBC,Twin Cities Metro,Identity_Fraud,1,1,1,3,FALSE,10,62.0,High,59196.11,,2025-06-02,Tipline
+MBR-200164,Emily Fernandez,PMAP,Twin Cities Metro,Eligibility_Abuse,5,2,0,0,FALSE,5,55.0,Medium,47759.41,,2024-10-22,Audit
+MBR-200165,Robert Larson,MSHO,Southeast MN,Identity_Fraud,1,1,1,0,FALSE,4,39.5,Medium,8762.36,,2024-08-20,Referral
+MBR-200166,Lisa Fernandez,SNBC,Twin Cities Metro,Prescription_Surfing,1,11,6,1,FALSE,0,64.0,High,91788.18,,2024-02-12,Audit
+MBR-200167,Lisa Kim,Commercial,Twin Cities Metro,Eligibility_Abuse,6,1,3,3,TRUE,6,79.0,High,83255.27,SIU-2024-10150,2025-06-08,Tipline
+MBR-200168,Mark Davis,Commercial,Twin Cities Metro,Doctor_Shopping,8,10,9,8,FALSE,2,100,Critical,483879.44,SIU-2024-10117,2024-11-29,Algorithm
+MBR-200169,Anthony Johnson,SNBC,Central MN,Multiple_ID_Usage,3,2,0,1,FALSE,2,41.5,Medium,15514.79,,2024-12-28,Algorithm
+MBR-200170,Anthony Swanson,MSHO,Northeast MN,Prescription_Surfing,6,1,2,0,FALSE,1,47.5,Medium,47174.49,,2025-05-03,Tipline
+MBR-200171,Joseph Nelson,SNBC,Southwest MN,Prescription_Surfing,5,5,11,3,FALSE,0,74.0,High,76320.13,,2024-03-20,Audit
+MBR-200172,Joseph Miller,PMAP,Northeast MN,Prescription_Surfing,3,12,0,3,FALSE,0,63.5,High,20744.91,SIU-2024-10239,2023-10-07,Referral
+MBR-200173,David Patel,Commercial,Twin Cities Metro,Identity_Fraud,4,2,3,3,FALSE,9,74.5,High,64080.64,SIU-2024-10203,2024-11-24,Audit
+MBR-200174,Elizabeth Brown,SNBC,Central MN,Identity_Fraud,5,1,2,3,FALSE,8,70.0,High,65600.25,SIU-2024-10201,2023-09-20,Tipline
+MBR-200175,Anthony Taylor,Commercial,Twin Cities Metro,Eligibility_Abuse,2,2,1,3,FALSE,8,61.5,High,39342.56,SIU-2024-10153,2025-04-14,Audit
+MBR-200176,David Garcia,SNBC,Southwest MN,Eligibility_Abuse,5,1,1,3,FALSE,5,59.0,Medium,44061.35,,2024-10-11,Referral
+MBR-200177,Jennifer Berg,MSHO,Southwest MN,Multiple_ID_Usage,1,1,0,0,FALSE,0,25.5,Low,5641.12,,2024-05-31,Audit
+MBR-200178,Michael Martinez,SNBC,Twin Cities Metro,Identity_Fraud,1,2,2,3,FALSE,4,48.5,Medium,18038.35,,2024-12-27,Audit
+MBR-200179,Linda Kim,SNBC,Twin Cities Metro,Identity_Fraud,5,3,3,1,FALSE,9,77.0,High,109481.45,SIU-2024-10164,2023-10-29,Tipline
+MBR-200180,Nancy Kowalski,MSHO,Twin Cities Metro,Doctor_Shopping,13,8,12,7,FALSE,0,100,Critical,313778.92,,2024-08-25,Audit
+MBR-200181,Betty Kowalski,MSHO,Northwest MN,Prescription_Surfing,6,10,11,2,FALSE,1,91.0,Critical,81000.5,SIU-2024-10177,2023-11-01,Algorithm
+MBR-200182,Nancy Fernandez,PMAP,Twin Cities Metro,Identity_Fraud,1,2,3,0,FALSE,8,58.0,Medium,49626.58,,2024-02-14,Audit
+MBR-200183,Thomas Thompson,PMAP,Northwest MN,Multiple_ID_Usage,1,2,2,1,FALSE,0,33.5,Low,10807.21,,2024-08-17,Referral
+MBR-200184,James Patel,PMAP,Central MN,Doctor_Shopping,15,11,2,5,FALSE,0,100,Critical,442418.01,,2025-01-08,Algorithm
+MBR-200185,Margaret Williams,Commercial,Twin Cities Metro,Eligibility_Abuse,4,2,3,0,FALSE,6,61.0,High,109075.57,SIU-2024-10232,2025-05-25,Referral
+MBR-200186,Paul Nakamura,PMAP,Central MN,Identity_Fraud,5,1,3,2,FALSE,9,73.5,High,139034.78,SIU-2024-10182,2023-09-25,Algorithm
+MBR-200187,Robert Johnson,MSHO,Twin Cities Metro,Identity_Fraud,2,2,0,1,FALSE,5,47.5,Medium,40049.45,,2025-06-10,Algorithm
+MBR-200188,Richard Kowalski,MSHO,Twin Cities Metro,Eligibility_Abuse,6,2,2,0,FALSE,2,53.0,Medium,36686.64,,2025-07-03,Algorithm
+MBR-200189,Kimberly Carlson,MSHO,Central MN,Identity_Fraud,1,1,3,1,FALSE,3,42.0,Medium,22410.54,,2024-09-30,Audit
+MBR-200190,Thomas Nelson,SNBC,Southeast MN,Prescription_Surfing,6,11,1,3,FALSE,0,72.0,High,25740.37,,2025-11-16,Audit
+MBR-200191,Susan Williams,MSHO,Twin Cities Metro,Doctor_Shopping,11,4,5,6,FALSE,2,88.0,Critical,183523.77,SIU-2024-10174,2024-02-12,Referral
+MBR-200192,Patricia Jackson,MSHO,Southwest MN,Identity_Fraud,6,2,2,1,FALSE,3,57.5,Medium,27226.54,,2025-07-13,Tipline
+MBR-200193,Donald Erickson,Commercial,Twin Cities Metro,Doctor_Shopping,3,6,11,11,FALSE,2,88.5,Critical,481683.25,SIU-2024-10182,2025-06-30,Tipline
+MBR-200194,Mark Thompson,Commercial,Twin Cities Metro,Eligibility_Abuse,4,2,1,1,FALSE,2,46.5,Medium,36088.91,,2025-11-18,Tipline
+MBR-200195,Daniel Miller,Commercial,Southeast MN,Eligibility_Abuse,4,2,1,1,FALSE,8,64.5,High,71645.62,SIU-2024-10136,2025-11-08,Audit
+MBR-200196,Elizabeth Hansen,PMAP,Twin Cities Metro,Prescription_Surfing,6,3,4,1,FALSE,0,55.0,Medium,22608.12,,2024-05-11,Audit
+MBR-200197,Ashley Kim,Commercial,Twin Cities Metro,Doctor_Shopping,10,9,8,3,FALSE,2,99.0,Critical,375678.14,SIU-2024-10141,2023-08-01,Referral
+MBR-200198,Karen Lee,MSHO,Northwest MN,Doctor_Shopping,16,10,9,2,FALSE,1,100,Critical,411629.92,SIU-2024-10104,2023-11-10,Referral
+MBR-200199,Steven Anderson,Commercial,Southwest MN,Eligibility_Abuse,5,1,2,2,FALSE,4,56.5,Medium,21630.54,,2023-06-19,Tipline
+MBR-200200,Lisa Chen,Commercial,Twin Cities Metro,Eligibility_Abuse,3,3,1,2,FALSE,9,68.5,High,121218.83,SIU-2024-10248,2023-12-17,Audit
+MBR-200201,Michael Miller,SNBC,Central MN,Eligibility_Abuse,5,1,1,3,FALSE,2,50.0,Medium,19105.7,,2025-07-08,Audit
+MBR-200202,Sarah Chen,PMAP,Twin Cities Metro,Multiple_ID_Usage,4,2,2,0,FALSE,0,41.0,Medium,40607.67,,2023-10-25,Referral
+MBR-200203,Ashley Berg,Commercial,Twin Cities Metro,Doctor_Shopping,1,6,11,9,FALSE,0,73.5,High,120797.38,,2025-02-09,Audit
+MBR-200204,James Swanson,MSHO,Twin Cities Metro,Identity_Fraud,1,3,1,2,FALSE,8,59.5,Medium,24034.61,,2024-02-23,Audit
+MBR-200205,Kenneth Thompson,PMAP,Twin Cities Metro,Identity_Fraud,6,3,3,0,FALSE,4,63.5,High,75302.49,SIU-2024-10141,2025-07-16,Referral
+MBR-200206,Daniel Wilson,PMAP,Southeast MN,Doctor_Shopping,7,12,14,4,FALSE,0,100,Critical,195261.67,SIU-2024-10114,2024-10-01,Referral
+MBR-200207,John Lee,PMAP,Northeast MN,Identity_Fraud,4,3,0,3,FALSE,8,68.0,High,39029.79,,2024-03-16,Referral
+MBR-200208,Michael Davis,MSHO,Northeast MN,Multiple_ID_Usage,1,3,1,3,FALSE,0,37.0,Medium,11296.01,,2023-11-15,Audit
+MBR-200209,Betty Chen,PMAP,Northwest MN,Doctor_Shopping,11,2,13,5,FALSE,1,94.5,Critical,230251.94,SIU-2024-10207,2023-11-06,Algorithm
+MBR-200210,Joseph Brown,Commercial,Twin Cities Metro,Identity_Fraud,3,1,1,0,FALSE,10,63.5,High,18270.4,,2023-07-14,Algorithm
+MBR-200211,Ashley Johnson,SNBC,Northwest MN,Identity_Fraud,2,3,2,2,FALSE,8,64.5,High,17599.52,,2025-04-16,Tipline
+MBR-200212,Jennifer Taylor,MSHO,Twin Cities Metro,Multiple_ID_Usage,5,1,1,1,FALSE,0,41.0,Medium,20722.17,,2025-11-19,Referral
+MBR-200213,William Nguyen,SNBC,Twin Cities Metro,Multiple_ID_Usage,2,3,0,2,FALSE,1,39.5,Medium,27989.58,,2023-12-24,Referral
+MBR-200214,Paul Garcia,SNBC,Twin Cities Metro,Eligibility_Abuse,3,2,0,2,FALSE,9,64.0,High,96454.66,,2024-07-20,Audit
+MBR-200215,Susan Nakamura,MSHO,Twin Cities Metro,Identity_Fraud,1,3,1,1,FALSE,6,52.0,Medium,42481.84,,2025-01-28,Referral
+MBR-200216,Lisa Carlson,Commercial,Twin Cities Metro,Eligibility_Abuse,6,1,2,1,FALSE,6,64.0,High,16668.65,,2024-10-24,Tipline
+MBR-200217,Jessica Anderson,Commercial,Northwest MN,Eligibility_Abuse,5,1,3,3,FALSE,6,66.0,High,122325.43,,2025-02-21,Algorithm
+MBR-200218,William Peterson,MSHO,Southwest MN,Doctor_Shopping,1,5,0,4,FALSE,2,47.5,Medium,30564.99,,2023-07-25,Referral
+MBR-200219,John Nakamura,SNBC,Northwest MN,Identity_Fraud,6,2,0,2,FALSE,2,52.0,Medium,18386.15,,2023-10-01,Referral
+MBR-200220,Jessica Thompson,PMAP,Southeast MN,Identity_Fraud,2,1,0,3,FALSE,3,42.0,Medium,8874.29,,2025-11-07,Referral
+MBR-200221,Mark Olson,MSHO,Central MN,Eligibility_Abuse,4,1,1,1,TRUE,8,72.0,High,19036.25,SIU-2024-10220,2023-06-14,Algorithm
+MBR-200222,John Fernandez,PMAP,Central MN,Doctor_Shopping,16,4,8,0,FALSE,0,94.0,Critical,155668.33,SIU-2024-10101,2024-12-28,Tipline
+MBR-200223,Steven Wilson,Commercial,Central MN,Multiple_ID_Usage,6,3,0,2,FALSE,2,54.5,Medium,21528.37,,2023-11-15,Referral
+MBR-200224,Elizabeth Nguyen,SNBC,Twin Cities Metro,Eligibility_Abuse,6,2,3,1,FALSE,7,71.5,High,78110.36,SIU-2024-10175,2025-04-19,Tipline
+MBR-200225,Donald Garcia,Commercial,Twin Cities Metro,Multiple_ID_Usage,4,1,2,1,FALSE,1,43.0,Medium,34045.89,,2024-12-04,Audit
+MBR-200226,David Nguyen,PMAP,Southeast MN,Doctor_Shopping,5,10,10,8,FALSE,2,98.0,Critical,121742.59,,2025-08-20,Audit
+MBR-200227,William Patel,MSHO,Northeast MN,Prescription_Surfing,1,9,1,0,FALSE,1,50.5,Medium,47052.74,,2024-01-19,Referral
+MBR-200228,Michael Larson,MSHO,Twin Cities Metro,Prescription_Surfing,3,9,12,3,FALSE,1,83.0,Critical,387421.84,,2025-03-17,Tipline
+MBR-200229,Andrew Lee,SNBC,Central MN,Identity_Fraud,5,1,3,1,FALSE,6,63.0,High,47647.5,SIU-2024-10154,2023-09-07,Audit
+MBR-200230,Margaret Erickson,MSHO,Twin Cities Metro,Doctor_Shopping,4,4,5,12,FALSE,0,70.0,High,49213.58,,2025-04-08,Tipline
+MBR-200231,John Brown,PMAP,Twin Cities Metro,Doctor_Shopping,12,4,9,6,FALSE,1,96.0,Critical,335848.82,SIU-2024-10226,2024-04-23,Referral
+MBR-200232,Ashley Johnson,PMAP,Central MN,Doctor_Shopping,13,9,3,6,FALSE,2,100,Critical,446286.09,,2024-06-24,Algorithm
+MBR-200233,Michael Thompson,MSHO,Southeast MN,Prescription_Surfing,5,2,2,1,FALSE,2,51.5,Medium,33408.45,,2024-06-23,Referral
+MBR-200234,David Taylor,Commercial,Twin Cities Metro,Identity_Fraud,3,3,3,1,FALSE,3,53.0,Medium,5463.23,,2025-10-31,Algorithm
+MBR-200235,Patricia Hansen,Commercial,Twin Cities Metro,Multiple_ID_Usage,2,2,2,3,FALSE,2,45.5,Medium,34416.6,,2025-01-20,Algorithm
+MBR-200236,Elizabeth Nguyen,Commercial,Twin Cities Metro,Multiple_ID_Usage,4,2,1,0,FALSE,1,42.0,Medium,24202.92,,2023-08-18,Audit
+MBR-200237,Donna Fernandez,Commercial,Twin Cities Metro,Prescription_Surfing,4,12,5,3,TRUE,0,86.5,Critical,150540.19,,2024-10-18,Audit
+MBR-200238,Kimberly Nakamura,MSHO,Twin Cities Metro,Prescription_Surfing,2,3,0,3,FALSE,2,44.0,Medium,24348.81,,2025-05-11,Referral
+MBR-200239,Matthew Brown,MSHO,Twin Cities Metro,Multiple_ID_Usage,1,2,3,3,FALSE,0,38.5,Medium,16824.9,,2024-07-15,Audit
+MBR-200240,Barbara Taylor,MSHO,Twin Cities Metro,Identity_Fraud,1,3,1,1,FALSE,10,64.0,High,65397.78,SIU-2024-10118,2024-07-28,Algorithm
+MBR-200241,James Peterson,MSHO,Twin Cities Metro,Multiple_ID_Usage,2,2,1,3,TRUE,0,47.5,Medium,27958.82,,2024-11-19,Referral
+MBR-200242,Steven Brown,MSHO,Twin Cities Metro,Multiple_ID_Usage,2,2,1,3,FALSE,0,37.5,Medium,34881.64,,2024-01-06,Algorithm
+MBR-200243,Steven Davis,Commercial,Southeast MN,Identity_Fraud,6,3,0,1,FALSE,10,77.0,High,34629.35,,2023-08-14,Audit
+MBR-200244,Mary Carlson,Commercial,Northeast MN,Identity_Fraud,3,1,2,3,FALSE,8,64.0,High,20792.7,SIU-2024-10202,2025-04-18,Referral
+MBR-200245,William Larson,Commercial,Southwest MN,Prescription_Surfing,2,12,4,3,FALSE,2,74.5,High,134980.46,,2025-02-03,Referral
+MBR-200246,John Erickson,MSHO,Twin Cities Metro,Prescription_Surfing,1,7,2,0,FALSE,0,44.5,Medium,39781.31,,2024-03-11,Tipline
+MBR-200247,Kenneth Jackson,Commercial,Southwest MN,Eligibility_Abuse,3,2,2,2,FALSE,9,68.0,High,84044.39,SIU-2024-10244,2025-04-07,Audit
+MBR-200248,Kenneth Davis,PMAP,Twin Cities Metro,Prescription_Surfing,4,6,2,2,FALSE,1,57.0,Medium,44363.82,,2024-01-20,Referral
+MBR-200249,Michelle Nakamura,SNBC,Southeast MN,Eligibility_Abuse,3,2,1,2,FALSE,8,63.0,High,52600.49,SIU-2024-10149,2025-08-14,Audit
+MBR-200250,Christopher Lee,SNBC,Southwest MN,Eligibility_Abuse,3,3,2,1,FALSE,10,72.0,High,38411.11,,2024-02-08,Audit
+MBR-200251,Joshua Thompson,PMAP,Twin Cities Metro,Multiple_ID_Usage,6,2,2,1,FALSE,2,54.5,Medium,17183.32,,2024-12-02,Referral
+MBR-200252,Sandra Kowalski,PMAP,Southwest MN,Identity_Fraud,3,1,3,3,TRUE,5,67.0,High,124618.81,SIU-2024-10227,2024-12-15,Referral
+MBR-200253,David Olson,Commercial,Twin Cities Metro,Multiple_ID_Usage,1,2,3,0,FALSE,1,37.0,Medium,19091.39,,2023-10-04,Referral
+MBR-200254,Patricia Johnson,MSHO,Northeast MN,Doctor_Shopping,9,2,8,2,FALSE,2,77.0,High,107707.78,SIU-2024-10246,2023-09-23,Referral
+MBR-200255,Elizabeth Johnson,PMAP,Twin Cities Metro,Multiple_ID_Usage,2,1,1,2,FALSE,1,36.5,Medium,42834.56,,2024-12-18,Referral
+MBR-200256,Linda Peterson,SNBC,Central MN,Identity_Fraud,4,1,0,1,FALSE,6,54.0,Medium,41429.77,,2024-02-08,Tipline
+MBR-200257,Margaret Taylor,SNBC,Southeast MN,Identity_Fraud,2,1,1,2,FALSE,5,48.5,Medium,35202.27,,2025-10-29,Tipline
+MBR-200258,Mary Wilson,SNBC,Twin Cities Metro,Prescription_Surfing,1,7,14,3,FALSE,1,76.0,High,129829.16,,2025-07-23,Referral
+MBR-200259,Nancy Nelson,Commercial,Twin Cities Metro,Identity_Fraud,5,2,2,0,FALSE,8,68.0,High,128159.56,,2025-05-21,Algorithm
+MBR-200260,Christopher Nakamura,Commercial,Twin Cities Metro,Multiple_ID_Usage,4,1,1,2,FALSE,1,42.5,Medium,16194.45,,2024-01-23,Tipline
+MBR-200261,Matthew Erickson,Commercial,Northwest MN,Multiple_ID_Usage,6,3,1,0,FALSE,0,47.5,Medium,22499.14,,2024-06-25,Algorithm
+MBR-200262,Steven Olson,Commercial,Central MN,Prescription_Surfing,4,2,13,2,FALSE,1,69.0,High,64490.29,,2023-11-20,Audit
+MBR-200263,Emily Smith,SNBC,Northeast MN,Multiple_ID_Usage,4,2,0,1,FALSE,0,38.5,Medium,9156.96,,2024-02-12,Algorithm
+MBR-200264,Karen Olson,PMAP,Southeast MN,Multiple_ID_Usage,3,1,3,2,FALSE,0,40.5,Medium,15308.99,,2024-11-15,Algorithm
+MBR-200265,Kenneth Chen,MSHO,Southwest MN,Identity_Fraud,5,3,1,2,FALSE,8,71.5,High,135814.47,SIU-2024-10151,2023-08-18,Algorithm
+MBR-200266,Jessica Martinez,PMAP,Central MN,Doctor_Shopping,6,9,3,12,FALSE,1,87.5,Critical,375443.82,SIU-2024-10148,2023-06-09,Referral
+MBR-200267,David Larson,PMAP,Southeast MN,Identity_Fraud,1,3,0,3,FALSE,2,41.0,Medium,26108.01,,2025-10-30,Referral
+MBR-200268,Robert Miller,PMAP,Southeast MN,Multiple_ID_Usage,4,1,0,1,FALSE,2,42.0,Medium,38953.11,,2023-10-18,Algorithm
+MBR-200269,Matthew Martinez,Commercial,Southeast MN,Eligibility_Abuse,4,3,3,3,FALSE,9,77.0,High,144884.16,,2025-02-10,Tipline
+MBR-200270,Anthony Miller,Commercial,Twin Cities Metro,Eligibility_Abuse,4,1,0,1,TRUE,7,67.0,High,128662.71,SIU-2024-10206,2024-04-02,Referral
+MBR-200271,Karen Miller,PMAP,Southeast MN,Doctor_Shopping,1,4,13,12,FALSE,0,77.0,High,75741.96,SIU-2024-10136,2024-02-06,Audit
+MBR-200272,Patricia Larson,SNBC,Northeast MN,Doctor_Shopping,9,8,12,7,FALSE,1,100,Critical,447072.55,SIU-2024-10207,2023-10-28,Algorithm
+MBR-200273,Steven Anderson,PMAP,Twin Cities Metro,Eligibility_Abuse,4,2,3,0,FALSE,7,64.0,High,125847.72,SIU-2024-10111,2024-05-26,Referral
+MBR-200274,Kimberly Erickson,PMAP,Northwest MN,Identity_Fraud,2,1,0,1,FALSE,10,60.0,High,51397.16,SIU-2024-10156,2023-06-25,Tipline
+MBR-200275,Ashley Williams,PMAP,Central MN,Prescription_Surfing,4,6,10,2,FALSE,2,76.0,High,94058.86,,2025-07-21,Algorithm
+MBR-200276,Elizabeth Garcia,MSHO,Northwest MN,Multiple_ID_Usage,2,2,2,3,FALSE,2,45.5,Medium,17019.76,,2023-12-19,Algorithm
+MBR-200277,Joshua Carlson,Commercial,Twin Cities Metro,Multiple_ID_Usage,2,1,0,2,TRUE,0,41.5,Medium,13752.21,,2024-08-01,Audit
+MBR-200278,Robert Larson,PMAP,Northwest MN,Prescription_Surfing,2,1,2,1,FALSE,1,37.0,Medium,37725.71,,2024-09-22,Audit
+MBR-200279,Daniel Davis,MSHO,Twin Cities Metro,Prescription_Surfing,4,6,11,3,FALSE,1,76.5,High,92900.87,SIU-2024-10185,2023-11-07,Referral
+MBR-200280,Betty Smith,SNBC,Twin Cities Metro,Multiple_ID_Usage,1,2,3,2,FALSE,2,43.0,Medium,18525.6,,2025-01-26,Referral
+MBR-200281,Andrew Davis,MSHO,Northeast MN,Eligibility_Abuse,5,1,1,1,FALSE,4,53.0,Medium,46672.32,,2024-06-06,Tipline
+MBR-200282,Daniel Kowalski,Commercial,Southeast MN,Prescription_Surfing,3,2,7,1,FALSE,2,55.5,Medium,7984.43,,2025-11-27,Algorithm
+MBR-200283,Betty Taylor,Commercial,Central MN,Prescription_Surfing,2,7,15,0,FALSE,1,76.5,High,30960.56,SIU-2024-10226,2024-01-06,Tipline
+MBR-200284,Jennifer Martinez,SNBC,Twin Cities Metro,Prescription_Surfing,5,3,10,1,FALSE,2,70.0,High,65874.43,SIU-2024-10122,2025-06-25,Algorithm
+MBR-200285,Christopher Nguyen,Commercial,Southeast MN,Identity_Fraud,1,3,1,0,TRUE,4,54.5,Medium,6470.81,,2024-06-10,Referral
+MBR-200286,Michelle Johnson,MSHO,Twin Cities Metro,Multiple_ID_Usage,3,2,0,0,FALSE,0,34.0,Low,14834.59,,2025-09-19,Audit
+MBR-200287,David Anderson,Commercial,Northeast MN,Identity_Fraud,4,1,2,2,FALSE,10,71.5,High,24677.25,,2024-09-16,Referral
+MBR-200288,Steven Martinez,MSHO,Southeast MN,Identity_Fraud,2,3,2,0,FALSE,7,58.5,Medium,34925.39,,2024-09-06,Referral
+MBR-200289,Susan Larson,PMAP,Twin Cities Metro,Multiple_ID_Usage,6,2,3,1,FALSE,1,53.5,Medium,34981.49,,2024-09-15,Audit
+MBR-200290,Robert Swanson,MSHO,Twin Cities Metro,Identity_Fraud,5,1,1,0,FALSE,4,51.5,Medium,11719.71,,2025-07-28,Referral
+MBR-200291,John Erickson,SNBC,Central MN,Eligibility_Abuse,4,2,0,2,FALSE,5,55.0,Medium,45301.53,,2023-11-08,Tipline
+MBR-200292,Donald Nelson,PMAP,Twin Cities Metro,Identity_Fraud,1,2,3,1,FALSE,9,62.5,High,103874.48,SIU-2024-10183,2025-09-13,Referral
+MBR-200293,Lisa Nelson,PMAP,Northwest MN,Prescription_Surfing,5,12,5,0,FALSE,0,75.0,High,143829.09,SIU-2024-10225,2023-07-14,Audit
+MBR-200294,Lisa Martinez,Commercial,Northwest MN,Identity_Fraud,2,3,1,3,TRUE,2,56.0,Medium,33419.21,,2025-02-19,Referral
+MBR-200295,Donna Jackson,MSHO,Twin Cities Metro,Eligibility_Abuse,5,1,1,1,FALSE,10,71.0,High,51915.21,SIU-2024-10236,2025-02-16,Audit
+MBR-200296,Steven Nguyen,MSHO,Southeast MN,Prescription_Surfing,6,10,9,3,TRUE,1,98.5,Critical,58061.71,SIU-2024-10117,2025-11-16,Tipline
+MBR-200297,Donna Hansen,SNBC,Northwest MN,Prescription_Surfing,5,4,14,2,FALSE,2,82.0,Critical,433474.13,,2024-07-09,Referral
+MBR-200298,Mark Johnson,SNBC,Twin Cities Metro,Doctor_Shopping,15,4,12,0,FALSE,0,99.0,Critical,411076.03,SIU-2024-10240,2024-10-26,Referral
+MBR-200299,Lisa Olson,MSHO,Southeast MN,Multiple_ID_Usage,5,1,2,0,FALSE,1,44.5,Medium,30233.96,,2024-12-10,Audit
+MBR-200300,Thomas Williams,Commercial,Twin Cities Metro,Doctor_Shopping,8,8,0,1,FALSE,2,71.5,High,113687.24,SIU-2024-10175,2023-11-13,Tipline

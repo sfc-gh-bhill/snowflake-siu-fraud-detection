@@ -1,0 +1,251 @@
+ALERT_ID,PHARMACY_ID,PHARMACY_NAME,REGION,ALERT_TYPE,DRUG_CATEGORY,METRIC_VALUE,PEER_BENCHMARK,DEVIATION_PERCENT,ALERT_DATE,STATUS,ESTIMATED_EXPOSURE,LINKED_CASE_ID,PRESCRIBER_NPI
+RX-ALT-30001,PHR-10006,Thrifty White Drug Duluth,Central MN,Forged_Prescription_Suspect,GLP-1,976.77,394.29,147.73,2023-08-10,Monitoring,70697.96,,NPI-1000000041
+RX-ALT-30002,PHR-10002,Cub Pharmacy Bloomington,Northwest MN,GLP1_Volume_Anomaly,GLP-1,548.44,433.86,26.41,2023-12-01,Investigating,315892.65,,NPI-1000000018
+RX-ALT-30003,PHR-10003,Hy-Vee Pharmacy Rochester,Central MN,Forged_Prescription_Suspect,GLP-1,1320.9,275.21,379.96,2024-05-30,Confirmed_Fraud,433084.7,SIU-2024-10272,NPI-1000000006
+RX-ALT-30004,PHR-10025,Uptown Pharmacy Minneapolis,Twin Cities Metro,Controlled_Substance_Spike,Opioid,711.91,135.19,426.6,2025-09-01,False_Positive,45546.0,,NPI-1000000040
+RX-ALT-30005,PHR-10025,Uptown Pharmacy Minneapolis,Central MN,GLP1_Volume_Anomaly,GLP-1,332.66,123.03,170.39,2024-05-14,Confirmed_Fraud,567147.35,SIU-2024-10290,NPI-1000000002
+RX-ALT-30006,PHR-10027,Eagan Family Pharmacy,Twin Cities Metro,Early_Refill_Pattern,GLP-1,1879.3,413.27,354.74,2025-01-21,Investigating,83658.74,SIU-2024-10324,NPI-1000000050
+RX-ALT-30007,PHR-10023,Valley Pharmacy Fargo,Southwest MN,Prescriber_Concentration,Opioid,1773.17,345.66,412.98,2025-12-08,Confirmed_Fraud,628129.26,SIU-2024-10295,NPI-1000000013
+RX-ALT-30008,PHR-10001,CVS Health #8812 St Paul,Twin Cities Metro,Controlled_Substance_Spike,Opioid,1143.67,209.94,444.76,2025-07-07,Monitoring,66628.1,,NPI-1000000027
+RX-ALT-30009,PHR-10026,North Loop Rx Minneapolis,Twin Cities Metro,Forged_Prescription_Suspect,Stimulant,426.98,88.35,383.28,2025-01-28,False_Positive,28070.61,,NPI-1000000008
+RX-ALT-30010,PHR-10004,Target Pharmacy Edina,Southeast MN,Quantity_Anomaly,Other_Controlled,1016.23,376.66,169.8,2024-04-20,False_Positive,1624.0,,NPI-1000000041
+RX-ALT-30011,PHR-10007,Lewis Drug Mankato,Twin Cities Metro,Early_Refill_Pattern,Benzodiazepine,114.98,67.52,70.29,2025-05-13,Monitoring,68158.25,,NPI-1000000009
+RX-ALT-30012,PHR-10008,Genoa Healthcare Minneapolis,Central MN,Controlled_Substance_Spike,Opioid,2343.76,432.38,442.06,2024-04-11,Monitoring,39559.6,,NPI-1000000032
+RX-ALT-30013,PHR-10023,Valley Pharmacy Fargo,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,152.07,61.77,146.19,2025-02-03,Investigating,55368.98,SIU-2024-10335,NPI-1000000039
+RX-ALT-30014,PHR-10027,Eagan Family Pharmacy,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,220.24,92.82,137.28,2025-08-28,Investigating,357595.19,SIU-2024-10255,NPI-1000000038
+RX-ALT-30015,PHR-10002,Cub Pharmacy Bloomington,Twin Cities Metro,Forged_Prescription_Suspect,Benzodiazepine,1538.2,428.66,258.84,2025-01-12,Confirmed_Fraud,694439.44,,NPI-1000000036
+RX-ALT-30016,PHR-10027,Eagan Family Pharmacy,Southwest MN,Forged_Prescription_Suspect,Other_Controlled,580.29,346.05,67.69,2025-04-04,Investigating,373699.19,SIU-2024-10308,NPI-1000000006
+RX-ALT-30017,PHR-10010,PharMerica St Cloud,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,184.23,111.6,65.08,2023-07-14,Monitoring,5380.9,,NPI-1000000031
+RX-ALT-30018,PHR-10015,Metro Rx Express Minneapolis,Central MN,Early_Refill_Pattern,Other_Controlled,188.83,98.1,92.49,2023-08-23,Monitoring,90027.33,,NPI-1000000016
+RX-ALT-30019,PHR-10010,PharMerica St Cloud,Twin Cities Metro,Prescriber_Concentration,Other_Controlled,617.92,365.31,69.15,2025-05-26,Monitoring,49679.99,,NPI-1000000047
+RX-ALT-30020,PHR-10004,Target Pharmacy Edina,Twin Cities Metro,Prescriber_Concentration,Benzodiazepine,630.32,495.34,27.25,2025-10-10,Confirmed_Fraud,254985.81,,NPI-1000000050
+RX-ALT-30021,PHR-10006,Thrifty White Drug Duluth,Southeast MN,Controlled_Substance_Spike,Opioid,592.0,144.95,308.42,2024-07-26,Investigating,220556.84,SIU-2024-10304,NPI-1000000038
+RX-ALT-30022,PHR-10029,Woodbury Health Pharmacy,Southeast MN,Forged_Prescription_Suspect,Opioid,1646.9,327.37,403.07,2024-10-22,False_Positive,12749.96,,NPI-1000000039
+RX-ALT-30023,PHR-10000,Walgreens #3421 Minneapolis,Northwest MN,Early_Refill_Pattern,Other_Controlled,316.25,136.02,132.5,2025-01-15,New,45028.01,,NPI-1000000042
+RX-ALT-30024,PHR-10003,Hy-Vee Pharmacy Rochester,Northwest MN,Controlled_Substance_Spike,Opioid,373.96,68.09,449.21,2024-07-09,False_Positive,36562.62,,NPI-1000000044
+RX-ALT-30025,PHR-10004,Target Pharmacy Edina,Northwest MN,Forged_Prescription_Suspect,GLP-1,1240.53,308.56,302.04,2024-07-28,False_Positive,41498.54,,NPI-1000000001
+RX-ALT-30026,PHR-10003,Hy-Vee Pharmacy Rochester,Twin Cities Metro,Early_Refill_Pattern,Opioid,465.0,116.14,300.38,2024-06-22,New,80063.8,,NPI-1000000027
+RX-ALT-30027,PHR-10021,Pine City Pharmacy,Southeast MN,Forged_Prescription_Suspect,Stimulant,1705.59,348.4,389.55,2025-11-07,New,83950.1,,NPI-1000000013
+RX-ALT-30028,PHR-10021,Pine City Pharmacy,Northeast MN,Prescriber_Concentration,Opioid,651.83,270.01,141.41,2023-11-10,New,10580.9,,NPI-1000000030
+RX-ALT-30029,PHR-10001,CVS Health #8812 St Paul,Central MN,GLP1_Volume_Anomaly,GLP-1,1345.19,386.75,247.82,2023-11-29,Investigating,61958.26,SIU-2024-10273,NPI-1000000018
+RX-ALT-30030,PHR-10013,Community Pharmacy Willmar,Central MN,Early_Refill_Pattern,Other_Controlled,252.53,79.38,218.13,2024-07-04,Investigating,105239.98,SIU-2024-10271,NPI-1000000031
+RX-ALT-30031,PHR-10008,Genoa Healthcare Minneapolis,Twin Cities Metro,Controlled_Substance_Spike,Benzodiazepine,502.94,110.07,356.93,2024-11-03,False_Positive,19229.08,,NPI-1000000036
+RX-ALT-30032,PHR-10020,Nordic Pharmacy Moorhead,Northwest MN,GLP1_Volume_Anomaly,GLP-1,481.69,170.45,182.6,2025-08-27,Investigating,57557.15,,NPI-1000000034
+RX-ALT-30033,PHR-10009,Omnicare of Minnesota,Central MN,GLP1_Volume_Anomaly,GLP-1,416.6,78.34,431.79,2025-09-07,New,180767.38,,NPI-1000000017
+RX-ALT-30034,PHR-10007,Lewis Drug Mankato,Central MN,Prescriber_Concentration,Other_Controlled,1606.2,435.13,269.13,2024-10-21,Monitoring,92573.61,,NPI-1000000041
+RX-ALT-30035,PHR-10016,Prairie Health Pharmacy Marshall,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,824.99,197.32,318.1,2023-09-20,Confirmed_Fraud,475963.3,SIU-2024-10250,NPI-1000000012
+RX-ALT-30036,PHR-10023,Valley Pharmacy Fargo,Twin Cities Metro,Early_Refill_Pattern,Benzodiazepine,873.81,363.21,140.58,2024-12-30,Investigating,172742.4,,NPI-1000000039
+RX-ALT-30037,PHR-10018,River City Pharmacy Red Wing,Twin Cities Metro,Early_Refill_Pattern,Stimulant,1666.52,331.08,403.36,2024-05-07,Investigating,345962.65,SIU-2024-10262,NPI-1000000035
+RX-ALT-30038,PHR-10015,Metro Rx Express Minneapolis,Twin Cities Metro,Quantity_Anomaly,GLP-1,608.54,360.38,68.86,2023-12-27,Monitoring,26973.92,,NPI-1000000003
+RX-ALT-30039,PHR-10014,Lakeview Pharmacy Brainerd,Twin Cities Metro,Prescriber_Concentration,Opioid,1923.9,356.43,439.77,2024-06-14,Confirmed_Fraud,151790.93,,NPI-1000000014
+RX-ALT-30040,PHR-10003,Hy-Vee Pharmacy Rochester,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1384.38,463.19,198.88,2025-12-01,Monitoring,66086.83,,NPI-1000000029
+RX-ALT-30041,PHR-10006,Thrifty White Drug Duluth,Twin Cities Metro,Controlled_Substance_Spike,Benzodiazepine,213.05,92.08,131.38,2024-02-02,False_Positive,37320.89,,NPI-1000000049
+RX-ALT-30042,PHR-10001,CVS Health #8812 St Paul,Southeast MN,Forged_Prescription_Suspect,Other_Controlled,559.33,125.17,346.86,2025-09-14,False_Positive,46311.41,,NPI-1000000032
+RX-ALT-30043,PHR-10006,Thrifty White Drug Duluth,Central MN,Forged_Prescription_Suspect,GLP-1,335.15,89.92,272.72,2025-05-14,Monitoring,31378.65,,NPI-1000000028
+RX-ALT-30044,PHR-10011,CarePATH Pharmacy Burnsville,Northwest MN,Early_Refill_Pattern,Other_Controlled,495.47,363.17,36.43,2025-04-14,New,129169.23,,NPI-1000000002
+RX-ALT-30045,PHR-10008,Genoa Healthcare Minneapolis,Twin Cities Metro,Controlled_Substance_Spike,Opioid,141.55,70.34,101.24,2024-09-14,Monitoring,23776.24,,NPI-1000000019
+RX-ALT-30046,PHR-10001,CVS Health #8812 St Paul,Southwest MN,Controlled_Substance_Spike,Benzodiazepine,278.14,64.17,333.44,2025-11-18,False_Positive,18332.12,,NPI-1000000049
+RX-ALT-30047,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Prescriber_Concentration,Benzodiazepine,1723.34,359.56,379.29,2024-06-18,New,81836.37,,NPI-1000000011
+RX-ALT-30048,PHR-10001,CVS Health #8812 St Paul,Southeast MN,Prescriber_Concentration,Stimulant,385.17,239.16,61.05,2023-09-20,New,23910.48,,NPI-1000000027
+RX-ALT-30049,PHR-10013,Community Pharmacy Willmar,Twin Cities Metro,Controlled_Substance_Spike,Opioid,1025.3,284.12,260.87,2025-12-07,False_Positive,47498.34,,NPI-1000000038
+RX-ALT-30050,PHR-10029,Woodbury Health Pharmacy,Southeast MN,Forged_Prescription_Suspect,Stimulant,663.14,120.83,448.82,2023-11-24,Confirmed_Fraud,475470.22,,NPI-1000000028
+RX-ALT-30051,PHR-10019,Heartland Pharmacy Owatonna,Northeast MN,Early_Refill_Pattern,Benzodiazepine,735.03,192.08,282.67,2023-12-18,Monitoring,80838.7,,NPI-1000000002
+RX-ALT-30052,PHR-10012,NorthStar Rx Plymouth,Twin Cities Metro,Quantity_Anomaly,Stimulant,2321.16,467.26,396.76,2024-01-22,New,141958.35,,NPI-1000000004
+RX-ALT-30053,PHR-10023,Valley Pharmacy Fargo,Central MN,GLP1_Volume_Anomaly,GLP-1,884.07,302.03,192.71,2023-07-25,False_Positive,35622.45,,NPI-1000000009
+RX-ALT-30054,PHR-10016,Prairie Health Pharmacy Marshall,Twin Cities Metro,Controlled_Substance_Spike,Stimulant,231.9,158.22,46.57,2024-02-03,Monitoring,56648.7,,NPI-1000000005
+RX-ALT-30055,PHR-10017,Iron Range Pharmacy Hibbing,Southeast MN,Forged_Prescription_Suspect,Other_Controlled,686.99,291.9,135.35,2025-10-18,Investigating,71748.38,SIU-2024-10310,NPI-1000000032
+RX-ALT-30056,PHR-10026,North Loop Rx Minneapolis,Twin Cities Metro,Controlled_Substance_Spike,Stimulant,169.45,90.22,87.82,2025-07-18,Confirmed_Fraud,366591.81,SIU-2024-10221,NPI-1000000048
+RX-ALT-30057,PHR-10010,PharMerica St Cloud,Southeast MN,Prescriber_Concentration,Opioid,593.96,431.25,37.73,2025-04-11,False_Positive,39002.38,,NPI-1000000050
+RX-ALT-30058,PHR-10022,Lake Region Pharmacy Fergus Falls,Twin Cities Metro,Prescriber_Concentration,Opioid,872.11,195.12,346.96,2025-05-05,Monitoring,60654.85,,NPI-1000000006
+RX-ALT-30059,PHR-10006,Thrifty White Drug Duluth,Southeast MN,GLP1_Volume_Anomaly,GLP-1,1250.28,247.54,405.08,2025-07-06,False_Positive,2862.38,,NPI-1000000041
+RX-ALT-30060,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,Controlled_Substance_Spike,Other_Controlled,783.5,190.78,310.68,2025-07-10,False_Positive,25201.0,,NPI-1000000019
+RX-ALT-30061,PHR-10009,Omnicare of Minnesota,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,555.37,295.6,87.88,2024-10-15,False_Positive,27000.67,,NPI-1000000019
+RX-ALT-30062,PHR-10016,Prairie Health Pharmacy Marshall,Northeast MN,GLP1_Volume_Anomaly,GLP-1,559.77,117.76,375.35,2023-07-12,Investigating,256228.89,SIU-2024-10298,NPI-1000000031
+RX-ALT-30063,PHR-10016,Prairie Health Pharmacy Marshall,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,101.84,69.87,45.76,2024-05-19,False_Positive,44289.64,,NPI-1000000025
+RX-ALT-30064,PHR-10020,Nordic Pharmacy Moorhead,Twin Cities Metro,Forged_Prescription_Suspect,Other_Controlled,327.99,173.79,88.73,2024-01-20,Investigating,66718.09,SIU-2024-10269,NPI-1000000033
+RX-ALT-30065,PHR-10010,PharMerica St Cloud,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1018.47,214.79,374.17,2024-12-17,False_Positive,18766.28,,NPI-1000000003
+RX-ALT-30066,PHR-10022,Lake Region Pharmacy Fergus Falls,Twin Cities Metro,Early_Refill_Pattern,GLP-1,529.37,233.03,127.17,2025-02-22,False_Positive,30710.44,,NPI-1000000030
+RX-ALT-30067,PHR-10011,CarePATH Pharmacy Burnsville,Central MN,GLP1_Volume_Anomaly,GLP-1,1812.52,397.56,355.91,2023-12-07,Monitoring,86334.85,,NPI-1000000034
+RX-ALT-30068,PHR-10004,Target Pharmacy Edina,Twin Cities Metro,Forged_Prescription_Suspect,GLP-1,2304.3,467.66,392.73,2025-06-26,Investigating,220858.8,,NPI-1000000034
+RX-ALT-30069,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,Prescriber_Concentration,Opioid,873.05,435.63,100.41,2024-11-10,Monitoring,52352.49,,NPI-1000000016
+RX-ALT-30070,PHR-10006,Thrifty White Drug Duluth,Twin Cities Metro,Controlled_Substance_Spike,Benzodiazepine,188.35,78.87,138.81,2024-07-14,New,22450.81,,NPI-1000000045
+RX-ALT-30071,PHR-10019,Heartland Pharmacy Owatonna,Southwest MN,Prescriber_Concentration,Opioid,1257.86,307.14,309.54,2023-06-22,False_Positive,20382.06,,NPI-1000000011
+RX-ALT-30072,PHR-10007,Lewis Drug Mankato,Northeast MN,Prescriber_Concentration,Opioid,1815.57,375.01,384.14,2023-08-24,Confirmed_Fraud,128069.67,,NPI-1000000017
+RX-ALT-30073,PHR-10014,Lakeview Pharmacy Brainerd,Northeast MN,Early_Refill_Pattern,Benzodiazepine,1870.61,475.45,293.44,2025-07-15,New,189766.93,,NPI-1000000024
+RX-ALT-30074,PHR-10009,Omnicare of Minnesota,Northeast MN,GLP1_Volume_Anomaly,GLP-1,616.5,133.97,360.18,2025-04-30,False_Positive,18452.38,,NPI-1000000035
+RX-ALT-30075,PHR-10005,Walmart Pharmacy Brooklyn Park,Twin Cities Metro,Prescriber_Concentration,Opioid,251.3,88.07,185.34,2024-10-30,Investigating,126319.3,SIU-2024-10348,NPI-1000000034
+RX-ALT-30076,PHR-10029,Woodbury Health Pharmacy,Northeast MN,Controlled_Substance_Spike,Stimulant,779.66,215.77,261.34,2025-06-12,Confirmed_Fraud,183840.97,,NPI-1000000022
+RX-ALT-30077,PHR-10004,Target Pharmacy Edina,Southeast MN,Prescriber_Concentration,Opioid,507.03,359.72,40.95,2024-01-31,False_Positive,2876.17,,NPI-1000000019
+RX-ALT-30078,PHR-10006,Thrifty White Drug Duluth,Northeast MN,Controlled_Substance_Spike,Other_Controlled,873.48,420.77,107.59,2024-07-09,Confirmed_Fraud,490341.17,,NPI-1000000008
+RX-ALT-30079,PHR-10023,Valley Pharmacy Fargo,Twin Cities Metro,Controlled_Substance_Spike,Stimulant,386.83,90.53,327.3,2024-12-09,Confirmed_Fraud,399837.51,,NPI-1000000008
+RX-ALT-30080,PHR-10001,CVS Health #8812 St Paul,Southwest MN,Controlled_Substance_Spike,Opioid,376.85,91.14,313.48,2025-11-20,Confirmed_Fraud,151030.22,SIU-2024-10258,NPI-1000000003
+RX-ALT-30081,PHR-10013,Community Pharmacy Willmar,Northeast MN,Prescriber_Concentration,Opioid,389.36,87.74,343.77,2024-07-03,False_Positive,24833.32,,NPI-1000000021
+RX-ALT-30082,PHR-10003,Hy-Vee Pharmacy Rochester,Southeast MN,Quantity_Anomaly,Stimulant,1726.68,400.51,331.12,2025-09-18,Confirmed_Fraud,56286.46,,NPI-1000000014
+RX-ALT-30083,PHR-10000,Walgreens #3421 Minneapolis,Northwest MN,GLP1_Volume_Anomaly,GLP-1,838.31,313.74,167.2,2023-06-14,Investigating,228901.37,,NPI-1000000034
+RX-ALT-30084,PHR-10007,Lewis Drug Mankato,Southwest MN,Forged_Prescription_Suspect,Stimulant,1132.15,336.58,236.37,2023-10-01,False_Positive,41152.05,,NPI-1000000039
+RX-ALT-30085,PHR-10023,Valley Pharmacy Fargo,Northeast MN,GLP1_Volume_Anomaly,GLP-1,1850.93,447.03,314.05,2024-04-14,Investigating,251702.2,SIU-2024-10215,NPI-1000000005
+RX-ALT-30086,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1752.94,441.88,296.7,2024-11-24,Confirmed_Fraud,131642.1,SIU-2024-10260,NPI-1000000026
+RX-ALT-30087,PHR-10015,Metro Rx Express Minneapolis,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1401.85,313.95,346.52,2025-02-11,Investigating,84828.26,,NPI-1000000014
+RX-ALT-30088,PHR-10019,Heartland Pharmacy Owatonna,Southeast MN,GLP1_Volume_Anomaly,GLP-1,382.32,158.06,141.88,2025-07-03,Investigating,49162.96,SIU-2024-10210,NPI-1000000045
+RX-ALT-30089,PHR-10027,Eagan Family Pharmacy,Central MN,Controlled_Substance_Spike,Benzodiazepine,1032.27,233.26,342.54,2025-08-20,Monitoring,64895.41,,NPI-1000000050
+RX-ALT-30090,PHR-10010,PharMerica St Cloud,Twin Cities Metro,Early_Refill_Pattern,Stimulant,1133.84,245.92,361.06,2025-07-04,New,141800.4,,NPI-1000000008
+RX-ALT-30091,PHR-10004,Target Pharmacy Edina,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,2485.91,472.48,426.14,2024-06-04,Monitoring,10261.81,,NPI-1000000014
+RX-ALT-30092,PHR-10012,NorthStar Rx Plymouth,Twin Cities Metro,Quantity_Anomaly,GLP-1,1878.3,418.18,349.16,2023-11-27,Investigating,280265.08,SIU-2024-10255,NPI-1000000007
+RX-ALT-30093,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Forged_Prescription_Suspect,Benzodiazepine,225.88,73.42,207.66,2025-07-21,Confirmed_Fraud,377180.35,SIU-2024-10325,NPI-1000000028
+RX-ALT-30094,PHR-10017,Iron Range Pharmacy Hibbing,Southwest MN,Controlled_Substance_Spike,Benzodiazepine,2357.07,492.76,378.34,2023-06-06,Investigating,385989.04,SIU-2024-10278,NPI-1000000036
+RX-ALT-30095,PHR-10025,Uptown Pharmacy Minneapolis,Southeast MN,Early_Refill_Pattern,Opioid,461.24,204.17,125.91,2025-12-02,Monitoring,91708.81,,NPI-1000000048
+RX-ALT-30096,PHR-10016,Prairie Health Pharmacy Marshall,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,580.33,145.38,299.18,2025-04-14,False_Positive,6206.86,,NPI-1000000007
+RX-ALT-30097,PHR-10011,CarePATH Pharmacy Burnsville,Southeast MN,Prescriber_Concentration,Opioid,1430.76,420.02,240.64,2025-08-31,Monitoring,60180.14,,NPI-1000000005
+RX-ALT-30098,PHR-10009,Omnicare of Minnesota,Twin Cities Metro,Controlled_Substance_Spike,Other_Controlled,1180.06,371.59,217.57,2025-03-02,Investigating,326783.44,SIU-2024-10347,NPI-1000000040
+RX-ALT-30099,PHR-10013,Community Pharmacy Willmar,Central MN,Quantity_Anomaly,Stimulant,1783.47,441.31,304.13,2025-02-04,Monitoring,65966.19,,NPI-1000000049
+RX-ALT-30100,PHR-10023,Valley Pharmacy Fargo,Central MN,Prescriber_Concentration,Stimulant,708.49,434.39,63.1,2024-06-28,Confirmed_Fraud,158885.79,,NPI-1000000038
+RX-ALT-30101,PHR-10020,Nordic Pharmacy Moorhead,Northwest MN,Controlled_Substance_Spike,Opioid,761.37,304.4,150.12,2025-02-23,False_Positive,44366.92,,NPI-1000000037
+RX-ALT-30102,PHR-10025,Uptown Pharmacy Minneapolis,Northwest MN,Controlled_Substance_Spike,Other_Controlled,770.99,450.74,71.05,2024-03-28,Monitoring,81672.35,,NPI-1000000015
+RX-ALT-30103,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Early_Refill_Pattern,Stimulant,1619.86,303.76,433.27,2024-12-23,New,128221.4,,NPI-1000000002
+RX-ALT-30104,PHR-10015,Metro Rx Express Minneapolis,Twin Cities Metro,Prescriber_Concentration,Opioid,2119.14,393.71,438.25,2024-01-08,New,93977.97,,NPI-1000000048
+RX-ALT-30105,PHR-10009,Omnicare of Minnesota,Southeast MN,Prescriber_Concentration,Opioid,851.05,323.03,163.46,2024-02-05,False_Positive,45393.0,,NPI-1000000042
+RX-ALT-30106,PHR-10028,Maple Grove Pharmacy,Northwest MN,Controlled_Substance_Spike,Stimulant,400.66,302.52,32.44,2025-12-05,Monitoring,32046.64,,NPI-1000000001
+RX-ALT-30107,PHR-10011,CarePATH Pharmacy Burnsville,Northwest MN,Prescriber_Concentration,Opioid,479.76,114.11,320.44,2025-09-01,False_Positive,17066.99,,NPI-1000000036
+RX-ALT-30108,PHR-10027,Eagan Family Pharmacy,Central MN,Early_Refill_Pattern,Other_Controlled,1402.12,393.4,256.41,2025-08-11,New,135574.54,,NPI-1000000006
+RX-ALT-30109,PHR-10017,Iron Range Pharmacy Hibbing,Twin Cities Metro,Early_Refill_Pattern,Benzodiazepine,363.53,233.12,55.94,2025-09-06,Monitoring,6418.64,,NPI-1000000031
+RX-ALT-30110,PHR-10013,Community Pharmacy Willmar,Twin Cities Metro,Prescriber_Concentration,Other_Controlled,1848.5,394.92,368.07,2024-02-13,Investigating,148003.95,,NPI-1000000008
+RX-ALT-30111,PHR-10026,North Loop Rx Minneapolis,Twin Cities Metro,Forged_Prescription_Suspect,Stimulant,667.37,293.66,127.26,2024-03-05,False_Positive,15537.14,,NPI-1000000033
+RX-ALT-30112,PHR-10020,Nordic Pharmacy Moorhead,Northeast MN,GLP1_Volume_Anomaly,GLP-1,827.2,424.64,94.8,2025-10-20,False_Positive,48.91,,NPI-1000000043
+RX-ALT-30113,PHR-10016,Prairie Health Pharmacy Marshall,Twin Cities Metro,Early_Refill_Pattern,Stimulant,116.04,78.17,48.44,2023-12-24,Monitoring,77509.13,,NPI-1000000033
+RX-ALT-30114,PHR-10002,Cub Pharmacy Bloomington,Twin Cities Metro,Controlled_Substance_Spike,Stimulant,1077.71,200.68,437.03,2024-06-19,Monitoring,9552.03,,NPI-1000000005
+RX-ALT-30115,PHR-10016,Prairie Health Pharmacy Marshall,Twin Cities Metro,Prescriber_Concentration,Opioid,696.16,181.87,282.78,2024-07-22,Monitoring,35532.31,,NPI-1000000030
+RX-ALT-30116,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Prescriber_Concentration,Benzodiazepine,2337.76,442.33,428.51,2025-06-17,False_Positive,31348.88,,NPI-1000000004
+RX-ALT-30117,PHR-10011,CarePATH Pharmacy Burnsville,Twin Cities Metro,Forged_Prescription_Suspect,Benzodiazepine,193.14,57.57,235.49,2025-06-13,Confirmed_Fraud,261125.72,SIU-2024-10315,NPI-1000000009
+RX-ALT-30118,PHR-10012,NorthStar Rx Plymouth,Central MN,Early_Refill_Pattern,Opioid,864.07,318.34,171.43,2025-03-02,Confirmed_Fraud,119052.14,,NPI-1000000047
+RX-ALT-30119,PHR-10026,North Loop Rx Minneapolis,Southeast MN,Early_Refill_Pattern,GLP-1,1796.87,491.89,265.3,2024-02-25,Monitoring,11345.44,,NPI-1000000050
+RX-ALT-30120,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,Quantity_Anomaly,Other_Controlled,904.2,168.26,437.38,2024-06-01,Investigating,192469.25,SIU-2024-10234,NPI-1000000021
+RX-ALT-30121,PHR-10022,Lake Region Pharmacy Fergus Falls,Northwest MN,Controlled_Substance_Spike,Opioid,825.97,482.46,71.2,2023-09-13,Confirmed_Fraud,109363.12,SIU-2024-10243,NPI-1000000044
+RX-ALT-30122,PHR-10002,Cub Pharmacy Bloomington,Southwest MN,GLP1_Volume_Anomaly,GLP-1,481.65,220.92,118.02,2023-10-14,Investigating,333563.6,,NPI-1000000021
+RX-ALT-30123,PHR-10014,Lakeview Pharmacy Brainerd,Southeast MN,Quantity_Anomaly,Benzodiazepine,451.33,219.19,105.91,2025-01-27,Confirmed_Fraud,718550.41,SIU-2024-10279,NPI-1000000017
+RX-ALT-30124,PHR-10001,CVS Health #8812 St Paul,Central MN,Controlled_Substance_Spike,Other_Controlled,361.14,195.36,84.86,2024-08-15,Investigating,213902.08,,NPI-1000000007
+RX-ALT-30125,PHR-10008,Genoa Healthcare Minneapolis,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,331.76,156.43,112.08,2024-09-17,Investigating,58613.87,SIU-2024-10228,NPI-1000000010
+RX-ALT-30126,PHR-10023,Valley Pharmacy Fargo,Central MN,Prescriber_Concentration,Benzodiazepine,724.84,461.83,56.95,2025-12-02,Monitoring,65710.93,,NPI-1000000032
+RX-ALT-30127,PHR-10026,North Loop Rx Minneapolis,Southeast MN,Controlled_Substance_Spike,Opioid,473.76,137.02,245.76,2024-05-14,Monitoring,21303.86,,NPI-1000000035
+RX-ALT-30128,PHR-10023,Valley Pharmacy Fargo,Northeast MN,Prescriber_Concentration,Stimulant,1104.65,247.07,347.1,2024-02-04,Monitoring,27004.74,,NPI-1000000035
+RX-ALT-30129,PHR-10028,Maple Grove Pharmacy,Twin Cities Metro,Quantity_Anomaly,Opioid,1615.06,294.58,448.26,2023-06-24,Investigating,148619.08,SIU-2024-10316,NPI-1000000048
+RX-ALT-30130,PHR-10015,Metro Rx Express Minneapolis,Central MN,Quantity_Anomaly,Other_Controlled,1147.75,373.63,207.19,2024-10-02,False_Positive,49723.38,,NPI-1000000030
+RX-ALT-30131,PHR-10022,Lake Region Pharmacy Fergus Falls,Twin Cities Metro,Early_Refill_Pattern,Opioid,1571.46,455.14,245.27,2024-06-08,Monitoring,86709.6,,NPI-1000000001
+RX-ALT-30132,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Quantity_Anomaly,Opioid,424.22,87.96,382.29,2024-07-07,Investigating,259086.47,SIU-2024-10241,NPI-1000000006
+RX-ALT-30133,PHR-10021,Pine City Pharmacy,Northeast MN,Forged_Prescription_Suspect,GLP-1,1415.66,399.78,254.11,2025-06-20,Confirmed_Fraud,128675.69,SIU-2024-10346,NPI-1000000010
+RX-ALT-30134,PHR-10002,Cub Pharmacy Bloomington,Southeast MN,Controlled_Substance_Spike,Opioid,810.33,306.78,164.14,2025-01-25,Investigating,193555.77,SIU-2024-10211,NPI-1000000036
+RX-ALT-30135,PHR-10017,Iron Range Pharmacy Hibbing,Central MN,Forged_Prescription_Suspect,Opioid,934.5,243.48,283.81,2025-11-30,Investigating,227755.92,SIU-2024-10241,NPI-1000000009
+RX-ALT-30136,PHR-10029,Woodbury Health Pharmacy,Twin Cities Metro,Forged_Prescription_Suspect,GLP-1,2003.41,478.13,319.01,2024-03-25,Investigating,339870.28,SIU-2024-10265,NPI-1000000033
+RX-ALT-30137,PHR-10020,Nordic Pharmacy Moorhead,Twin Cities Metro,Quantity_Anomaly,Benzodiazepine,1654.72,430.76,284.14,2025-03-03,Confirmed_Fraud,99512.95,SIU-2024-10289,NPI-1000000029
+RX-ALT-30138,PHR-10017,Iron Range Pharmacy Hibbing,Southeast MN,GLP1_Volume_Anomaly,GLP-1,1134.36,362.88,212.6,2024-09-01,Investigating,88036.07,,NPI-1000000026
+RX-ALT-30139,PHR-10012,NorthStar Rx Plymouth,Southeast MN,Quantity_Anomaly,Opioid,238.93,61.8,286.62,2025-06-06,Investigating,316494.21,,NPI-1000000005
+RX-ALT-30140,PHR-10020,Nordic Pharmacy Moorhead,Southwest MN,Early_Refill_Pattern,Stimulant,1085.44,324.69,234.3,2024-10-22,Confirmed_Fraud,692767.82,SIU-2024-10312,NPI-1000000033
+RX-ALT-30141,PHR-10022,Lake Region Pharmacy Fergus Falls,Northeast MN,Controlled_Substance_Spike,Opioid,1036.75,309.56,234.91,2024-04-21,False_Positive,39526.4,,NPI-1000000035
+RX-ALT-30142,PHR-10021,Pine City Pharmacy,Southeast MN,Early_Refill_Pattern,Opioid,1648.75,357.05,361.77,2025-12-03,Investigating,284290.62,,NPI-1000000043
+RX-ALT-30143,PHR-10027,Eagan Family Pharmacy,Twin Cities Metro,Early_Refill_Pattern,Stimulant,1004.23,377.46,166.05,2025-12-08,Confirmed_Fraud,78736.85,SIU-2024-10243,NPI-1000000018
+RX-ALT-30144,PHR-10017,Iron Range Pharmacy Hibbing,Twin Cities Metro,Prescriber_Concentration,Opioid,506.49,218.54,131.76,2024-07-08,Monitoring,42351.47,,NPI-1000000038
+RX-ALT-30145,PHR-10006,Thrifty White Drug Duluth,Twin Cities Metro,Quantity_Anomaly,Benzodiazepine,306.95,133.56,129.82,2025-01-10,Monitoring,69934.93,,NPI-1000000048
+RX-ALT-30146,PHR-10027,Eagan Family Pharmacy,Twin Cities Metro,Early_Refill_Pattern,Opioid,913.48,439.83,107.69,2024-05-14,Monitoring,92758.26,,NPI-1000000007
+RX-ALT-30147,PHR-10012,NorthStar Rx Plymouth,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1841.25,358.01,414.3,2023-11-30,Investigating,309369.32,,NPI-1000000031
+RX-ALT-30148,PHR-10029,Woodbury Health Pharmacy,Northwest MN,Early_Refill_Pattern,Opioid,962.24,485.88,98.04,2024-01-14,Monitoring,26056.95,,NPI-1000000045
+RX-ALT-30149,PHR-10010,PharMerica St Cloud,Southeast MN,Prescriber_Concentration,Opioid,822.82,150.6,446.36,2025-03-23,Confirmed_Fraud,469950.14,SIU-2024-10294,NPI-1000000002
+RX-ALT-30150,PHR-10015,Metro Rx Express Minneapolis,Southeast MN,Early_Refill_Pattern,Other_Controlled,752.92,195.97,284.2,2025-09-22,False_Positive,38650.16,,NPI-1000000019
+RX-ALT-30151,PHR-10008,Genoa Healthcare Minneapolis,Twin Cities Metro,Controlled_Substance_Spike,Opioid,1645.67,330.43,398.04,2025-09-30,Monitoring,83311.21,,NPI-1000000005
+RX-ALT-30152,PHR-10003,Hy-Vee Pharmacy Rochester,Northeast MN,Quantity_Anomaly,Stimulant,260.31,124.17,109.64,2024-03-02,Monitoring,36693.44,,NPI-1000000016
+RX-ALT-30153,PHR-10025,Uptown Pharmacy Minneapolis,Twin Cities Metro,Forged_Prescription_Suspect,Opioid,369.73,227.54,62.49,2023-09-18,Investigating,60858.6,,NPI-1000000013
+RX-ALT-30154,PHR-10006,Thrifty White Drug Duluth,Central MN,Forged_Prescription_Suspect,Other_Controlled,2120.07,448.74,372.45,2024-09-01,Confirmed_Fraud,684406.56,SIU-2024-10261,NPI-1000000028
+RX-ALT-30155,PHR-10027,Eagan Family Pharmacy,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1146.7,481.91,137.95,2025-08-30,Monitoring,71226.96,,NPI-1000000042
+RX-ALT-30156,PHR-10003,Hy-Vee Pharmacy Rochester,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,181.32,65.84,175.39,2025-05-13,Confirmed_Fraud,511789.07,,NPI-1000000008
+RX-ALT-30157,PHR-10018,River City Pharmacy Red Wing,Southeast MN,Quantity_Anomaly,GLP-1,1546.43,322.28,379.84,2023-10-11,False_Positive,336.33,,NPI-1000000024
+RX-ALT-30158,PHR-10007,Lewis Drug Mankato,Northeast MN,Quantity_Anomaly,Other_Controlled,1188.77,435.4,173.03,2024-12-22,New,36001.46,,NPI-1000000022
+RX-ALT-30159,PHR-10025,Uptown Pharmacy Minneapolis,Northeast MN,Early_Refill_Pattern,Stimulant,200.51,76.27,162.89,2024-09-03,False_Positive,25321.97,,NPI-1000000049
+RX-ALT-30160,PHR-10017,Iron Range Pharmacy Hibbing,Twin Cities Metro,Forged_Prescription_Suspect,Opioid,476.95,112.2,325.09,2024-12-06,Confirmed_Fraud,787365.45,,NPI-1000000018
+RX-ALT-30161,PHR-10020,Nordic Pharmacy Moorhead,Twin Cities Metro,Quantity_Anomaly,Stimulant,2243.82,484.04,363.56,2023-10-10,Investigating,290816.94,SIU-2024-10246,NPI-1000000033
+RX-ALT-30162,PHR-10009,Omnicare of Minnesota,Northwest MN,GLP1_Volume_Anomaly,GLP-1,2282.93,485.44,370.28,2023-07-14,Investigating,146272.02,SIU-2024-10202,NPI-1000000003
+RX-ALT-30163,PHR-10004,Target Pharmacy Edina,Central MN,Forged_Prescription_Suspect,Opioid,1563.98,313.85,398.32,2025-11-15,New,54920.04,,NPI-1000000042
+RX-ALT-30164,PHR-10026,North Loop Rx Minneapolis,Northeast MN,GLP1_Volume_Anomaly,GLP-1,2024.32,409.69,394.11,2024-10-05,New,11058.24,,NPI-1000000022
+RX-ALT-30165,PHR-10001,CVS Health #8812 St Paul,Southeast MN,Prescriber_Concentration,Benzodiazepine,607.23,300.0,102.41,2024-11-19,New,67619.86,,NPI-1000000034
+RX-ALT-30166,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,Quantity_Anomaly,Other_Controlled,1660.26,497.8,233.52,2024-08-07,Confirmed_Fraud,687756.53,,NPI-1000000015
+RX-ALT-30167,PHR-10014,Lakeview Pharmacy Brainerd,Northeast MN,Early_Refill_Pattern,Benzodiazepine,640.21,339.42,88.62,2025-06-26,New,79595.88,,NPI-1000000033
+RX-ALT-30168,PHR-10022,Lake Region Pharmacy Fergus Falls,Twin Cities Metro,Forged_Prescription_Suspect,Benzodiazepine,767.35,144.12,432.44,2025-06-24,Confirmed_Fraud,654038.57,SIU-2024-10340,NPI-1000000007
+RX-ALT-30169,PHR-10004,Target Pharmacy Edina,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,408.95,106.83,282.8,2024-04-08,Monitoring,66289.05,,NPI-1000000041
+RX-ALT-30170,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,Early_Refill_Pattern,GLP-1,1550.94,448.47,245.83,2024-05-19,Investigating,206024.38,SIU-2024-10342,NPI-1000000030
+RX-ALT-30171,PHR-10000,Walgreens #3421 Minneapolis,Southeast MN,Early_Refill_Pattern,Stimulant,459.15,283.41,62.01,2024-09-18,Confirmed_Fraud,640192.21,,NPI-1000000031
+RX-ALT-30172,PHR-10010,PharMerica St Cloud,Twin Cities Metro,Forged_Prescription_Suspect,Other_Controlled,1099.28,332.48,230.63,2023-10-24,Investigating,347840.34,,NPI-1000000021
+RX-ALT-30173,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,Prescriber_Concentration,Stimulant,898.38,222.09,304.51,2024-08-24,Investigating,58854.98,SIU-2024-10247,NPI-1000000046
+RX-ALT-30174,PHR-10003,Hy-Vee Pharmacy Rochester,Southwest MN,Controlled_Substance_Spike,Opioid,752.13,359.37,109.29,2025-04-02,False_Positive,36415.17,,NPI-1000000037
+RX-ALT-30175,PHR-10018,River City Pharmacy Red Wing,Northwest MN,GLP1_Volume_Anomaly,GLP-1,389.96,196.62,98.33,2023-09-12,Confirmed_Fraud,475155.96,SIU-2024-10306,NPI-1000000011
+RX-ALT-30176,PHR-10023,Valley Pharmacy Fargo,Twin Cities Metro,Forged_Prescription_Suspect,Other_Controlled,213.01,83.91,153.86,2025-03-30,Confirmed_Fraud,157904.72,,NPI-1000000021
+RX-ALT-30177,PHR-10011,CarePATH Pharmacy Burnsville,Central MN,Controlled_Substance_Spike,Stimulant,1542.59,435.06,254.57,2025-06-12,Investigating,377084.53,SIU-2024-10232,NPI-1000000032
+RX-ALT-30178,PHR-10020,Nordic Pharmacy Moorhead,Southeast MN,Prescriber_Concentration,Other_Controlled,695.68,148.49,368.5,2025-01-12,Investigating,377921.37,SIU-2024-10267,NPI-1000000017
+RX-ALT-30179,PHR-10025,Uptown Pharmacy Minneapolis,Northwest MN,Early_Refill_Pattern,Other_Controlled,649.09,371.97,74.5,2024-08-23,Monitoring,62342.71,,NPI-1000000038
+RX-ALT-30180,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,Controlled_Substance_Spike,Benzodiazepine,326.68,122.94,165.72,2024-11-21,False_Positive,29794.79,,NPI-1000000049
+RX-ALT-30181,PHR-10029,Woodbury Health Pharmacy,Southeast MN,GLP1_Volume_Anomaly,GLP-1,623.52,146.41,325.87,2024-11-13,Monitoring,18136.16,,NPI-1000000036
+RX-ALT-30182,PHR-10007,Lewis Drug Mankato,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1848.82,415.54,344.92,2025-06-16,New,160714.39,,NPI-1000000026
+RX-ALT-30183,PHR-10025,Uptown Pharmacy Minneapolis,Central MN,GLP1_Volume_Anomaly,GLP-1,589.15,296.59,98.64,2024-10-13,Monitoring,30204.6,,NPI-1000000036
+RX-ALT-30184,PHR-10019,Heartland Pharmacy Owatonna,Central MN,Prescriber_Concentration,Other_Controlled,963.52,283.38,240.01,2024-11-08,Confirmed_Fraud,311984.69,SIU-2024-10296,NPI-1000000043
+RX-ALT-30185,PHR-10011,CarePATH Pharmacy Burnsville,Twin Cities Metro,Prescriber_Concentration,Benzodiazepine,2164.01,465.94,364.44,2023-07-12,Monitoring,80081.93,,NPI-1000000050
+RX-ALT-30186,PHR-10006,Thrifty White Drug Duluth,Twin Cities Metro,Forged_Prescription_Suspect,Opioid,1857.34,465.15,299.3,2024-04-24,Monitoring,86242.63,,NPI-1000000037
+RX-ALT-30187,PHR-10003,Hy-Vee Pharmacy Rochester,Southeast MN,Forged_Prescription_Suspect,Opioid,2375.61,479.34,395.6,2025-01-12,Confirmed_Fraud,746403.01,SIU-2024-10239,NPI-1000000042
+RX-ALT-30188,PHR-10005,Walmart Pharmacy Brooklyn Park,Central MN,Prescriber_Concentration,Other_Controlled,1576.6,387.18,307.2,2025-03-31,New,47779.5,,NPI-1000000018
+RX-ALT-30189,PHR-10027,Eagan Family Pharmacy,Central MN,Controlled_Substance_Spike,Opioid,2154.65,420.46,412.45,2025-02-13,Confirmed_Fraud,794133.82,SIU-2024-10328,NPI-1000000006
+RX-ALT-30190,PHR-10003,Hy-Vee Pharmacy Rochester,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1460.51,334.98,336.0,2025-05-18,New,39906.86,,NPI-1000000044
+RX-ALT-30191,PHR-10014,Lakeview Pharmacy Brainerd,Twin Cities Metro,Prescriber_Concentration,Opioid,461.08,101.82,352.84,2024-07-17,False_Positive,5796.69,,NPI-1000000025
+RX-ALT-30192,PHR-10003,Hy-Vee Pharmacy Rochester,Twin Cities Metro,Controlled_Substance_Spike,Opioid,454.31,327.88,38.56,2024-11-23,New,75158.4,,NPI-1000000048
+RX-ALT-30193,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Controlled_Substance_Spike,Opioid,1437.34,330.34,335.11,2024-06-24,New,118657.93,,NPI-1000000028
+RX-ALT-30194,PHR-10010,PharMerica St Cloud,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1105.74,347.15,218.52,2024-11-15,Monitoring,82069.63,,NPI-1000000050
+RX-ALT-30195,PHR-10003,Hy-Vee Pharmacy Rochester,Twin Cities Metro,Forged_Prescription_Suspect,Opioid,234.11,95.21,145.89,2024-11-19,False_Positive,34152.09,,NPI-1000000041
+RX-ALT-30196,PHR-10004,Target Pharmacy Edina,Northwest MN,GLP1_Volume_Anomaly,GLP-1,816.23,309.39,163.82,2023-10-10,New,123301.42,,NPI-1000000025
+RX-ALT-30197,PHR-10000,Walgreens #3421 Minneapolis,Northeast MN,Quantity_Anomaly,Opioid,1025.93,365.28,180.86,2025-09-07,Monitoring,73549.55,,NPI-1000000005
+RX-ALT-30198,PHR-10023,Valley Pharmacy Fargo,Central MN,GLP1_Volume_Anomaly,GLP-1,891.67,412.41,116.21,2025-08-06,False_Positive,29810.14,,NPI-1000000009
+RX-ALT-30199,PHR-10022,Lake Region Pharmacy Fergus Falls,Southeast MN,GLP1_Volume_Anomaly,GLP-1,887.66,399.36,122.27,2024-04-30,Confirmed_Fraud,156409.26,SIU-2024-10292,NPI-1000000036
+RX-ALT-30200,PHR-10017,Iron Range Pharmacy Hibbing,Twin Cities Metro,Forged_Prescription_Suspect,Opioid,198.47,145.41,36.49,2023-11-07,Monitoring,89369.72,,NPI-1000000050
+RX-ALT-30201,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,Early_Refill_Pattern,GLP-1,669.35,240.11,178.77,2024-03-11,New,53853.29,,NPI-1000000032
+RX-ALT-30202,PHR-10001,CVS Health #8812 St Paul,Twin Cities Metro,Quantity_Anomaly,GLP-1,1076.56,249.4,331.66,2023-06-23,New,90977.79,,NPI-1000000038
+RX-ALT-30203,PHR-10013,Community Pharmacy Willmar,Twin Cities Metro,Controlled_Substance_Spike,Other_Controlled,1521.98,288.97,426.69,2025-09-25,New,70692.68,,NPI-1000000011
+RX-ALT-30204,PHR-10028,Maple Grove Pharmacy,Southwest MN,Prescriber_Concentration,Opioid,1802.99,365.54,393.24,2025-02-20,New,21143.08,,NPI-1000000002
+RX-ALT-30205,PHR-10011,CarePATH Pharmacy Burnsville,Northeast MN,Early_Refill_Pattern,Stimulant,1372.76,303.99,351.58,2023-08-06,Confirmed_Fraud,367391.85,,NPI-1000000040
+RX-ALT-30206,PHR-10011,CarePATH Pharmacy Burnsville,Twin Cities Metro,Prescriber_Concentration,Stimulant,508.55,206.61,146.14,2024-10-04,Monitoring,94848.16,,NPI-1000000017
+RX-ALT-30207,PHR-10026,North Loop Rx Minneapolis,Twin Cities Metro,Forged_Prescription_Suspect,Stimulant,422.03,245.38,71.99,2023-10-04,Confirmed_Fraud,626867.66,,NPI-1000000033
+RX-ALT-30208,PHR-10001,CVS Health #8812 St Paul,Twin Cities Metro,Prescriber_Concentration,Stimulant,501.69,299.23,67.66,2024-11-10,Investigating,310108.81,SIU-2024-10242,NPI-1000000028
+RX-ALT-30209,PHR-10001,CVS Health #8812 St Paul,Southeast MN,Quantity_Anomaly,GLP-1,1703.05,415.55,309.83,2025-05-22,Confirmed_Fraud,161099.11,SIU-2024-10228,NPI-1000000022
+RX-ALT-30210,PHR-10001,CVS Health #8812 St Paul,Southeast MN,Controlled_Substance_Spike,Benzodiazepine,393.38,233.86,68.21,2023-08-21,New,145398.04,,NPI-1000000022
+RX-ALT-30211,PHR-10001,CVS Health #8812 St Paul,Central MN,Forged_Prescription_Suspect,Benzodiazepine,2580.34,486.49,430.4,2023-12-19,Confirmed_Fraud,199620.9,SIU-2024-10230,NPI-1000000046
+RX-ALT-30212,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,Early_Refill_Pattern,Opioid,1014.92,207.02,390.25,2024-08-13,False_Positive,22340.99,,NPI-1000000046
+RX-ALT-30213,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,516.39,142.05,263.53,2023-12-23,Investigating,399908.32,,NPI-1000000050
+RX-ALT-30214,PHR-10019,Heartland Pharmacy Owatonna,Twin Cities Metro,Early_Refill_Pattern,Benzodiazepine,2149.49,427.25,403.1,2024-02-02,Confirmed_Fraud,161685.17,SIU-2024-10217,NPI-1000000034
+RX-ALT-30215,PHR-10026,North Loop Rx Minneapolis,Twin Cities Metro,Early_Refill_Pattern,GLP-1,348.89,64.44,441.42,2025-01-24,Investigating,181714.15,SIU-2024-10285,NPI-1000000041
+RX-ALT-30216,PHR-10000,Walgreens #3421 Minneapolis,Central MN,GLP1_Volume_Anomaly,GLP-1,272.94,72.76,275.12,2023-07-09,False_Positive,6216.17,,NPI-1000000017
+RX-ALT-30217,PHR-10000,Walgreens #3421 Minneapolis,Central MN,Forged_Prescription_Suspect,Other_Controlled,705.18,156.18,351.52,2023-06-04,Confirmed_Fraud,665410.58,SIU-2024-10270,NPI-1000000037
+RX-ALT-30218,PHR-10010,PharMerica St Cloud,Twin Cities Metro,Prescriber_Concentration,Opioid,576.22,403.01,42.98,2024-03-31,False_Positive,25091.8,,NPI-1000000038
+RX-ALT-30219,PHR-10020,Nordic Pharmacy Moorhead,Northeast MN,Early_Refill_Pattern,Stimulant,1408.35,402.5,249.9,2024-08-23,Confirmed_Fraud,217760.54,SIU-2024-10319,NPI-1000000038
+RX-ALT-30220,PHR-10021,Pine City Pharmacy,Twin Cities Metro,Early_Refill_Pattern,Stimulant,1425.82,321.34,343.71,2023-10-31,New,182534.39,,NPI-1000000007
+RX-ALT-30221,PHR-10006,Thrifty White Drug Duluth,Southeast MN,GLP1_Volume_Anomaly,GLP-1,986.34,268.26,267.68,2023-12-05,Investigating,335748.25,,NPI-1000000028
+RX-ALT-30222,PHR-10006,Thrifty White Drug Duluth,Central MN,Quantity_Anomaly,Other_Controlled,1184.5,317.8,272.72,2025-09-04,Monitoring,99588.7,,NPI-1000000029
+RX-ALT-30223,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,Forged_Prescription_Suspect,Opioid,2172.58,447.54,385.45,2024-09-21,Monitoring,18258.83,,NPI-1000000014
+RX-ALT-30224,PHR-10001,CVS Health #8812 St Paul,Southeast MN,Quantity_Anomaly,Opioid,292.26,97.56,199.57,2023-06-29,Monitoring,67771.82,,NPI-1000000043
+RX-ALT-30225,PHR-10020,Nordic Pharmacy Moorhead,Central MN,Prescriber_Concentration,Opioid,2197.62,432.33,408.32,2025-05-19,Confirmed_Fraud,779929.62,SIU-2024-10295,NPI-1000000044
+RX-ALT-30226,PHR-10024,Summit Pharmacy St Paul,Southwest MN,Quantity_Anomaly,Other_Controlled,1515.38,277.01,447.05,2023-08-25,False_Positive,45041.62,,NPI-1000000008
+RX-ALT-30227,PHR-10014,Lakeview Pharmacy Brainerd,Northwest MN,Prescriber_Concentration,Stimulant,1036.71,276.64,274.75,2024-07-13,Investigating,271364.81,SIU-2024-10219,NPI-1000000035
+RX-ALT-30228,PHR-10028,Maple Grove Pharmacy,Twin Cities Metro,Quantity_Anomaly,Opioid,215.41,122.32,76.1,2024-11-07,Monitoring,88926.93,,NPI-1000000034
+RX-ALT-30229,PHR-10023,Valley Pharmacy Fargo,Northwest MN,Quantity_Anomaly,Stimulant,1384.19,487.63,183.86,2025-09-09,Monitoring,56214.48,,NPI-1000000004
+RX-ALT-30230,PHR-10000,Walgreens #3421 Minneapolis,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,622.55,238.45,161.08,2025-10-10,False_Positive,41440.53,,NPI-1000000012
+RX-ALT-30231,PHR-10006,Thrifty White Drug Duluth,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,547.69,184.8,196.37,2024-11-05,False_Positive,33399.19,,NPI-1000000011
+RX-ALT-30232,PHR-10028,Maple Grove Pharmacy,Southeast MN,Quantity_Anomaly,Benzodiazepine,1543.25,406.16,279.96,2025-04-17,Investigating,363448.42,SIU-2024-10301,NPI-1000000038
+RX-ALT-30233,PHR-10029,Woodbury Health Pharmacy,Northeast MN,Prescriber_Concentration,Benzodiazepine,638.73,170.21,275.26,2025-08-18,Investigating,64807.31,,NPI-1000000006
+RX-ALT-30234,PHR-10018,River City Pharmacy Red Wing,Twin Cities Metro,Forged_Prescription_Suspect,Stimulant,354.16,69.81,407.32,2025-04-21,False_Positive,8851.46,,NPI-1000000019
+RX-ALT-30235,PHR-10028,Maple Grove Pharmacy,Central MN,Quantity_Anomaly,Other_Controlled,652.05,150.86,332.22,2024-03-26,Investigating,316031.66,SIU-2024-10302,NPI-1000000012
+RX-ALT-30236,PHR-10020,Nordic Pharmacy Moorhead,Twin Cities Metro,Quantity_Anomaly,Stimulant,897.52,365.9,145.29,2025-06-07,False_Positive,19186.53,,NPI-1000000016
+RX-ALT-30237,PHR-10008,Genoa Healthcare Minneapolis,Northwest MN,Early_Refill_Pattern,GLP-1,580.62,169.54,242.47,2024-12-26,New,94349.82,,NPI-1000000010
+RX-ALT-30238,PHR-10010,PharMerica St Cloud,Twin Cities Metro,Controlled_Substance_Spike,Opioid,1746.2,470.04,271.5,2023-06-01,Investigating,259520.14,SIU-2024-10340,NPI-1000000009
+RX-ALT-30239,PHR-10016,Prairie Health Pharmacy Marshall,Northwest MN,Controlled_Substance_Spike,Opioid,968.76,230.06,321.09,2024-10-04,Investigating,35613.42,SIU-2024-10267,NPI-1000000026
+RX-ALT-30240,PHR-10004,Target Pharmacy Edina,Northwest MN,Quantity_Anomaly,Stimulant,494.01,320.87,53.96,2024-04-03,New,168273.92,,NPI-1000000006
+RX-ALT-30241,PHR-10002,Cub Pharmacy Bloomington,Twin Cities Metro,GLP1_Volume_Anomaly,GLP-1,1401.94,313.92,346.59,2025-02-04,False_Positive,17887.36,,NPI-1000000049
+RX-ALT-30242,PHR-10020,Nordic Pharmacy Moorhead,Central MN,Controlled_Substance_Spike,Stimulant,212.61,98.58,115.67,2023-12-09,False_Positive,44722.12,,NPI-1000000022
+RX-ALT-30243,PHR-10007,Lewis Drug Mankato,Twin Cities Metro,Forged_Prescription_Suspect,Benzodiazepine,495.9,300.33,65.12,2024-03-12,Investigating,335422.34,SIU-2024-10243,NPI-1000000024
+RX-ALT-30244,PHR-10024,Summit Pharmacy St Paul,Twin Cities Metro,Controlled_Substance_Spike,Opioid,1005.85,327.33,207.29,2024-03-23,False_Positive,43652.1,,NPI-1000000045
+RX-ALT-30245,PHR-10008,Genoa Healthcare Minneapolis,Twin Cities Metro,Quantity_Anomaly,Stimulant,350.67,230.93,51.85,2023-08-06,False_Positive,24211.98,,NPI-1000000048
+RX-ALT-30246,PHR-10024,Summit Pharmacy St Paul,Southeast MN,Prescriber_Concentration,Opioid,1300.42,292.21,345.03,2023-06-03,False_Positive,27335.22,,NPI-1000000047
+RX-ALT-30247,PHR-10027,Eagan Family Pharmacy,Twin Cities Metro,Quantity_Anomaly,Opioid,148.67,93.6,58.84,2025-10-07,Investigating,216449.21,,NPI-1000000015
+RX-ALT-30248,PHR-10010,PharMerica St Cloud,Southwest MN,Early_Refill_Pattern,Stimulant,1700.19,476.23,257.01,2025-05-16,False_Positive,26920.19,,NPI-1000000016
+RX-ALT-30249,PHR-10018,River City Pharmacy Red Wing,Twin Cities Metro,Quantity_Anomaly,Other_Controlled,1291.38,248.16,420.38,2024-05-01,Investigating,138693.12,,NPI-1000000006
+RX-ALT-30250,PHR-10010,PharMerica St Cloud,Southeast MN,Forged_Prescription_Suspect,GLP-1,385.01,99.79,285.82,2025-10-13,False_Positive,33976.15,,NPI-1000000004

@@ -1,0 +1,263 @@
+-- =============================================================================
+-- DST SIU NEXUS - GOLD-LAYER ANALYTIC VIEWS
+-- =============================================================================
+-- Views in DST_SIU_DB.ANALYTICS schema powering the SIU_SENTINEL agent
+-- and SIU investigation dashboards.
+-- =============================================================================
+
+USE DATABASE DST_SIU_DB;
+USE SCHEMA ANALYTICS;
+
+-- ============================================================================
+-- 1. SIU_CASE_SUMMARY: Aggregated case metrics by type, status, priority
+-- ============================================================================
+CREATE OR REPLACE VIEW SIU_CASE_SUMMARY AS
+SELECT
+    CASE_TYPE,
+    SUBTYPE,
+    STATUS,
+    PRIORITY,
+    COUNT(*) AS TOTAL_CASES,
+    SUM(ESTIMATED_EXPOSURE) AS TOTAL_EXPOSURE,
+    SUM(RECOVERED_AMOUNT) AS TOTAL_RECOVERED,
+    ROUND(
+        SUM(RECOVERED_AMOUNT) * 100.0 / NULLIF(SUM(ESTIMATED_EXPOSURE), 0), 2
+    ) AS RECOVERY_RATE_PCT,
+    AVG(DATEDIFF(day, OPEN_DATE, COALESCE(CLOSE_DATE, CURRENT_DATE()))) AS AVG_DAYS_OPEN,
+    SUM(CASE WHEN STATUS = 'Open' THEN 1 ELSE 0 END) AS OPEN_CASES,
+    SUM(CASE WHEN STATUS = 'Under_Review' THEN 1 ELSE 0 END) AS UNDER_REVIEW_CASES,
+    SUM(CASE WHEN STATUS = 'Referred_to_Law_Enforcement' THEN 1 ELSE 0 END) AS REFERRED_CASES,
+    SUM(CASE WHEN PRIORITY IN ('Critical', 'High') THEN 1 ELSE 0 END) AS HIGH_PRIORITY_CASES
+FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+GROUP BY CASE_TYPE, SUBTYPE, STATUS, PRIORITY;
+
+-- ============================================================================
+-- 2. SIU_CASE_PIPELINE: Case funnel by status with exposure at each stage
+-- ============================================================================
+CREATE OR REPLACE VIEW SIU_CASE_PIPELINE AS
+WITH monthly_cases AS (
+    SELECT
+        DATE_TRUNC('month', OPEN_DATE) AS CASE_MONTH,
+        CASE_TYPE,
+        STATUS,
+        COUNT(*) AS CASE_COUNT,
+        SUM(ESTIMATED_EXPOSURE) AS EXPOSURE_AMOUNT,
+        SUM(RECOVERED_AMOUNT) AS RECOVERED_AMOUNT
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    GROUP BY DATE_TRUNC('month', OPEN_DATE), CASE_TYPE, STATUS
+)
+SELECT
+    CASE_MONTH,
+    CASE_TYPE,
+    STATUS,
+    CASE_COUNT,
+    EXPOSURE_AMOUNT,
+    RECOVERED_AMOUNT,
+    SUM(CASE_COUNT) OVER (PARTITION BY CASE_TYPE ORDER BY CASE_MONTH) AS CUMULATIVE_CASES,
+    SUM(EXPOSURE_AMOUNT) OVER (PARTITION BY CASE_TYPE ORDER BY CASE_MONTH) AS CUMULATIVE_EXPOSURE
+FROM monthly_cases
+ORDER BY CASE_MONTH DESC, CASE_TYPE;
+
+-- ============================================================================
+-- 3. PROVIDER_RISK_DASHBOARD: Provider risk profiles with case enrichment
+-- ============================================================================
+CREATE OR REPLACE VIEW PROVIDER_RISK_DASHBOARD AS
+SELECT
+    p.PROVIDER_NPI,
+    p.PROVIDER_NAME,
+    p.PROVIDER_NETWORK,
+    p.SPECIALTY,
+    p.REGION,
+    p.COMPOSITE_RISK_SCORE,
+    p.RISK_TIER,
+    p.PAID_ZSCORE,
+    p.VOLUME_ZSCORE,
+    p.CLEAN_CLAIM_RATE,
+    p.DUPLICATE_CLAIM_RATE,
+    p.DENIAL_RATE,
+    p.FWA_FLAGS,
+    p.TOTAL_PAID_12M,
+    p.CLAIM_COUNT_12M,
+    p.AVG_PAID_PER_CLAIM,
+    p.PEER_AVG_PAID,
+    p.ACTIVE_CASES,
+    COALESCE(c.OPEN_CASE_COUNT, 0) AS LINKED_OPEN_CASES,
+    COALESCE(c.TOTAL_CASE_EXPOSURE, 0) AS LINKED_CASE_EXPOSURE,
+    p.LAST_AUDIT_DATE,
+    DATEDIFF(day, p.LAST_AUDIT_DATE, CURRENT_DATE()) AS DAYS_SINCE_AUDIT
+FROM DST_SIU_DB.RAW_DATA.SIU_PROVIDER_RISK_PROFILES p
+LEFT JOIN (
+    SELECT
+        SUBJECT_ID,
+        COUNT(*) AS OPEN_CASE_COUNT,
+        SUM(ESTIMATED_EXPOSURE) AS TOTAL_CASE_EXPOSURE
+    FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+    WHERE CASE_TYPE = 'Provider_FWA'
+      AND STATUS NOT IN ('Closed_Substantiated', 'Closed_Unsubstantiated')
+    GROUP BY SUBJECT_ID
+) c ON p.PROVIDER_NPI = c.SUBJECT_ID;
+
+-- ============================================================================
+-- 4. MEMBER_FRAUD_DASHBOARD: Member fraud indicators with case linkage
+-- ============================================================================
+CREATE OR REPLACE VIEW MEMBER_FRAUD_DASHBOARD AS
+SELECT
+    m.MEMBER_ID,
+    m.MEMBER_NAME,
+    m.PLAN_TYPE,
+    m.REGION,
+    m.INDICATOR_TYPE,
+    m.RISK_SCORE,
+    m.RISK_TIER,
+    m.UNIQUE_PROVIDERS_90D,
+    m.UNIQUE_PHARMACIES_90D,
+    m.CONTROLLED_SUBSTANCE_RX_90D,
+    m.ER_VISITS_90D,
+    m.OVERLAPPING_ELIGIBILITY_FLAG,
+    m.ADDRESS_CHANGE_FREQUENCY_12M,
+    m.ESTIMATED_EXPOSURE,
+    m.DETECTION_METHOD,
+    m.DETECTION_DATE,
+    CASE WHEN m.LINKED_CASE_ID IS NOT NULL THEN TRUE ELSE FALSE END AS HAS_OPEN_CASE,
+    c.STATUS AS CASE_STATUS,
+    c.PRIORITY AS CASE_PRIORITY
+FROM DST_SIU_DB.RAW_DATA.SIU_MEMBER_FRAUD_INDICATORS m
+LEFT JOIN DST_SIU_DB.RAW_DATA.SIU_CASES c ON m.LINKED_CASE_ID = c.CASE_ID;
+
+-- ============================================================================
+-- 5. PHARMACY_ALERT_DASHBOARD: Pharmacy alerts with confirmation analytics
+-- ============================================================================
+CREATE OR REPLACE VIEW PHARMACY_ALERT_DASHBOARD AS
+SELECT
+    a.ALERT_ID,
+    a.PHARMACY_ID,
+    a.PHARMACY_NAME,
+    a.REGION,
+    a.ALERT_TYPE,
+    a.DRUG_CATEGORY,
+    a.METRIC_VALUE,
+    a.PEER_BENCHMARK,
+    a.DEVIATION_PERCENT,
+    a.ALERT_DATE,
+    a.STATUS,
+    a.ESTIMATED_EXPOSURE,
+    a.PRESCRIBER_NPI,
+    p.PROVIDER_NAME AS PRESCRIBER_NAME,
+    p.RISK_TIER AS PRESCRIBER_RISK_TIER,
+    c.STATUS AS CASE_STATUS
+FROM DST_SIU_DB.RAW_DATA.SIU_PHARMACY_ALERTS a
+LEFT JOIN DST_SIU_DB.RAW_DATA.SIU_PROVIDER_RISK_PROFILES p
+    ON a.PRESCRIBER_NPI = p.PROVIDER_NPI
+LEFT JOIN DST_SIU_DB.RAW_DATA.SIU_CASES c
+    ON a.LINKED_CASE_ID = c.CASE_ID;
+
+-- ============================================================================
+-- 6. FWA_FINANCIAL_SUMMARY: Cross-domain financial overview
+-- ============================================================================
+CREATE OR REPLACE VIEW FWA_FINANCIAL_SUMMARY AS
+SELECT
+    CASE_TYPE AS DOMAIN,
+    COUNT(*) AS TOTAL_CASES,
+    SUM(CASE WHEN STATUS NOT IN ('Closed_Substantiated', 'Closed_Unsubstantiated') THEN 1 ELSE 0 END) AS ACTIVE_CASES,
+    SUM(ESTIMATED_EXPOSURE) AS TOTAL_EXPOSURE,
+    SUM(RECOVERED_AMOUNT) AS TOTAL_RECOVERED,
+    ROUND(
+        SUM(RECOVERED_AMOUNT) * 100.0 / NULLIF(SUM(ESTIMATED_EXPOSURE), 0), 2
+    ) AS RECOVERY_RATE_PCT,
+    SUM(ESTIMATED_EXPOSURE) - SUM(RECOVERED_AMOUNT) AS OUTSTANDING_EXPOSURE,
+    AVG(ESTIMATED_EXPOSURE) AS AVG_EXPOSURE_PER_CASE,
+    SUM(CASE WHEN PRIORITY = 'Critical' THEN ESTIMATED_EXPOSURE ELSE 0 END) AS CRITICAL_EXPOSURE,
+    SUM(CASE WHEN STATUS = 'Referred_to_Law_Enforcement' THEN 1 ELSE 0 END) AS LAW_ENFORCEMENT_REFERRALS
+FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+GROUP BY CASE_TYPE;
+
+-- ============================================================================
+-- 7. INVESTIGATION_PRODUCTIVITY: Investigator workload and performance
+-- ============================================================================
+CREATE OR REPLACE VIEW INVESTIGATION_PRODUCTIVITY AS
+SELECT
+    ASSIGNED_INVESTIGATOR,
+    COUNT(*) AS TOTAL_CASES_ASSIGNED,
+    SUM(CASE WHEN STATUS NOT IN ('Closed_Substantiated', 'Closed_Unsubstantiated') THEN 1 ELSE 0 END) AS OPEN_CASE_LOAD,
+    SUM(CASE WHEN STATUS IN ('Closed_Substantiated', 'Closed_Unsubstantiated') THEN 1 ELSE 0 END) AS CLOSED_CASES,
+    AVG(CASE WHEN CLOSE_DATE IS NOT NULL THEN DATEDIFF(day, OPEN_DATE, CLOSE_DATE) END) AS AVG_DAYS_TO_CLOSE,
+    SUM(RECOVERED_AMOUNT) AS TOTAL_RECOVERED,
+    AVG(ESTIMATED_EXPOSURE) AS AVG_CASE_EXPOSURE,
+    SUM(CASE WHEN PRIORITY IN ('Critical', 'High') THEN 1 ELSE 0 END) AS HIGH_PRIORITY_CASES,
+    ROUND(
+        SUM(CASE WHEN STATUS = 'Closed_Substantiated' THEN 1.0 ELSE 0 END) * 100.0
+        / NULLIF(SUM(CASE WHEN STATUS IN ('Closed_Substantiated', 'Closed_Unsubstantiated') THEN 1.0 ELSE 0 END), 0),
+        2
+    ) AS SUBSTANTIATION_RATE_PCT
+FROM DST_SIU_DB.RAW_DATA.SIU_CASES
+GROUP BY ASSIGNED_INVESTIGATOR;
+
+-- ============================================================================
+-- 8. TIPLINE_ANALYTICS: Tipline report analytics and conversion metrics
+-- ============================================================================
+CREATE OR REPLACE VIEW TIPLINE_ANALYTICS AS
+SELECT
+    DATE_TRUNC('month', REPORT_DATE) AS REPORT_MONTH,
+    REPORTER_TYPE,
+    CASE_TYPE_ALLEGED,
+    REGION,
+    COUNT(*) AS TIP_COUNT,
+    SUM(CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1 ELSE 0 END) AS CONVERTED_TO_CASE,
+    ROUND(
+        SUM(CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1.0 ELSE 0 END) * 100.0 / COUNT(*), 2
+    ) AS CONVERSION_RATE_PCT,
+    SUM(CASE WHEN URGENCY = 'Immediate' THEN 1 ELSE 0 END) AS IMMEDIATE_TIPS,
+    SUM(CASE WHEN STATUS = 'Dismissed' THEN 1 ELSE 0 END) AS DISMISSED_TIPS
+FROM DST_SIU_DB.RAW_DATA.SIU_TIPLINE_REPORTS
+GROUP BY DATE_TRUNC('month', REPORT_DATE), REPORTER_TYPE, CASE_TYPE_ALLEGED, REGION;
+
+-- ============================================================================
+-- 9. HIGH_RISK_WATCH_LIST: Combined triage view across all domains
+-- ============================================================================
+CREATE OR REPLACE VIEW HIGH_RISK_WATCH_LIST AS
+-- High-risk providers
+SELECT
+    'Provider' AS ENTITY_TYPE,
+    PROVIDER_NPI AS ENTITY_ID,
+    PROVIDER_NAME AS ENTITY_NAME,
+    RISK_TIER,
+    COMPOSITE_RISK_SCORE AS RISK_SCORE,
+    TOTAL_PAID_12M AS FINANCIAL_EXPOSURE,
+    REGION,
+    FWA_FLAGS AS RISK_DETAILS,
+    ACTIVE_CASES
+FROM DST_SIU_DB.RAW_DATA.SIU_PROVIDER_RISK_PROFILES
+WHERE RISK_TIER IN ('Critical', 'High')
+
+UNION ALL
+
+-- High-risk members
+SELECT
+    'Member' AS ENTITY_TYPE,
+    MEMBER_ID AS ENTITY_ID,
+    MEMBER_NAME AS ENTITY_NAME,
+    RISK_TIER,
+    RISK_SCORE,
+    ESTIMATED_EXPOSURE AS FINANCIAL_EXPOSURE,
+    REGION,
+    INDICATOR_TYPE AS RISK_DETAILS,
+    CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1 ELSE 0 END AS ACTIVE_CASES
+FROM DST_SIU_DB.RAW_DATA.SIU_MEMBER_FRAUD_INDICATORS
+WHERE RISK_TIER IN ('Critical', 'High')
+
+UNION ALL
+
+-- High-risk pharmacies (confirmed fraud or investigating with high exposure)
+SELECT
+    'Pharmacy' AS ENTITY_TYPE,
+    PHARMACY_ID AS ENTITY_ID,
+    PHARMACY_NAME AS ENTITY_NAME,
+    CASE WHEN STATUS = 'Confirmed_Fraud' THEN 'Critical' ELSE 'High' END AS RISK_TIER,
+    DEVIATION_PERCENT AS RISK_SCORE,
+    ESTIMATED_EXPOSURE AS FINANCIAL_EXPOSURE,
+    REGION,
+    ALERT_TYPE || ' - ' || DRUG_CATEGORY AS RISK_DETAILS,
+    CASE WHEN LINKED_CASE_ID IS NOT NULL THEN 1 ELSE 0 END AS ACTIVE_CASES
+FROM DST_SIU_DB.RAW_DATA.SIU_PHARMACY_ALERTS
+WHERE STATUS IN ('Confirmed_Fraud', 'Investigating')
+  AND ESTIMATED_EXPOSURE > 50000;
