@@ -1,0 +1,21 @@
+NOTICE
+======
+
+snowflake-siu-fraud-detection
+Copyright 2026 Braedon Hill
+
+Licensed under the Apache License, Version 2.0 (the "License").
+See the LICENSE file for details.
+
+---
+
+THIRD-PARTY DEPENDENCIES
+=========================
+
+Dependency audit pending. Run `pip-audit` (Python) or `license-checker` (Node)
+to complete this section and include full attributions before the next
+go/oss-publish submission.
+
+---
+
+Note: This NOTICE was added retroactively per Snowflake Open Source Policy v1.13.
