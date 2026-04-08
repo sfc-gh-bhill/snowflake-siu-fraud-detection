@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 # ==============================================================================
 # DST SIU NEXUS - Shared Styles & Branding
 # Adapted from DST HUB design system for SIU fraud detection

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 """
 SIU Nexus — Service Overlap Detection
 Same member receiving conflicting services on the same day (ADC+PCA, dual IRTS, etc.).

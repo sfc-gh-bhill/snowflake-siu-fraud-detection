@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 """
 SIU Nexus — EIDBI Supervision Ratio Monitoring
 State regulations require 97155 supervision hours <= 10% of 97153 direct service hours.

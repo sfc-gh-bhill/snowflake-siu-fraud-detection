@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 """
 SIU Nexus — Temporal Analysis
 Providers billing more than 24 hours of services in a single calendar day.

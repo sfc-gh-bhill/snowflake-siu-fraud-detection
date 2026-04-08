@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 """
 SIU Nexus — Claims Explorer
 Drill into claims-level data by high-risk category, provider, or member.

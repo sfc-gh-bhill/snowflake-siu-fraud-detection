@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 """
 SIU Nexus — Geospatial Distance Anomalies
 Same-day services for the same member at locations >50 miles apart.

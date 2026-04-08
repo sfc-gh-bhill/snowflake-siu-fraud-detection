@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Braedon Hill
+
 """
 SIU Nexus — Anomaly Triage
 Unified view across all 6 detection engines, sorted by severity and financial impact.

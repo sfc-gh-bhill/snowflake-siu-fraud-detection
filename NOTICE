@@ -12,10 +12,14 @@ See the LICENSE file for details.
 THIRD-PARTY DEPENDENCIES
 =========================
 
-Dependency audit pending. Run `pip-audit` (Python) or `license-checker` (Node)
-to complete this section and include full attributions before the next
-go/oss-publish submission.
+Package                                       Version              License                             Source
+---------------------------------------------------------------------------------------------------------
+altair                                        latest               BSD License                         conda
+numpy                                         latest               See package metadata                conda
+pandas                                        latest               BSD License                         conda
+streamlit                                     latest               See package metadata                conda
 
 ---
 
-Note: This NOTICE was added retroactively per Snowflake Open Source Policy v1.13.
+Note: This NOTICE was generated per Snowflake Open Source Policy v1.13.
+Verify all dependency licenses against the OSS Approval Matrix before go/oss-publish submission.
